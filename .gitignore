@@ -6,3 +6,4 @@
 venv/
 fact_Player2.csv
 __pycache__/
+.DS_Store
