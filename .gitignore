@@ -5,3 +5,4 @@
 # Custom ignored files
 venv/
 fact_Player2.csv
+__pycache__/
