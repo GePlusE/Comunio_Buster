@@ -266,4 +266,4 @@ def mainFunc():
     print("++++ Update Data & write to fact_Player.csv ++++")
     getMultipleFactData()
     t1 = time.time()
-    print("++++ Load done!" + f"Load took {round(t1 - t0, 2)} seconds ++++")
+    # print("++++ Load done!" + f"Load took {round(t1 - t0, 2)} seconds ++++")

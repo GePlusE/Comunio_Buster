@@ -7,3 +7,5 @@ venv/
 fact_Player2.csv
 __pycache__/
 .DS_Store
+RUN_Main
+functions.pyc
