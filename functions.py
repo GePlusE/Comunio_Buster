@@ -25,7 +25,7 @@ from bs4 import BeautifulSoup
 
 # //Create path for csv file -> necessary to run via daily autorun
 filePath1 = os.path.dirname(os.path.realpath(__file__))
-factPlayerCSV = os.path.join(filePath1, "fact_Player2.csv")
+factPlayerCSV = os.path.join(filePath1, "fact_Player.csv")
 
 
 # //Step A1
