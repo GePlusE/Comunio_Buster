@@ -9,3 +9,5 @@ __pycache__/
 .DS_Store
 RUN_Main
 functions.pyc
+RUN_Main.app/
+
