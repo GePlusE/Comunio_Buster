@@ -14,12 +14,6 @@ from bs4 import BeautifulSoup
 - C Steps:      Load Injury Data via classic.comunio.de to Fussballdaten.de
 - D Steps:      Load Club Rank via Fussballdaten.de
 - Final Step:   Run one Load to update all Data 
-
-/// NEXT STEPS ///
-1. letztes Spiel (S/N/U)
-2. im Kader letztes Spiel
-3. Wait for enough historical data
-4. Implement ML for forecasting player Value
 """
 
 # //Create path for csv file -> necessary to run via daily autorun
