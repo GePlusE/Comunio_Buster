@@ -10605,3 +10605,522 @@ ID;PlayerID;Name;Position;Club;PlayerValue;Prognosis;TotalPoints;PointVolatility
 2020061033205;33205;Angeliño;Abwehr;RB Leipzig;6930000;6840000;42;niedrig;1;Halten;9;Niedrig;10.06.2020;;3;0;0
 2020061032819;32819;Harit;Mittelfeld;FC Schalke 04;2240000;2200000;85;mittel;0;Halten;25;Hoch;10.06.2020;fit;10;2;0
 2020061032971;32971;Stanić;Abwehr;FC Augsburg;170000;170000;0;hoch;0;Halten;0;Niedrig;10.06.2020;fit;13;0;0
+2020061132866;32866;Smarsch;Torhüter;Hertha BSC;160000;160000;-1;;0;Halten;1;Niedrig;11.06.2020;;9;0;0
+2020061133191;33191;Dabbur;Stürmer;1899 Hoffenheim;5210000;5210000;23;;7;Halten;10;Hoch;11.06.2020;;7;0;0
+2020061133190;33190;Haaland;Stürmer;Borussia Dortmund;22410000;22770000;80;;0;Kaufen;11;Mittel;11.06.2020;;2;4;0
+2020061133136;33136;Kwon;Stürmer;SC Freiburg;1120000;1150000;49;;0;Halten;16;Mittel;11.06.2020;injured/suspended;8;0;0
+2020061132933;32933;Sargent;Stürmer;SV Werder Bremen;1930000;1920000;54;;2;Halten;23;Mittel;11.06.2020;fit;17;0;0
+2020061132840;32840;Lucas Alario;Stürmer;Bayer 04 Leverkusen;5020000;5010000;86;;7;Halten;21;Mittel;11.06.2020;fit;5;1;0
+2020061132829;32829;Jorge Meré;Abwehr;1. FC Köln;430000;440000;17;;0;Halten;11;Niedrig;11.06.2020;fit;12;1;0
+2020061131661;31661;F. Kroos;Mittelfeld;1.FC Union Berlin;160000;160000;10;;0;Halten;9;Mittel;11.06.2020;fit;;0;0
+2020061133096;33096;Trimmel;Abwehr;1.FC Union Berlin;5790000;5780000;132;;7;Halten;28;Mittel;11.06.2020;fit;;2;0
+2020061132197;32197;Modeste;Stürmer;1. FC Köln;3350000;3470000;50;;9;Kaufen;21;Mittel;11.06.2020;injured/suspended;12;0;0
+2020061133137;33137;Mateu Morey;Abwehr;Borussia Dortmund;530000;540000;0;;0;Halten;1;Niedrig;11.06.2020;fit;2;0;0
+2020061132080;32080;J. Hofmann;Mittelfeld;Borussia M'gladbach;3740000;3750000;54;;5;Halten;18;Niedrig;11.06.2020;injured/suspended;4;0;0
+2020061131820;31820;Wendt;Abwehr;Borussia M'gladbach;1510000;1520000;55;;1;Halten;21;Niedrig;11.06.2020;fit;4;1;0
+2020061132291;32291;Strohdiek;Abwehr;SC Paderborn;570000;690000;35;;12;Halten;14;Niedrig;11.06.2020;fit;18;1;0
+2020061132966;32966;Niakhaté;Abwehr;1. FSV Mainz 05;1480000;1510000;62;;13;Halten;29;Niedrig;11.06.2020;fit;15;1;0
+2020061132364;32364;Zentner;Torhüter;1. FSV Mainz 05;160000;160000;58;;0;Halten;22;Hoch;11.06.2020;fit;15;2;0
+2020061133168;33168;Samassékou;Mittelfeld;1899 Hoffenheim;2190000;2190000;28;;1;Halten;16;Mittel;11.06.2020;fit;7;0;0
+2020061131671;31671;Rode;Mittelfeld;Eintracht Frankfurt;2860000;2870000;79;;3;Halten;26;Mittel;11.06.2020;fit;11;2;0
+2020061132651;32651;Omar Mascarell;Mittelfeld;FC Schalke 04;1420000;1420000;72;;0;Halten;23;Hoch;11.06.2020;fit;10;0;0
+2020061133127;33127;Vargas;Mittelfeld;FC Augsburg;950000;960000;46;;0;Halten;29;Mittel;11.06.2020;fit;13;3;0
+2020061132720;32720;Upamecano;Abwehr;RB Leipzig;5350000;5290000;95;;-8;Halten;25;Niedrig;11.06.2020;injured/suspended;3;1;1
+2020061132846;32846;Belfodil;Stürmer;1899 Hoffenheim;330000;330000;6;;0;Halten;5;Hoch;11.06.2020;fit;7;0;0
+2020061133209;33209;Okoye;Torhüter;Fortuna Düsseldorf;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;;16;0;0
+2020061131267;31267;Parensen;Abwehr;1.FC Union Berlin;270000;260000;28;;0;Halten;7;Mittel;11.06.2020;;;1;0
+2020061131167;31167;Traoré;Mittelfeld;Borussia M'gladbach;280000;280000;-1;;-1;Halten;3;Niedrig;11.06.2020;;4;0;0
+2020061131751;31751;Schmid;Abwehr;SC Freiburg;3360000;3350000;103;;3;Halten;29;Mittel;11.06.2020;fit;8;3;0
+2020061131344;31344;Schmelzer;Abwehr;Borussia Dortmund;1030000;1030000;16;;0;Halten;2;Hoch;11.06.2020;fit;2;1;0
+2020061133197;33197;Fridjónsson;Mittelfeld;SC Paderborn;170000;170000;2;;0;Halten;3;Niedrig;11.06.2020;;18;0;0
+2020061130687;30687;Gentner;Mittelfeld;1.FC Union Berlin;1490000;1530000;74;;2;Halten;28;Niedrig;11.06.2020;fit;;1;0
+2020061131596;31596;P. Herrmann;Stürmer;Borussia M'gladbach;4950000;4990000;88;;1;Halten;22;Niedrig;11.06.2020;fit;4;3;0
+2020061131137;31137;F. Bartels;Stürmer;SV Werder Bremen;1070000;1080000;4;;1;Halten;10;Hoch;11.06.2020;;17;0;0
+2020061131848;31848;T. Horn;Torhüter;1. FC Köln;1170000;1160000;48;;5;Halten;30;Niedrig;11.06.2020;fit;12;2;0
+2020061132426;32426;B. Hübner;Abwehr;1899 Hoffenheim;1860000;1810000;43;;-14;Halten;22;Niedrig;11.06.2020;injured/suspended;7;0;0
+2020061133077;33077;Adamyan;Stürmer;1899 Hoffenheim;400000;400000;35;;0;Halten;15;Hoch;11.06.2020;;7;2;0
+2020061132589;32589;Forsberg;Mittelfeld;RB Leipzig;5010000;4920000;78;;0;Halten;19;Mittel;11.06.2020;injured/suspended;3;1;0
+2020061133205;33205;Angeliño;Abwehr;RB Leipzig;7080000;7050000;42;;1;Halten;9;Niedrig;11.06.2020;;3;0;0
+2020061132211;32211;Ti. Werner;Stürmer;RB Leipzig;21490000;21370000;233;;5;Halten;30;Niedrig;11.06.2020;fit;3;4;20
+2020061131495;31495;Giefer;Torhüter;FC Augsburg;160000;160000;0;;0;Halten;0;Hoch;11.06.2020;fit;13;0;0
+2020061131666;31666;Bell;Abwehr;1. FSV Mainz 05;160000;160000;0;;0;Halten;0;Hoch;11.06.2020;fit;15;0;0
+2020061131884;31884;Arnold;Mittelfeld;VfL Wolfsburg;8250000;8360000;144;;5;Halten;29;Niedrig;11.06.2020;fit;6;3;29
+2020061133211;33211;Keitel;Mittelfeld;SC Freiburg;170000;170000;-1;;0;Halten;1;Hoch;11.06.2020;;8;0;0
+2020061132373;32373;Guilavogui;Mittelfeld;VfL Wolfsburg;3260000;3220000;69;;0;Halten;22;Hoch;11.06.2020;injured/suspended;6;0;0
+2020061132310;32310;Haberer;Mittelfeld;SC Freiburg;1220000;1270000;53;;2;Kaufen;24;Hoch;11.06.2020;fit;8;1;0
+2020061132756;32756;Bruun Larsen;Stürmer;1899 Hoffenheim;1370000;1370000;21;;0;Halten;11;Mittel;11.06.2020;fit;7;0;0
+2020061132819;32819;Harit;Mittelfeld;FC Schalke 04;2480000;2430000;85;;0;Halten;25;Hoch;11.06.2020;fit;10;2;0
+2020061132738;32738;A. Maier;Mittelfeld;Hertha BSC;1010000;1000000;19;;0;Halten;9;Mittel;11.06.2020;injured/suspended;9;0;0
+2020061132255;32255;Carlos Gruezo;Mittelfeld;FC Augsburg;490000;510000;10;;3;Halten;7;Mittel;11.06.2020;fit;13;0;0
+2020061131372;31372;Hitz;Torhüter;Borussia Dortmund;160000;160000;13;;0;Halten;4;Niedrig;11.06.2020;fit;2;0;0
+2020061132783;32783;Arp;Stürmer;FC Bayern München;250000;250000;0;;0;Halten;0;Mittel;11.06.2020;fit;1;0;0
+2020061131515;31515;Clemens;Mittelfeld;1. FC Köln;160000;160000;0;;0;Halten;0;Hoch;11.06.2020;injured/suspended;12;0;0
+2020061132653;32653;Sow;Mittelfeld;Eintracht Frankfurt;2650000;2670000;66;;3;Halten;25;Niedrig;11.06.2020;fit;11;0;0
+2020061133091;33091;Busk;Torhüter;1.FC Union Berlin;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;fit;;0;0
+2020061132784;32784;G. Itter;Abwehr;SC Freiburg;160000;160000;1;;0;Halten;1;Niedrig;11.06.2020;fit;8;0;0
+2020061132984;32984;K. Adams;Abwehr;Fortuna Düsseldorf;200000;200000;29;;0;Halten;13;Niedrig;11.06.2020;fit;16;1;0
+2020061132639;32639;Esser;Torhüter;1899 Hoffenheim;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;;7;0;0
+2020061132739;32739;McKennie;Mittelfeld;FC Schalke 04;2430000;2440000;60;;0;Halten;24;Hoch;11.06.2020;fit;10;1;0
+2020061131781;31781;Morales;Mittelfeld;Fortuna Düsseldorf;610000;610000;37;;3;Halten;24;Niedrig;11.06.2020;fit;16;1;0
+2020061132492;32492;Prömel;Mittelfeld;1.FC Union Berlin;460000;470000;13;;2;Halten;12;Hoch;11.06.2020;fit;;0;0
+2020061131936;31936;Volland;Stürmer;Bayer 04 Leverkusen;14050000;13980000;113;;2;Halten;23;Hoch;11.06.2020;fit;5;1;0
+2020061133001;33001;Boëtius;Mittelfeld;1. FSV Mainz 05;2840000;2830000;70;;0;Halten;25;Mittel;11.06.2020;fit;15;3;0
+2020061131166;31166;R. Wolf;Torhüter;Fortuna Düsseldorf;160000;160000;0;;0;Halten;0;Mittel;11.06.2020;injured/suspended;16;0;0
+2020061133208;33208;Beier;Stürmer;1899 Hoffenheim;1150000;1150000;3;;0;Halten;4;Niedrig;11.06.2020;;7;0;0
+2020061131958;31958;Gregoritsch;Stürmer;FC Schalke 04;2050000;2060000;35;;2;Halten;17;Niedrig;11.06.2020;fit;10;0;0
+2020061133135;33135;S. Becker;Stürmer;1.FC Union Berlin;160000;160000;17;;0;Halten;12;Hoch;11.06.2020;fit;;0;0
+2020061131864;31864;Knoche;Abwehr;VfL Wolfsburg;1160000;1140000;55;;0;Halten;19;Niedrig;11.06.2020;fit;6;0;0
+2020061131260;31260;Kessler;Torhüter;1. FC Köln;160000;160000;0;;0;Halten;0;Hoch;11.06.2020;;12;0;0
+2020061132157;32157;Tah;Abwehr;Bayer 04 Leverkusen;3190000;3210000;59;;0;Halten;21;Niedrig;11.06.2020;fit;5;0;2
+2020061132680;32680;Geiger;Mittelfeld;1899 Hoffenheim;890000;870000;35;;0;Halten;19;Mittel;11.06.2020;;7;1;0
+2020061132374;32374;Kostić;Mittelfeld;Eintracht Frankfurt;11280000;11300000;155;;3;Halten;29;Niedrig;11.06.2020;fit;11;4;14
+2020061131838;31838;Baumgartlinger;Mittelfeld;Bayer 04 Leverkusen;3810000;3820000;70;;5;Halten;23;Mittel;11.06.2020;fit;5;1;0
+2020061132838;32838;Ravet;Mittelfeld;SC Freiburg;160000;160000;0;;0;Halten;0;Hoch;11.06.2020;fit;8;0;0
+2020061133100;33100;S. Andersson;Stürmer;1.FC Union Berlin;6230000;6150000;125;;0;Halten;30;Mittel;11.06.2020;fit;;2;0
+2020061133183;33183;Jakobs;Mittelfeld;1. FC Köln;1480000;1520000;40;;1;Halten;18;Mittel;11.06.2020;;12;1;0
+2020061131993;31993;Dost;Stürmer;Eintracht Frankfurt;5760000;5680000;81;;1;Halten;20;Hoch;11.06.2020;fit;11;0;0
+2020061133162;33162;Koubek;Torhüter;FC Augsburg;200000;200000;25;;0;Halten;23;Mittel;11.06.2020;fit;13;1;0
+2020061132923;32923;Dilrosun;Stürmer;Hertha BSC;2450000;2440000;63;;0;Halten;22;Mittel;11.06.2020;;9;0;0
+2020061131710;31710;Höfler;Mittelfeld;SC Freiburg;3400000;3390000;90;;6;Halten;28;Niedrig;11.06.2020;injured/suspended;8;1;0
+2020061133178;33178;Juan Miranda;Abwehr;FC Schalke 04;580000;590000;10;;-1;Halten;7;Hoch;11.06.2020;fit;10;0;0
+2020061132742;32742;Pavard;Abwehr;FC Bayern München;10950000;11130000;138;;0;Verkaufen;28;Niedrig;11.06.2020;injured/suspended;1;5;13
+2020061132962;32962;Hakimi;Abwehr;Borussia Dortmund;12100000;12070000;136;;5;Halten;30;Niedrig;11.06.2020;fit;2;3;7
+2020061132007;32007;Lomb;Torhüter;Bayer 04 Leverkusen;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;fit;5;0;0
+2020061133037;33037;Raschl;Mittelfeld;Borussia Dortmund;160000;160000;0;;0;Halten;0;Mittel;11.06.2020;fit;2;0;0
+2020061133036;33036;Unbehaun;Torhüter;Borussia Dortmund;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;fit;2;0;0
+2020061132597;32597;Kübler;Abwehr;SC Freiburg;400000;430000;2;;2;Halten;3;Hoch;11.06.2020;fit;8;0;0
+2020061132664;32664;Moisander;Abwehr;SV Werder Bremen;1870000;1850000;44;;0;Halten;18;Niedrig;11.06.2020;fit;17;0;0
+2020061132241;32241;Jarstein;Torhüter;Hertha BSC;1330000;1310000;60;;2;Halten;26;Niedrig;11.06.2020;fit;9;2;0
+2020061132553;32553;Kramarić;Stürmer;1899 Hoffenheim;7760000;7690000;75;;1;Halten;15;Hoch;11.06.2020;fit;7;0;0
+2020061133051;33051;Schindler;Stürmer;1. FC Köln;310000;320000;13;;0;Halten;12;Niedrig;11.06.2020;injured/suspended;12;0;0
+2020061133074;33074;Lucas Hernández;Abwehr;FC Bayern München;4060000;4090000;25;;1;Halten;15;Hoch;11.06.2020;injured/suspended;1;0;0
+2020061131774;31774;Schwolow;Torhüter;SC Freiburg;2380000;2350000;73;;7;Halten;21;Mittel;11.06.2020;fit;8;5;0
+2020061132562;32562;Veljković;Abwehr;SV Werder Bremen;940000;950000;27;;2;Halten;20;Mittel;11.06.2020;fit;17;0;0
+2020061132332;32332;Jedvaj;Abwehr;FC Augsburg;2620000;2610000;76;;5;Halten;28;Niedrig;11.06.2020;fit;13;1;0
+2020061131612;31612;Kampl;Mittelfeld;RB Leipzig;9500000;9520000;36;;3;Halten;7;Hoch;11.06.2020;injured/suspended;3;0;2
+2020061132280;32280;Gerhardt;Mittelfeld;VfL Wolfsburg;930000;990000;31;;3;Halten;13;Mittel;11.06.2020;fit;6;0;0
+2020061133078;33078;Goller;Mittelfeld;SV Werder Bremen;330000;330000;6;;0;Halten;10;Niedrig;11.06.2020;;17;0;0
+2020061133163;33163;K. Ofori;Stürmer;Fortuna Düsseldorf;210000;210000;0;;0;Halten;2;Niedrig;11.06.2020;fit;16;0;0
+2020061133094;33094;C. Lenz;Abwehr;1.FC Union Berlin;1900000;1880000;81;;0;Halten;26;Mittel;11.06.2020;fit;;0;0
+2020061131392;31392;Latza;Mittelfeld;1. FSV Mainz 05;380000;380000;23;;1;Halten;18;Hoch;11.06.2020;injured/suspended;15;0;0
+2020061132973;32973;Gonçalo Paciência;Stürmer;Eintracht Frankfurt;2320000;2350000;83;;0;Halten;21;Hoch;11.06.2020;fit;11;1;0
+2020061132547;32547;Hinteregger;Abwehr;Eintracht Frankfurt;7530000;7530000;126;;1;Halten;28;Niedrig;11.06.2020;fit;11;4;10
+2020061132954;32954;Kiprit;Stürmer;Hertha BSC;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;;9;0;0
+2020061132465;32465;Niederlechner;Stürmer;FC Augsburg;6890000;6800000;131;;-2;Halten;30;Niedrig;11.06.2020;injured/suspended;13;0;0
+2020061132580;32580;Halstenberg;Abwehr;RB Leipzig;8270000;8340000;115;;2;Halten;25;Niedrig;11.06.2020;fit;3;3;24
+2020061130742;30742;Hünemeier;Abwehr;SC Paderborn;760000;780000;39;;3;Halten;14;Mittel;11.06.2020;fit;18;0;0
+2020061133102;33102;Abdullahi;Stürmer;1.FC Union Berlin;170000;170000;2;;0;Halten;3;Hoch;11.06.2020;fit;;0;0
+2020061133200;33200;Dani Olmo;Mittelfeld;RB Leipzig;8510000;8470000;17;;5;Halten;8;Niedrig;11.06.2020;;3;0;0
+2020061131273;31273;Brosinski;Abwehr;1. FSV Mainz 05;1750000;1800000;76;;9;Halten;21;Niedrig;11.06.2020;fit;15;1;0
+2020061132263;32263;P. Max;Abwehr;FC Augsburg;8390000;8480000;143;;13;Halten;27;Mittel;11.06.2020;fit;13;5;0
+2020061133026;33026;Kabak;Abwehr;FC Schalke 04;4960000;4950000;82;;4;Halten;20;Hoch;11.06.2020;fit;10;1;0
+2020061132955;32955;Weghorst;Stürmer;VfL Wolfsburg;11930000;12000000;129;;9;Halten;28;Mittel;11.06.2020;fit;6;1;0
+2020061132406;32406;Nastasić;Abwehr;FC Schalke 04;1370000;1360000;46;;0;Halten;16;Hoch;11.06.2020;fit;10;0;0
+2020061132696;32696;Gnabry;Stürmer;FC Bayern München;18390000;18320000;176;;8;Halten;27;Mittel;11.06.2020;fit;1;2;0
+2020061132525;32525;Klünter;Abwehr;Hertha BSC;250000;250000;31;;0;Halten;20;Niedrig;11.06.2020;fit;9;0;0
+2020061132221;32221;Darida;Mittelfeld;Hertha BSC;4170000;4260000;74;;2;Halten;24;Mittel;11.06.2020;;9;3;0
+2020061133165;33165;St. Juste;Abwehr;1. FSV Mainz 05;1920000;1920000;60;;6;Halten;21;Mittel;11.06.2020;fit;15;1;0
+2020061131469;31469;Luthe;Torhüter;FC Augsburg;1060000;1060000;17;;2;Halten;7;Niedrig;11.06.2020;;13;0;0
+2020061133122;33122;Diaby;Stürmer;Bayer 04 Leverkusen;9300000;9320000;84;;3;Halten;24;Niedrig;11.06.2020;fit;5;1;0
+2020061131519;31519;C. Groß;Abwehr;SV Werder Bremen;440000;440000;15;;0;Halten;10;Mittel;11.06.2020;fit;17;0;0
+2020061130760;30760;Şahin;Mittelfeld;SV Werder Bremen;600000;590000;50;;0;Halten;16;Mittel;11.06.2020;fit;17;2;0
+2020061133141;33141;Ryerson;Mittelfeld;1.FC Union Berlin;170000;170000;9;;0;Halten;11;Mittel;11.06.2020;fit;;0;0
+2020061133151;33151;Nkunku;Mittelfeld;RB Leipzig;13140000;13200000;139;;2;Halten;28;Niedrig;11.06.2020;fit;3;3;1
+2020061131487;31487;S. Bender;Abwehr;Bayer 04 Leverkusen;6680000;6770000;103;;0;Halten;30;Hoch;11.06.2020;fit;5;1;0
+2020061132057;32057;Gießelmann;Abwehr;Fortuna Düsseldorf;580000;590000;47;;1;Halten;22;Niedrig;11.06.2020;fit;16;2;0
+2020061132466;32466;Kadeřábek;Abwehr;1899 Hoffenheim;3910000;3920000;76;;0;Halten;26;Niedrig;11.06.2020;;7;2;4
+2020061131310;31310;Pentke;Torhüter;1899 Hoffenheim;200000;200000;23;;0;Halten;4;Niedrig;11.06.2020;fit;7;1;0
+2020061131211;31211;Raffael;Stürmer;Borussia M'gladbach;440000;460000;8;;0;Halten;5;Mittel;11.06.2020;injured/suspended;4;0;0
+2020061133198;33198;Reyna;Stürmer;Borussia Dortmund;5590000;5530000;16;;1;Halten;11;Mittel;11.06.2020;;2;0;0
+2020061133117;33117;E. Fernandes;Mittelfeld;1. FSV Mainz 05;570000;590000;20;;1;Halten;20;Hoch;11.06.2020;fit;15;0;0
+2020061132252;32252;Thommy;Mittelfeld;Fortuna Düsseldorf;6630000;6620000;128;;7;Halten;30;Niedrig;11.06.2020;fit;16;3;0
+2020061133133;33133;Schlager;Mittelfeld;VfL Wolfsburg;4560000;4590000;54;;5;Halten;20;Niedrig;11.06.2020;fit;6;0;0
+2020061131779;31779;N. Schulz;Abwehr;Borussia Dortmund;390000;390000;20;;0;Halten;8;Mittel;11.06.2020;fit;2;1;0
+2020061132509;32509;Mittelstädt;Abwehr;Hertha BSC;3610000;3600000;81;;4;Halten;26;Mittel;11.06.2020;fit;9;1;0
+2020061132641;32641;Bénes;Mittelfeld;Borussia M'gladbach;2910000;2920000;59;;2;Halten;17;Mittel;11.06.2020;;4;0;0
+2020061133024;33024;Balerdi;Abwehr;Borussia Dortmund;670000;700000;6;;2;Halten;4;Niedrig;11.06.2020;injured/suspended;2;0;0
+2020061133147;33147;Ampomah;Stürmer;Fortuna Düsseldorf;160000;160000;7;;0;Halten;11;Niedrig;11.06.2020;fit;16;0;0
+2020061132398;32398;M. Eggestein;Mittelfeld;SV Werder Bremen;2050000;2090000;44;;2;Halten;28;Niedrig;11.06.2020;fit;17;0;0
+2020061131349;31349;Rudy;Mittelfeld;1899 Hoffenheim;3750000;3760000;90;;3;Halten;29;Niedrig;11.06.2020;fit;7;0;0
+2020061133053;33053;Katterbach;Abwehr;1. FC Köln;1050000;1050000;19;;0;Halten;15;Mittel;11.06.2020;fit;12;0;0
+2020061132549;32549;Gouweleeuw;Abwehr;FC Augsburg;570000;580000;27;;0;Halten;16;Mittel;11.06.2020;injured/suspended;13;0;0
+2020061132951;32951;Matheus Cunha;Stürmer;Hertha BSC;8000000;8030000;62;;0;Verkaufen;17;Mittel;11.06.2020;fit;9;1;0
+2020061132236;32236;Brandt;Mittelfeld;Borussia Dortmund;14990000;14590000;115;;4;Halten;28;Mittel;11.06.2020;fit;2;2;1
+2020061132626;32626;Holtmann;Abwehr;SC Paderborn;230000;230000;10;;0;Halten;21;Mittel;11.06.2020;injured/suspended;18;0;0
+2020061133216;33216;Samardžić;Mittelfeld;Hertha BSC;1520000;1550000;3;;0;Halten;1;Niedrig;11.06.2020;;9;0;0
+2020061132298;32298;Schonlau;Abwehr;SC Paderborn;2050000;2080000;97;;0;Halten;23;Mittel;11.06.2020;;18;2;0
+2020061132527;32527;Serdar;Mittelfeld;FC Schalke 04;2710000;2650000;89;;0;Halten;20;Hoch;11.06.2020;injured/suspended;10;2;0
+2020061132005;32005;Gebre Selassie;Abwehr;SV Werder Bremen;2700000;2770000;57;;6;Halten;24;Hoch;11.06.2020;fit;17;0;0
+2020061132019;32019;C. Günter;Abwehr;SC Freiburg;4730000;4740000;108;;7;Halten;30;Hoch;11.06.2020;fit;8;2;2
+2020061133111;33111;Bühler;Mittelfeld;Fortuna Düsseldorf;170000;170000;0;;0;Halten;0;Niedrig;11.06.2020;fit;16;0;0
+2020061131002;31002;Hummels;Abwehr;Borussia Dortmund;8530000;8780000;114;;0;Halten;27;Mittel;11.06.2020;fit;2;2;6
+2020061133170;33170;Mercan;Mittelfeld;FC Schalke 04;170000;170000;-8;;0;Halten;1;Niedrig;11.06.2020;;10;0;0
+2020061132780;32780;Tolisso;Mittelfeld;FC Bayern München;560000;560000;40;;0;Halten;12;Hoch;11.06.2020;injured/suspended;1;0;0
+2020061132931;32931;Neuhaus;Mittelfeld;Borussia M'gladbach;8470000;8280000;99;;2;Halten;26;Niedrig;11.06.2020;fit;4;3;1
+2020061132329;32329;Ōsako;Stürmer;SV Werder Bremen;3640000;3650000;71;;2;Halten;24;Niedrig;11.06.2020;injured/suspended;17;1;0
+2020061133088;33088;Czichos;Abwehr;1. FC Köln;1210000;1240000;52;;2;Halten;22;Hoch;11.06.2020;fit;12;2;0
+2020061133132;33132;Opfermann;Mittelfeld;1.FC Union Berlin;160000;160000;0;;0;Halten;0;Mittel;11.06.2020;fit;;0;0
+2020061132762;32762;Cuisance;Mittelfeld;FC Bayern München;1190000;1180000;5;;0;Halten;4;Hoch;11.06.2020;fit;1;0;0
+2020061131586;31586;F. Götze;Abwehr;FC Augsburg;160000;160000;0;;0;Halten;0;Hoch;11.06.2020;fit;13;0;0
+2020061133061;33061;Antwi-Adjei;Mittelfeld;SC Paderborn;1200000;1230000;49;;2;Halten;30;Mittel;11.06.2020;fit;18;0;0
+2020061132575;32575;Gulácsi;Torhüter;RB Leipzig;2590000;2570000;86;;3;Halten;29;Niedrig;11.06.2020;fit;3;0;12
+2020061132342;32342;Hazard;Stürmer;Borussia Dortmund;14950000;14860000;139;;4;Halten;29;Niedrig;11.06.2020;fit;2;0;0
+2020061131770;31770;Malli;Mittelfeld;1.FC Union Berlin;470000;480000;12;;3;Halten;10;Mittel;11.06.2020;fit;;0;0
+2020061133175;33175;Bilogrević;Mittelfeld;SC Paderborn;170000;170000;0;;0;Halten;0;Niedrig;11.06.2020;;18;0;0
+2020061133210;33210;Karamoko;Stürmer;VfL Wolfsburg;170000;170000;0;;0;Halten;1;Hoch;11.06.2020;;6;0;0
+2020061130813;30813;Bodzek;Mittelfeld;Fortuna Düsseldorf;350000;350000;30;;2;Halten;25;Hoch;11.06.2020;injured/suspended;16;0;0
+2020061133023;33023;Haidara;Mittelfeld;RB Leipzig;720000;730000;24;;0;Halten;15;Niedrig;11.06.2020;injured/suspended;3;0;0
+2020061133058;33058;K. Gjasula;Mittelfeld;SC Paderborn;1020000;1080000;66;;2;Halten;26;Niedrig;11.06.2020;fit;18;1;0
+2020061132181;32181;G. Fernandes;Mittelfeld;Eintracht Frankfurt;420000;420000;6;;0;Halten;11;Hoch;11.06.2020;injured/suspended;11;0;0
+2020061133030;33030;Kownacki;Stürmer;Fortuna Düsseldorf;420000;420000;22;;0;Halten;19;Hoch;11.06.2020;fit;16;0;0
+2020061133172;33172;Lichtsteiner;Abwehr;FC Augsburg;290000;290000;5;;0;Halten;19;Mittel;11.06.2020;fit;13;0;0
+2020061130907;30907;Ibišević;Stürmer;Hertha BSC;6300000;6170000;55;;0;Halten;20;Niedrig;11.06.2020;fit;9;2;0
+2020061133025;33025;N. Stendera;Mittelfeld;Eintracht Frankfurt;160000;160000;0;;0;Halten;0;Hoch;11.06.2020;;11;0;0
+2020061132323;32323;Bürki;Torhüter;Borussia Dortmund;1130000;1170000;36;;4;Halten;27;Niedrig;11.06.2020;fit;2;0;0
+2020061131799;31799;Brooks;Abwehr;VfL Wolfsburg;3640000;3650000;59;;4;Halten;21;Niedrig;11.06.2020;fit;6;0;0
+2020061132518;32518;Coman;Stürmer;FC Bayern München;12390000;12380000;71;;9;Halten;20;Hoch;11.06.2020;fit;1;0;0
+2020061133206;33206;Zanka;Abwehr;Fortuna Düsseldorf;230000;230000;1;;0;Halten;6;Niedrig;11.06.2020;;16;0;0
+2020061133107;33107;Albrecht;Abwehr;Hertha BSC;170000;170000;0;;0;Halten;0;Niedrig;11.06.2020;;9;0;0
+2020061132229;32229;Selke;Stürmer;SV Werder Bremen;1990000;1980000;41;;1;Halten;27;Niedrig;11.06.2020;fit;17;0;0
+2020061132118;32118;Ayhan;Abwehr;Fortuna Düsseldorf;3340000;3320000;89;;4;Halten;27;Mittel;11.06.2020;injured/suspended;16;2;0
+2020061133201;33201;Evans;Mittelfeld;SC Paderborn;290000;290000;4;;4;Halten;1;Niedrig;11.06.2020;;18;0;0
+2020061131611;31611;Alaba;Abwehr;FC Bayern München;11930000;12010000;110;;4;Halten;25;Niedrig;11.06.2020;fit;1;1;4
+2020061133012;33012;Leneis;Torhüter;FC Augsburg;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;;13;0;0
+2020061132267;32267;Zingerle;Torhüter;SC Paderborn;630000;630000;55;;3;Halten;24;Niedrig;11.06.2020;fit;18;0;0
+2020061132921;32921;Rönnow;Torhüter;Eintracht Frankfurt;160000;160000;27;;0;Halten;8;Hoch;11.06.2020;fit;11;1;0
+2020061132836;32836;Koch;Abwehr;SC Freiburg;3220000;3220000;88;;2;Halten;29;Mittel;11.06.2020;injured/suspended;8;1;0
+2020061131220;31220;Hasebe;Abwehr;Eintracht Frankfurt;1900000;1910000;40;;2;Halten;21;Niedrig;11.06.2020;fit;11;0;0
+2020061132214;32214;Durm;Mittelfeld;Eintracht Frankfurt;280000;280000;10;;0;Halten;9;Niedrig;11.06.2020;fit;11;0;0
+2020061132818;32818;Ignacio Camacho;Mittelfeld;VfL Wolfsburg;160000;160000;0;;0;Halten;0;Hoch;11.06.2020;injured/suspended;6;0;0
+2020061132833;32833;Çetin;Mittelfeld;Eintracht Frankfurt;160000;160000;0;;0;Halten;0;Mittel;11.06.2020;;11;0;0
+2020061133028;33028;Matondo;Stürmer;FC Schalke 04;730000;750000;13;;0;Halten;16;Niedrig;11.06.2020;;10;0;0
+2020061131382;31382;Schieber;Stürmer;FC Augsburg;180000;180000;2;;0;Halten;2;Hoch;11.06.2020;injured/suspended;13;0;0
+2020061133202;33202;Piątek;Stürmer;Hertha BSC;6210000;6090000;26;;0;Halten;11;Niedrig;11.06.2020;;9;0;0
+2020061132644;32644;Z. Steffen;Torhüter;Fortuna Düsseldorf;280000;280000;34;;0;Halten;17;Hoch;11.06.2020;fit;16;1;0
+2020061132091;32091;A. Hoffmann;Abwehr;Fortuna Düsseldorf;530000;540000;52;;0;Halten;25;Niedrig;11.06.2020;injured/suspended;16;0;0
+2020061131915;31915;Strobl;Mittelfeld;Borussia M'gladbach;680000;680000;20;;0;Halten;10;Mittel;11.06.2020;fit;4;0;0
+2020061132971;32971;Stanić;Abwehr;FC Augsburg;170000;170000;0;;0;Halten;0;Niedrig;11.06.2020;fit;13;0;0
+2020061132875;32875;Lookman;Stürmer;RB Leipzig;950000;940000;3;;0;Halten;9;Niedrig;11.06.2020;fit;3;0;0
+2020061131087;31087;Subotić;Abwehr;1.FC Union Berlin;460000;470000;35;;0;Halten;22;Niedrig;11.06.2020;fit;;1;0
+2020061132088;32088;Ji;Stürmer;1. FSV Mainz 05;250000;250000;-2;;0;Halten;2;Mittel;11.06.2020;injured/suspended;15;0;0
+2020061133082;33082;Joao Victor;Stürmer;VfL Wolfsburg;1300000;1330000;41;;2;Halten;26;Niedrig;11.06.2020;fit;6;0;0
+2020061132129;32129;Andrich;Mittelfeld;1.FC Union Berlin;1120000;1190000;58;;9;Kaufen;28;Mittel;11.06.2020;fit;;1;0
+2020061132925;32925;Flekken;Torhüter;SC Freiburg;380000;380000;45;;0;Halten;9;Niedrig;11.06.2020;fit;8;1;0
+2020061132968;32968;Pléa;Stürmer;Borussia M'gladbach;11470000;11160000;142;;-3;Halten;27;Niedrig;11.06.2020;fit;4;4;0
+2020061133207;33207;Tapsoba;Abwehr;Bayer 04 Leverkusen;4560000;4590000;26;;0;Halten;10;Niedrig;11.06.2020;;5;0;0
+2020061133043;33043;Gruev;Mittelfeld;SV Werder Bremen;170000;170000;0;;0;Halten;0;Niedrig;11.06.2020;;17;0;0
+2020061131663;31663;Lewandowski;Stürmer;FC Bayern München;28750000;28580000;262;;7;Halten;28;Hoch;11.06.2020;fit;1;6;23
+2020061133148;33148;Jans;Abwehr;SC Paderborn;210000;220000;25;;2;Halten;19;Niedrig;11.06.2020;fit;18;0;0
+2020061132774;32774;Zakaria;Mittelfeld;Borussia M'gladbach;2220000;2230000;90;;0;Halten;23;Hoch;11.06.2020;fit;4;0;12
+2020061132877;32877;Dahmen;Torhüter;1. FSV Mainz 05;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;fit;15;0;0
+2020061132942;32942;Mukiele;Abwehr;RB Leipzig;5570000;5600000;92;;4;Halten;22;Niedrig;11.06.2020;fit;3;2;0
+2020061131610;31610;Wiedwald;Torhüter;Eintracht Frankfurt;160000;160000;1;;0;Halten;3;Niedrig;11.06.2020;fit;11;0;0
+2020061132649;32649;Tekpetey;Stürmer;Fortuna Düsseldorf;160000;160000;3;;0;Halten;9;Mittel;11.06.2020;fit;16;0;0
+2020061133059;33059;Vasiliadis;Mittelfeld;SC Paderborn;790000;820000;49;;3;Halten;29;Mittel;11.06.2020;fit;18;0;0
+2020061133153;33153;Ampadu;Abwehr;RB Leipzig;330000;330000;6;;0;Halten;3;Hoch;11.06.2020;injured/suspended;3;0;0
+2020061133040;33040;Boujellab;Mittelfeld;FC Schalke 04;330000;330000;7;;1;Halten;8;Mittel;11.06.2020;fit;10;0;0
+2020061132991;32991;Witsel;Mittelfeld;Borussia Dortmund;11890000;11770000;107;;4;Halten;24;Hoch;11.06.2020;fit;2;3;6
+2020061133217;33217;Marmoush;Stürmer;VfL Wolfsburg;340000;270000;2;;0;Halten;1;Niedrig;11.06.2020;;6;0;0
+2020061132725;32725;Bailey;Stürmer;Bayer 04 Leverkusen;6700000;6680000;58;;1;Halten;19;Niedrig;11.06.2020;fit;5;0;0
+20200611310;310;Hauptmann;Mittelfeld;1. FC Köln;170000;170000;0;;0;Verkaufen;0;Hoch;11.06.2020;injured/suspended;12;0;0
+2020061132278;32278;Hector;Mittelfeld;1. FC Köln;5810000;5840000;100;;2;Halten;28;Mittel;11.06.2020;fit;12;3;0
+2020061131709;31709;Uth;Stürmer;1. FC Köln;5700000;5750000;73;;0;Halten;19;Hoch;11.06.2020;fit;12;0;0
+2020061132493;32493;Mees;Stürmer;1.FC Union Berlin;300000;310000;11;;0;Halten;10;Hoch;11.06.2020;fit;;0;0
+2020061133173;33173;Kölle;Abwehr;1. FSV Mainz 05;170000;170000;0;;0;Halten;0;Niedrig;11.06.2020;;15;0;0
+2020061131740;31740;Plattenhardt;Abwehr;Hertha BSC;3280000;3350000;52;;0;Halten;13;Mittel;11.06.2020;injured/suspended;9;0;0
+2020061132521;32521;Jhon Córdoba;Stürmer;1. FC Köln;8550000;8600000;127;;1;Halten;26;Niedrig;11.06.2020;fit;12;2;0
+2020061132162;32162;Akpoguma;Abwehr;1899 Hoffenheim;550000;550000;27;;0;Halten;15;Mittel;11.06.2020;injured/suspended;7;0;0
+2020061133212;33212;Thiaw;Abwehr;FC Schalke 04;330000;330000;0;;0;Halten;0;Niedrig;11.06.2020;;10;0;0
+2020061133187;33187;Zirkzee;Stürmer;FC Bayern München;3630000;3720000;24;;0;Halten;5;Niedrig;11.06.2020;;1;0;0
+2020061132290;32290;Nübel;Torhüter;FC Schalke 04;1690000;1670000;45;;4;Halten;22;Niedrig;11.06.2020;injured/suspended;10;1;0
+2020061132534;32534;A. Hack;Abwehr;1. FSV Mainz 05;300000;300000;18;;0;Halten;11;Mittel;11.06.2020;fit;15;0;0
+2020061132944;32944;Müsel;Stürmer;Borussia M'gladbach;170000;170000;0;;0;Halten;0;Hoch;11.06.2020;;4;0;0
+2020061133119;33119;Kenny;Abwehr;FC Schalke 04;1700000;1750000;54;;8;Halten;28;Mittel;11.06.2020;fit;10;1;0
+2020061132684;32684;Gikiewicz;Torhüter;1.FC Union Berlin;700000;690000;61;;0;Halten;30;Niedrig;11.06.2020;fit;;2;0
+2020061132206;32206;Waldschmidt;Stürmer;SC Freiburg;3670000;3750000;53;;2;Halten;19;Hoch;11.06.2020;fit;8;0;0
+2020061132449;32449;Grillitsch;Mittelfeld;1899 Hoffenheim;2400000;2380000;76;;0;Halten;27;Mittel;11.06.2020;injured/suspended;7;0;0
+2020061132941;32941;Skrzybski;Stürmer;Fortuna Düsseldorf;330000;330000;2;;0;Halten;7;Mittel;11.06.2020;;16;0;0
+2020061131110;31110;Terodde;Stürmer;1. FC Köln;400000;400000;39;;0;Halten;21;Mittel;11.06.2020;fit;12;0;0
+2020061132985;32985;Klaassen;Mittelfeld;SV Werder Bremen;6380000;6370000;98;;3;Halten;29;Niedrig;11.06.2020;fit;17;2;0
+2020061133193;33193;Woltemade;Stürmer;SV Werder Bremen;400000;410000;3;;0;Halten;4;Niedrig;11.06.2020;;17;0;0
+2020061132208;32208;Dahoud;Mittelfeld;Borussia Dortmund;1270000;1280000;25;;0;Halten;12;Mittel;11.06.2020;fit;2;0;0
+2020061132099;32099;Abraham;Abwehr;Eintracht Frankfurt;1760000;1770000;29;;0;Halten;17;Mittel;11.06.2020;injured/suspended;11;1;0
+2020061132606;32606;Brekalo;Stürmer;VfL Wolfsburg;4140000;4200000;79;;3;Halten;26;Niedrig;11.06.2020;fit;6;0;0
+2020061132916;32916;Paulinho;Mittelfeld;Bayer 04 Leverkusen;2880000;2870000;39;;4;Halten;9;Niedrig;11.06.2020;fit;5;1;0
+2020061131395;31395;Petersen;Stürmer;SC Freiburg;6260000;6300000;122;;10;Halten;30;Niedrig;11.06.2020;fit;8;2;0
+2020061133214;33214;Ngankam;Stürmer;Hertha BSC;1170000;1210000;2;;0;Halten;3;Niedrig;11.06.2020;;9;0;0
+2020061133106;33106;Boyata;Abwehr;Hertha BSC;6660000;6760000;115;;4;Halten;25;Mittel;11.06.2020;fit;9;4;0
+2020061132861;32861;Höler;Stürmer;SC Freiburg;3620000;3660000;93;;3;Halten;30;Niedrig;11.06.2020;fit;8;1;0
+2020061132926;32926;Jastrzembski;Stürmer;SC Paderborn;180000;180000;6;;0;Halten;5;Niedrig;11.06.2020;fit;18;0;0
+2020061132065;32065;Javi Martínez;Mittelfeld;FC Bayern München;3010000;3040000;29;;2;Halten;13;Hoch;11.06.2020;fit;1;0;0
+2020061132343;32343;Sobottka;Mittelfeld;Fortuna Düsseldorf;170000;170000;9;;0;Halten;13;Mittel;11.06.2020;injured/suspended;16;0;0
+2020061132159;32159;Kramer;Mittelfeld;Borussia M'gladbach;2010000;1930000;41;;0;Halten;18;Mittel;11.06.2020;fit;4;0;0
+2020061133027;33027;Lucas Ribeiro;Abwehr;1899 Hoffenheim;250000;250000;8;;0;Halten;2;Niedrig;11.06.2020;injured/suspended;7;1;0
+2020061131804;31804;Perišić;Stürmer;FC Bayern München;7490000;7390000;69;;0;Halten;20;Hoch;11.06.2020;fit;1;0;0
+20200611395;395;Pizarro;Stürmer;SV Werder Bremen;160000;160000;16;;0;Halten;12;Hoch;11.06.2020;fit;17;0;0
+2020061132636;32636;Kainz;Mittelfeld;1. FC Köln;6040000;6100000;107;;2;Halten;24;Niedrig;11.06.2020;fit;12;3;0
+2020061132970;32970;Krahl;Torhüter;1. FC Köln;160000;160000;0;;0;Halten;0;Mittel;11.06.2020;injured/suspended;12;0;0
+2020061132472;32472;Elvedi;Abwehr;Borussia M'gladbach;4470000;4530000;99;;2;Halten;29;Mittel;11.06.2020;fit;4;1;4
+2020061133218;33218;Bogarde;Abwehr;1899 Hoffenheim;600000;630000;3;;2;Halten;2;Niedrig;11.06.2020;;7;0;0
+2020061133114;33114;Ehizibue;Abwehr;1. FC Köln;1570000;1580000;55;;3;Halten;27;Niedrig;11.06.2020;fit;12;1;0
+2020061133182;33182;Hupe;Torhüter;Borussia Dortmund;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;fit;2;0;0
+2020061132719;32719;Burgstaller;Stürmer;FC Schalke 04;620000;620000;28;;0;Halten;19;Mittel;11.06.2020;injured/suspended;10;0;0
+2020061132800;32800;Laimer;Mittelfeld;RB Leipzig;5140000;5160000;74;;1;Halten;27;Mittel;11.06.2020;injured/suspended;3;1;0
+2020061131249;31249;Risse;Mittelfeld;1. FC Köln;200000;200000;12;;0;Halten;6;Hoch;11.06.2020;fit;12;0;0
+2020061132417;32417;Kath;Mittelfeld;SC Freiburg;160000;160000;0;;0;Halten;0;Hoch;11.06.2020;injured/suspended;8;0;0
+2020061131413;31413;Morávek;Mittelfeld;FC Augsburg;160000;160000;14;;0;Halten;10;Mittel;11.06.2020;;13;0;0
+2020061133143;33143;Suchý;Abwehr;FC Augsburg;190000;190000;4;;0;Halten;4;Mittel;11.06.2020;fit;13;0;0
+2020061133083;33083;Mbabu;Abwehr;VfL Wolfsburg;4350000;4320000;57;;3;Halten;16;Mittel;11.06.2020;fit;6;1;0
+2020061131489;31489;Baumann;Torhüter;1899 Hoffenheim;2080000;2130000;71;;0;Halten;26;Hoch;11.06.2020;fit;7;3;0
+2020061132763;32763;Augustinsson;Abwehr;SV Werder Bremen;1410000;1500000;26;;7;Halten;10;Hoch;11.06.2020;fit;17;0;0
+2020061131416;31416;Vogt;Abwehr;SV Werder Bremen;3020000;3100000;56;;6;Halten;22;Hoch;11.06.2020;injured/suspended;17;0;0
+2020061131243;31243;Stindl;Stürmer;Borussia M'gladbach;7200000;7170000;70;;7;Halten;21;Niedrig;11.06.2020;fit;4;2;0
+2020061133158;33158;Skov;Mittelfeld;1899 Hoffenheim;8400000;8290000;113;;3;Halten;27;Mittel;11.06.2020;fit;7;0;0
+2020061132897;32897;Löwen;Mittelfeld;FC Augsburg;1500000;1500000;31;;0;Halten;20;Niedrig;11.06.2020;fit;13;0;0
+2020061133105;33105;Kilian;Abwehr;SC Paderborn;290000;290000;23;;0;Kaufen;13;Hoch;11.06.2020;fit;18;0;0
+2020061132190;32190;Karaman;Stürmer;Fortuna Düsseldorf;3830000;3800000;69;;2;Halten;16;Hoch;11.06.2020;fit;16;1;0
+2020061131399;31399;Pekarik;Abwehr;Hertha BSC;2650000;2630000;19;;0;Halten;6;Mittel;11.06.2020;injured/suspended;9;0;0
+2020061132948;32948;Burkardt;Stürmer;1. FSV Mainz 05;160000;160000;0;;0;Halten;5;Niedrig;11.06.2020;;15;0;0
+2020061131882;31882;Heintz;Abwehr;SC Freiburg;2290000;2360000;73;;5;Halten;24;Niedrig;11.06.2020;fit;8;0;0
+2020061131866;31866;Casteels;Torhüter;VfL Wolfsburg;1360000;1360000;48;;6;Halten;22;Niedrig;11.06.2020;fit;6;2;0
+2020061132741;32741;F. Hübner;Abwehr;1.FC Union Berlin;380000;380000;21;;2;Halten;10;Mittel;11.06.2020;fit;;0;0
+2020061132889;32889;Baku;Mittelfeld;1. FSV Mainz 05;1430000;1450000;53;;0;Halten;26;Niedrig;11.06.2020;injured/suspended;15;0;0
+2020061132096;32096;Hahn;Stürmer;FC Augsburg;160000;160000;1;;0;Halten;10;Hoch;11.06.2020;injured/suspended;13;0;0
+2020061133022;33022;T. Adams;Mittelfeld;RB Leipzig;3050000;3060000;22;;3;Halten;10;Mittel;11.06.2020;fit;3;0;0
+2020061133179;33179;Schick;Stürmer;RB Leipzig;12930000;12940000;91;;7;Halten;19;Niedrig;11.06.2020;injured/suspended;3;0;0
+2020061133006;33006;Sallai;Mittelfeld;SC Freiburg;740000;750000;32;;1;Halten;17;Mittel;11.06.2020;injured/suspended;8;0;0
+2020061132388;32388;Kalou;Stürmer;Hertha BSC;160000;160000;5;;0;Halten;5;Niedrig;11.06.2020;fit;9;0;0
+2020061132445;32445;Kimmich;Abwehr;FC Bayern München;19140000;18730000;201;;9;Halten;29;Niedrig;11.06.2020;fit;1;6;29
+2020061132305;32305;Wendell;Abwehr;Bayer 04 Leverkusen;2520000;2480000;59;;3;Halten;21;Mittel;11.06.2020;fit;5;0;0
+2020061132943;32943;Köpke;Stürmer;Hertha BSC;160000;160000;-3;;0;Halten;4;Niedrig;11.06.2020;fit;9;0;0
+2020061131916;31916;Füllkrug;Stürmer;SV Werder Bremen;1730000;1770000;30;;0;Halten;4;Hoch;11.06.2020;injured/suspended;17;0;0
+2020061132902;32902;T. Wiesner;Torhüter;Fortuna Düsseldorf;160000;160000;0;;0;Verkaufen;0;Hoch;11.06.2020;injured/suspended;16;0;0
+2020061131572;31572;M. Götze;Stürmer;Borussia Dortmund;1290000;1320000;38;;0;Halten;13;Niedrig;11.06.2020;fit;2;1;0
+2020061132395;32395;Amiri;Mittelfeld;Bayer 04 Leverkusen;9360000;9650000;92;;-2;Halten;25;Hoch;11.06.2020;fit;5;0;0
+2020061131846;31846;Orban;Abwehr;RB Leipzig;5010000;5010000;45;;0;Halten;11;Hoch;11.06.2020;fit;3;1;4
+2020061133196;33196;Todibo;Abwehr;FC Schalke 04;1780000;1750000;24;;0;Halten;7;Mittel;11.06.2020;;10;0;0
+2020061132634;32634;Doucouré;Abwehr;Borussia M'gladbach;510000;500000;0;;0;Halten;0;Niedrig;11.06.2020;;4;0;0
+2020061132862;32862;Dräger;Abwehr;SC Paderborn;190000;190000;4;;0;Halten;15;Mittel;11.06.2020;fit;18;0;0
+2020061133185;33185;Thielmann;Stürmer;1. FC Köln;510000;510000;7;;0;Halten;8;Mittel;11.06.2020;;12;0;0
+2020061133166;33166;Awoniyi;Stürmer;1. FSV Mainz 05;880000;930000;14;;2;Halten;10;Niedrig;11.06.2020;fit;15;0;0
+2020061132703;32703;Havertz;Mittelfeld;Bayer 04 Leverkusen;17550000;18040000;134;;0;Halten;26;Mittel;11.06.2020;fit;5;7;17
+2020061131621;31621;Trapp;Torhüter;Eintracht Frankfurt;2250000;2210000;46;;2;Halten;19;Hoch;11.06.2020;fit;11;0;0
+2020061132817;32817;Rexhbecaj;Mittelfeld;1. FC Köln;1240000;1260000;21;;0;Halten;9;Mittel;11.06.2020;fit;12;0;0
+2020061131542;31542;Nordtveit;Abwehr;1899 Hoffenheim;770000;780000;22;;-1;Halten;10;Mittel;11.06.2020;fit;7;0;0
+2020061130708;30708;Russ;Abwehr;Eintracht Frankfurt;170000;170000;0;;0;Halten;0;Hoch;11.06.2020;fit;11;0;0
+2020061131163;31163;S. Langkamp;Abwehr;SV Werder Bremen;540000;530000;3;;0;Halten;4;Mittel;11.06.2020;fit;17;0;0
+2020061131945;31945;Klaus;Stürmer;VfL Wolfsburg;520000;540000;19;;4;Kaufen;18;Niedrig;11.06.2020;injured/suspended;6;0;0
+2020061132956;32956;Jensen;Mittelfeld;FC Augsburg;170000;170000;9;;0;Halten;9;Mittel;11.06.2020;fit;13;0;0
+2020061133199;33199;Álvaro Odriozola;Abwehr;FC Bayern München;1440000;1440000;7;;0;Halten;2;Niedrig;11.06.2020;;1;0;0
+2020061133186;33186;Singh;Mittelfeld;FC Bayern München;230000;230000;1;;0;Halten;1;Niedrig;11.06.2020;;1;0;0
+2020061131453;31453;Gulde;Abwehr;SC Freiburg;1580000;1540000;68;;0;Halten;17;Mittel;11.06.2020;injured/suspended;8;1;0
+2020061132306;32306;Sommer;Torhüter;Borussia M'gladbach;3740000;3730000;107;;5;Halten;30;Niedrig;11.06.2020;fit;4;1;18
+2020061131362;31362;T. Müller;Stürmer;FC Bayern München;15770000;15650000;174;;8;Halten;30;Niedrig;11.06.2020;fit;1;1;0
+2020061131454;31454;Reus;Stürmer;Borussia Dortmund;7380000;7350000;116;;0;Halten;19;Hoch;11.06.2020;injured/suspended;2;1;0
+2020061133215;33215;Wirtz;Mittelfeld;Bayer 04 Leverkusen;6710000;6550000;10;;5;Halten;4;Niedrig;11.06.2020;;5;0;0
+2020061131796;31796;Leckie;Stürmer;Hertha BSC;240000;240000;6;;0;Halten;4;Hoch;11.06.2020;injured/suspended;9;0;0
+2020061133145;33145;Malone;Stürmer;FC Augsburg;170000;170000;0;;0;Halten;0;Niedrig;11.06.2020;;13;0;0
+2020061132871;32871;Ćavar;Mittelfeld;Eintracht Frankfurt;170000;170000;0;;0;Halten;0;Mittel;11.06.2020;fit;11;0;0
+2020061133081;33081;Akono;Stürmer;1. FSV Mainz 05;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;;15;0;0
+2020061132924;32924;Möhwald;Mittelfeld;SV Werder Bremen;160000;160000;1;;0;Halten;1;Hoch;11.06.2020;fit;17;0;0
+2020061132071;32071;Grifo;Mittelfeld;SC Freiburg;6240000;6170000;75;;5;Halten;23;Mittel;11.06.2020;injured/suspended;8;1;0
+2020061133125;33125;Sinkgraven;Abwehr;Bayer 04 Leverkusen;1420000;1400000;25;;0;Halten;11;Hoch;11.06.2020;fit;5;0;0
+2020061133103;33103;Brüggemeier;Torhüter;SC Paderborn;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;;18;0;0
+2020061132736;32736;Baak;Abwehr;Hertha BSC;170000;170000;0;;0;Halten;0;Niedrig;11.06.2020;fit;9;0;0
+2020061132187;32187;Goretzka;Mittelfeld;FC Bayern München;13670000;13430000;95;;13;Halten;20;Mittel;11.06.2020;fit;1;4;0
+2020061132692;32692;Stambouli;Abwehr;FC Schalke 04;340000;340000;27;;0;Halten;9;Hoch;11.06.2020;injured/suspended;10;0;0
+2020061131976;31976;O. Fink;Mittelfeld;Fortuna Düsseldorf;190000;190000;27;;0;Halten;13;Niedrig;11.06.2020;injured/suspended;16;0;0
+2020061133115;33115;Kapić;Mittelfeld;SC Paderborn;170000;170000;0;;0;Halten;0;Mittel;11.06.2020;fit;18;0;0
+2020061133194;33194;Elmkies;Mittelfeld;1899 Hoffenheim;210000;210000;0;;0;Halten;0;Mittel;11.06.2020;;7;0;0
+2020061131742;31742;Bičakčić;Abwehr;1899 Hoffenheim;970000;1020000;45;;4;Halten;17;Niedrig;11.06.2020;injured/suspended;7;2;0
+2020061133174;33174;Eyibil;Mittelfeld;1. FSV Mainz 05;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;fit;15;0;0
+2020061132998;32998;Grujić;Mittelfeld;Hertha BSC;6840000;6780000;81;;3;Halten;25;Niedrig;11.06.2020;injured/suspended;9;1;0
+2020061131857;31857;Skjelbred;Mittelfeld;Hertha BSC;1400000;1420000;44;;0;Halten;21;Mittel;11.06.2020;fit;9;0;0
+2020061127629;27629;Baier;Mittelfeld;FC Augsburg;510000;510000;46;;0;Halten;22;Mittel;11.06.2020;injured/suspended;13;0;0
+2020061127585;27585;Rensing;Torhüter;Fortuna Düsseldorf;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;;16;0;0
+2020061132733;32733;Richter;Stürmer;FC Augsburg;920000;910000;24;;-2;Halten;27;Niedrig;11.06.2020;fit;13;0;0
+2020061133140;33140;Schubert;Torhüter;FC Schalke 04;640000;640000;20;;0;Halten;9;Mittel;11.06.2020;fit;10;0;0
+2020061132583;32583;Ilsanker;Mittelfeld;Eintracht Frankfurt;2980000;3020000;46;;0;Halten;15;Niedrig;11.06.2020;;11;0;0
+2020061131932;31932;Bittencourt;Stürmer;SV Werder Bremen;3770000;3760000;64;;1;Halten;26;Mittel;11.06.2020;fit;17;2;0
+2020061133121;33121;Pierre-Gabriel;Abwehr;1. FSV Mainz 05;160000;160000;8;;0;Halten;8;Mittel;11.06.2020;fit;15;0;0
+2020061132073;32073;R. Khedira;Mittelfeld;FC Augsburg;1320000;1360000;46;;0;Halten;29;Niedrig;11.06.2020;fit;13;0;0
+2020061132512;32512;Charles Aránguiz;Mittelfeld;Bayer 04 Leverkusen;5130000;5060000;61;;1;Halten;23;Hoch;11.06.2020;injured/suspended;5;1;0
+2020061132977;32977;Baumgartner;Mittelfeld;1899 Hoffenheim;4990000;4980000;68;;-1;Halten;22;Niedrig;11.06.2020;fit;7;2;0
+2020061132590;32590;Sabitzer;Mittelfeld;RB Leipzig;14250000;14430000;159;;0;Halten;29;Mittel;11.06.2020;fit;3;7;28
+2020061132656;32656;F. Müller;Torhüter;1. FSV Mainz 05;710000;710000;11;;4;Halten;9;Niedrig;11.06.2020;fit;15;1;0
+2020061132711;32711;Delaney;Mittelfeld;Borussia Dortmund;5950000;5840000;29;;4;Halten;11;Hoch;11.06.2020;fit;2;0;0
+2020061131949;31949;Pledl;Mittelfeld;Fortuna Düsseldorf;160000;160000;5;;0;Halten;5;Mittel;11.06.2020;injured/suspended;16;0;0
+2020061132707;32707;Barkok;Mittelfeld;Fortuna Düsseldorf;160000;160000;0;;0;Halten;3;Niedrig;11.06.2020;;16;0;0
+2020061132888;32888;Dárdai;Stürmer;Hertha BSC;180000;180000;0;;0;Halten;0;Niedrig;11.06.2020;;9;0;0
+2020061132960;32960;Lucas Torró;Mittelfeld;Eintracht Frankfurt;340000;340000;3;;0;Halten;4;Hoch;11.06.2020;;11;0;0
+2020061132799;32799;Pavlenka;Torhüter;SV Werder Bremen;1850000;1820000;43;;1;Halten;29;Mittel;11.06.2020;fit;17;1;0
+2020061133021;33021;Davies;Abwehr;FC Bayern München;13890000;14010000;124;;7;Halten;25;Niedrig;11.06.2020;fit;1;2;0
+2020061132965;32965;Kunde;Mittelfeld;1. FSV Mainz 05;3440000;3450000;89;;9;Halten;25;Niedrig;11.06.2020;fit;15;3;0
+2020061132869;32869;Akanji;Abwehr;Borussia Dortmund;6100000;6170000;71;;5;Halten;26;Niedrig;11.06.2020;injured/suspended;2;0;0
+2020061130844;30844;Langer;Torhüter;FC Schalke 04;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;fit;10;0;0
+2020061132178;32178;Mwene;Abwehr;1. FSV Mainz 05;350000;390000;8;;4;Halten;3;Niedrig;11.06.2020;injured/suspended;15;0;0
+2020061132354;32354;Kapino;Torhüter;SV Werder Bremen;160000;160000;3;;0;Halten;1;Niedrig;11.06.2020;;17;0;0
+2020061132845;32845;Sancho;Stürmer;Borussia Dortmund;18500000;18200000;213;;3;Halten;28;Niedrig;11.06.2020;;2;4;17
+2020061132928;32928;N. Thiede;Torhüter;SC Freiburg;160000;160000;2;;0;Halten;1;Niedrig;11.06.2020;;8;0;0
+2020061132786;32786;Posch;Abwehr;1899 Hoffenheim;1460000;1500000;56;;4;Halten;24;Mittel;11.06.2020;fit;7;0;0
+2020061132346;32346;M. Ritter;Mittelfeld;SC Paderborn;280000;290000;10;;3;Halten;7;Niedrig;11.06.2020;fit;18;0;0
+2020061132201;32201;Mehmedi;Stürmer;VfL Wolfsburg;2350000;2390000;54;;1;Halten;20;Hoch;11.06.2020;fit;6;0;0
+2020061132654;32654;Nicolas;Torhüter;1.FC Union Berlin;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;fit;;0;0
+2020061132873;32873;Rashica;Stürmer;SV Werder Bremen;6550000;6310000;110;;0;Halten;25;Mittel;11.06.2020;fit;17;1;0
+2020061132572;32572;Sarenren-Bazee;Stürmer;FC Augsburg;930000;970000;11;;4;Kaufen;7;Niedrig;11.06.2020;;13;0;0
+2020061132511;32511;Gaćinović;Mittelfeld;Eintracht Frankfurt;1970000;1970000;38;;0;Halten;21;Mittel;11.06.2020;fit;11;0;0
+2020061131463;31463;Frantz;Mittelfeld;SC Freiburg;230000;230000;14;;0;Halten;9;Mittel;11.06.2020;;8;0;0
+2020061133219;33219;Batista Meier;Stürmer;FC Bayern München;1030000;1030000;-1;;0;Halten;1;Niedrig;11.06.2020;;1;0;0
+2020061133164;33164;Bornauw;Abwehr;1. FC Köln;3410000;3390000;67;;0;Halten;24;Mittel;11.06.2020;fit;12;4;0
+2020061132524;32524;Azzaoui;Mittelfeld;VfL Wolfsburg;180000;180000;0;;0;Halten;0;Niedrig;11.06.2020;;6;0;0
+2020061132837;32837;Ascacíbar;Mittelfeld;Hertha BSC;700000;690000;18;;0;Halten;8;Mittel;11.06.2020;;9;0;0
+2020061131618;31618;Sippel;Torhüter;Borussia M'gladbach;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;fit;4;0;0
+2020061131795;31795;Gogia;Mittelfeld;1.FC Union Berlin;160000;160000;7;;0;Verkaufen;3;Hoch;11.06.2020;fit;;0;0
+2020061132726;32726;Quaison;Stürmer;1. FSV Mainz 05;5270000;5260000;113;;-1;Halten;29;Niedrig;11.06.2020;fit;15;2;0
+2020061133033;33033;Finger;Mittelfeld;Eintracht Frankfurt;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;fit;11;0;0
+2020061133064;33064;Zolinski;Stürmer;SC Paderborn;230000;230000;36;;0;Halten;22;Niedrig;11.06.2020;fit;18;0;0
+2020061131592;31592;Contento;Abwehr;Fortuna Düsseldorf;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;injured/suspended;16;0;0
+2020061133079;33079;Ihorst;Stürmer;SV Werder Bremen;170000;170000;1;;0;Halten;1;Niedrig;11.06.2020;;17;0;0
+2020061133189;33189;Palacios;Mittelfeld;Bayer 04 Leverkusen;2190000;2140000;11;;0;Halten;3;Mittel;11.06.2020;;5;0;0
+2020061132615;32615;Teigl;Abwehr;FC Augsburg;310000;300000;-2;;0;Halten;3;Niedrig;11.06.2020;fit;13;0;0
+2020061132773;32773;Zagadou;Abwehr;Borussia Dortmund;1360000;1370000;59;;0;Halten;12;Hoch;11.06.2020;injured/suspended;2;1;0
+2020061133031;33031;Touré;Abwehr;Eintracht Frankfurt;2070000;2080000;61;;3;Halten;19;Niedrig;11.06.2020;injured/suspended;11;1;0
+2020061133038;33038;N. Schlotterbeck;Abwehr;SC Freiburg;170000;170000;15;;0;Halten;7;Mittel;11.06.2020;fit;8;0;0
+2020061131844;31844;J. Bruma;Abwehr;1. FSV Mainz 05;730000;740000;39;;0;Halten;17;Niedrig;11.06.2020;fit;15;0;0
+2020061131700;31700;Ginczek;Stürmer;VfL Wolfsburg;2760000;2800000;33;;2;Halten;11;Niedrig;11.06.2020;injured/suspended;6;0;0
+2020061132988;32988;Roussillon;Abwehr;VfL Wolfsburg;1990000;2060000;53;;3;Halten;26;Mittel;11.06.2020;fit;6;0;0
+2020061132311;32311;M. Friedrich;Abwehr;1.FC Union Berlin;600000;600000;48;;1;Halten;27;Niedrig;11.06.2020;fit;;0;0
+2020061133149;33149;Stanilewicz;Mittelfeld;Bayer 04 Leverkusen;170000;170000;0;;0;Halten;0;Niedrig;11.06.2020;fit;5;0;0
+2020061133213;33213;Voloder;Abwehr;1. FC Köln;330000;330000;0;;0;Halten;0;Niedrig;11.06.2020;;12;0;0
+2020061131571;31571;D. Caligiuri;Mittelfeld;FC Schalke 04;7070000;7030000;80;;5;Halten;25;Hoch;11.06.2020;injured/suspended;10;1;0
+2020061132171;32171;Framberger;Abwehr;FC Augsburg;1240000;1240000;32;;3;Halten;15;Hoch;11.06.2020;injured/suspended;13;0;0
+2020061132868;32868;R. Steffen;Mittelfeld;VfL Wolfsburg;5690000;5700000;81;;0;Halten;22;Mittel;11.06.2020;fit;6;2;0
+2020061132150;32150;Stafylidis;Abwehr;1899 Hoffenheim;170000;170000;13;;0;Halten;7;Mittel;11.06.2020;fit;7;1;0
+2020061132591;32591;Y. Poulsen;Stürmer;RB Leipzig;4360000;4400000;78;;0;Halten;21;Mittel;11.06.2020;fit;3;2;0
+2020061132137;32137;Reichel;Abwehr;1.FC Union Berlin;160000;160000;2;;0;Halten;3;Mittel;11.06.2020;fit;;0;0
+2020061132546;32546;M. Wolf;Stürmer;Hertha BSC;490000;490000;30;;0;Halten;21;Mittel;11.06.2020;fit;9;0;0
+2020061132564;32564;Finnbogason;Stürmer;FC Augsburg;2200000;2230000;35;;1;Halten;15;Hoch;11.06.2020;injured/suspended;13;0;0
+2020061131929;31929;M. Weiser;Abwehr;Bayer 04 Leverkusen;2410000;2420000;46;;0;Halten;16;Mittel;11.06.2020;fit;5;1;0
+2020061132378;32378;Zuber;Mittelfeld;1899 Hoffenheim;2230000;2270000;25;;7;Halten;10;Mittel;11.06.2020;fit;7;0;0
+2020061133204;33204;Berisha;Mittelfeld;Fortuna Düsseldorf;1230000;1250000;22;;5;Halten;10;Mittel;11.06.2020;;16;0;0
+2020061133192;33192;Srbeny;Stürmer;SC Paderborn;1530000;1550000;49;;1;Halten;13;Niedrig;11.06.2020;;18;0;0
+2020061133139;33139;Bülter;Mittelfeld;1.FC Union Berlin;2560000;2570000;71;;2;Halten;29;Niedrig;11.06.2020;fit;;2;0
+2020061132972;32972;Kastenmeier;Torhüter;Fortuna Düsseldorf;750000;750000;27;;-1;Halten;13;Niedrig;11.06.2020;fit;16;0;0
+2020061133128;33128;Lainer;Abwehr;Borussia M'gladbach;2700000;2650000;51;;2;Halten;27;Mittel;11.06.2020;fit;4;1;0
+2020061132120;32120;N. Stark;Abwehr;Hertha BSC;950000;940000;36;;0;Halten;17;Mittel;11.06.2020;fit;9;1;0
+2020061131524;31524;Schmiedebach;Mittelfeld;1.FC Union Berlin;160000;160000;0;;0;Halten;3;Hoch;11.06.2020;fit;;0;0
+2020061131762;31762;da Costa;Mittelfeld;Eintracht Frankfurt;1440000;1430000;43;;0;Halten;14;Niedrig;11.06.2020;fit;11;0;0
+2020061133152;33152;Thuram;Stürmer;Borussia M'gladbach;16720000;16620000;146;;3;Halten;30;Mittel;11.06.2020;fit;4;1;0
+2020061131935;31935;Can;Abwehr;Borussia Dortmund;12730000;12880000;46;;13;Halten;9;Mittel;11.06.2020;;2;1;0
+2020061133157;33157;Skhiri;Mittelfeld;1. FC Köln;2840000;2790000;81;;1;Halten;28;Niedrig;11.06.2020;fit;12;1;0
+2020061133113;33113;Flecker;Mittelfeld;1.FC Union Berlin;170000;170000;0;;0;Halten;0;Niedrig;11.06.2020;fit;;0;0
+2020061131815;31815;Höger;Mittelfeld;1. FC Köln;190000;190000;11;;1;Halten;11;Niedrig;11.06.2020;injured/suspended;12;0;0
+2020061132602;32602;Abrashi;Mittelfeld;SC Freiburg;300000;300000;17;;0;Halten;10;Hoch;11.06.2020;injured/suspended;8;0;0
+2020061131057;31057;Kraft;Torhüter;Hertha BSC;160000;160000;-1;;0;Halten;4;Hoch;11.06.2020;fit;9;0;0
+2020061132953;32953;K. Schlotterbeck;Abwehr;1.FC Union Berlin;1470000;1500000;54;;3;Halten;19;Hoch;11.06.2020;fit;;1;0
+2020061133101;33101;Mamba;Stürmer;SC Paderborn;1580000;1580000;55;;1;Halten;22;Hoch;11.06.2020;fit;18;1;0
+2020061133120;33120;Paulo Otávio;Abwehr;VfL Wolfsburg;1070000;1050000;23;;0;Halten;5;Mittel;11.06.2020;fit;6;0;0
+2020061131105;31105;Piszczek;Abwehr;Borussia Dortmund;6270000;6310000;90;;5;Halten;24;Niedrig;11.06.2020;injured/suspended;2;1;0
+2020061131941;31941;Grün;Torhüter;Borussia M'gladbach;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;injured/suspended;4;0;0
+2020061132776;32776;Konaté;Abwehr;RB Leipzig;2910000;2990000;19;;0;Halten;5;Hoch;11.06.2020;fit;3;0;0
+2020061132508;32508;Hradecky;Torhüter;Bayer 04 Leverkusen;3190000;3210000;96;;3;Halten;30;Niedrig;11.06.2020;fit;5;2;0
+2020061132205;32205;Thiago Alcântara;Mittelfeld;FC Bayern München;13340000;13110000;127;;0;Halten;24;Mittel;11.06.2020;fit;1;3;9
+2020061132792;32792;Kamada;Mittelfeld;Eintracht Frankfurt;4980000;5000000;70;;3;Halten;25;Mittel;11.06.2020;fit;11;1;0
+2020061132809;32809;de Guzmán;Mittelfeld;Eintracht Frankfurt;420000;420000;7;;0;Halten;4;Niedrig;11.06.2020;fit;11;0;0
+2020061132801;32801;Uduokhai;Abwehr;FC Augsburg;1790000;1830000;58;;3;Halten;23;Niedrig;11.06.2020;fit;13;0;0
+2020061132734;32734;Kade;Mittelfeld;1.FC Union Berlin;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;injured/suspended;;0;0
+2020061133188;33188;Oeynhausen;Mittelfeld;SC Paderborn;170000;170000;0;;0;Halten;0;Niedrig;11.06.2020;;18;0;0
+2020061133180;33180;André Silva;Stürmer;Eintracht Frankfurt;10240000;10140000;85;;1;Halten;21;Mittel;11.06.2020;fit;11;1;0
+2020061132754;32754;Friedl;Abwehr;SV Werder Bremen;2470000;2510000;59;;0;Halten;23;Mittel;11.06.2020;fit;17;1;0
+2020061131281;31281;R. Özcan;Torhüter;Bayer 04 Leverkusen;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;fit;5;0;0
+2020061133126;33126;Verstraete;Mittelfeld;1. FC Köln;190000;190000;17;;0;Halten;9;Hoch;11.06.2020;fit;12;0;0
+2020061131959;31959;Kohr;Mittelfeld;Eintracht Frankfurt;1980000;2010000;33;;2;Halten;21;Niedrig;11.06.2020;fit;11;0;0
+2020061133130;33130;Krauß;Mittelfeld;RB Leipzig;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;fit;3;0;0
+2020061132122;32122;Süle;Abwehr;FC Bayern München;2610000;2620000;34;;0;Halten;8;Hoch;11.06.2020;fit;1;0;8
+2020061132992;32992;Barreiro;Mittelfeld;1. FSV Mainz 05;1490000;1540000;30;;2;Halten;14;Niedrig;11.06.2020;fit;15;0;0
+2020061132807;32807;Lienhart;Abwehr;SC Freiburg;1810000;1830000;48;;4;Halten;17;Mittel;11.06.2020;fit;8;0;0
+2020061133112;33112;J. Meier;Abwehr;1. FSV Mainz 05;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;injured/suspended;15;0;0
+2020061132765;32765;Früchtl;Torhüter;FC Bayern München;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;;1;0;0
+2020061132949;32949;Pervan;Torhüter;VfL Wolfsburg;160000;160000;30;;0;Halten;8;Niedrig;11.06.2020;fit;6;1;0
+2020061131985;31985;Stöger;Mittelfeld;Fortuna Düsseldorf;1790000;1810000;37;;6;Halten;13;Mittel;11.06.2020;injured/suspended;16;0;0
+2020061133203;33203;Leistner;Abwehr;1. FC Köln;3430000;3410000;42;;4;Halten;9;Niedrig;11.06.2020;;12;0;0
+2020061133048;33048;Scott;Torhüter;1. FC Köln;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;fit;12;0;0
+2020061133018;33018;Dajaku;Stürmer;FC Bayern München;330000;330000;1;;0;Halten;1;Niedrig;11.06.2020;;1;0;0
+2020061132087;32087;Michel;Stürmer;SC Paderborn;350000;350000;40;;1;Halten;26;Hoch;11.06.2020;injured/suspended;18;0;0
+2020061132789;32789;Oxford;Abwehr;FC Augsburg;160000;160000;-3;;0;Halten;9;Mittel;11.06.2020;fit;13;0;0
+2020061133118;33118;Rumpf;Abwehr;SC Paderborn;170000;170000;0;;0;Halten;0;Niedrig;11.06.2020;fit;18;0;0
+2020061132165;32165;Salif Sané;Abwehr;FC Schalke 04;4890000;4850000;62;;2;Halten;15;Hoch;11.06.2020;fit;10;1;2
+2020061131327;31327;Esswein;Stürmer;Hertha BSC;350000;380000;2;;0;Halten;3;Mittel;11.06.2020;;9;0;0
+2020061131164;31164;Hennings;Stürmer;Fortuna Düsseldorf;5040000;5090000;120;;15;Kaufen;28;Mittel;11.06.2020;fit;16;2;0
+2020061132903;32903;Bormuth;Abwehr;Fortuna Düsseldorf;170000;170000;6;;0;Halten;2;Niedrig;11.06.2020;fit;16;0;0
+2020061132963;32963;N'Dicka;Abwehr;Eintracht Frankfurt;640000;630000;22;;0;Halten;17;Niedrig;11.06.2020;fit;11;0;0
+2020061133080;33080;Hanin;Torhüter;1. FSV Mainz 05;160000;160000;0;;0;Halten;0;Mittel;11.06.2020;fit;15;0;0
+2020061133124;33124;Ingvartsen;Stürmer;1.FC Union Berlin;2290000;2290000;66;;1;Halten;25;Niedrig;11.06.2020;fit;;0;0
+2020061132958;32958;Lang;Abwehr;SV Werder Bremen;220000;220000;10;;0;Halten;8;Hoch;11.06.2020;fit;17;0;0
+2020061132555;32555;Oelschlägel;Torhüter;Borussia Dortmund;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;fit;2;0;0
+2020061133195;33195;Pongračić;Abwehr;VfL Wolfsburg;3430000;3470000;20;;4;Halten;7;Mittel;11.06.2020;;6;1;0
+2020061132642;32642;Embolo;Stürmer;Borussia M'gladbach;4210000;4260000;72;;0;Halten;24;Mittel;11.06.2020;injured/suspended;4;1;0
+2020061133159;33159;Schreiber;Torhüter;RB Leipzig;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;fit;3;0;0
+2020061132623;32623;J. Eggestein;Stürmer;SV Werder Bremen;430000;430000;16;;0;Halten;14;Niedrig;11.06.2020;;17;0;0
+2020061132983;32983;Lukébakio;Stürmer;Hertha BSC;6250000;6150000;91;;0;Halten;27;Niedrig;11.06.2020;fit;9;0;0
+2020061132885;32885;Mai;Abwehr;FC Bayern München;180000;180000;0;;0;Halten;0;Mittel;11.06.2020;;1;0;0
+2020061133161;33161;Kasten;Torhüter;VfL Wolfsburg;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;fit;6;0;0
+2020061132781;32781;William;Abwehr;VfL Wolfsburg;190000;190000;39;;0;Halten;16;Hoch;11.06.2020;fit;6;1;0
+2020061133065;33065;Pröger;Mittelfeld;SC Paderborn;1570000;1580000;76;;5;Halten;28;Niedrig;11.06.2020;fit;18;1;0
+2020061132660;32660;Menzel;Torhüter;VfL Wolfsburg;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;fit;6;0;0
+2020061132910;32910;Raman;Stürmer;FC Schalke 04;1930000;1930000;56;;0;Halten;22;Mittel;11.06.2020;fit;10;0;0
+2020061132752;32752;Zimmer;Mittelfeld;Fortuna Düsseldorf;280000;290000;11;;1;Halten;12;Mittel;11.06.2020;injured/suspended;16;1;0
+2020061133087;33087;Drexler;Mittelfeld;1. FC Köln;1970000;1950000;58;;0;Halten;22;Mittel;11.06.2020;fit;12;1;0
+2020061133167;33167;Bensebaini;Abwehr;Borussia M'gladbach;5600000;5650000;79;;2;Halten;16;Hoch;11.06.2020;injured/suspended;4;3;0
+2020061131764;31764;Bellarabi;Stürmer;Bayer 04 Leverkusen;6210000;6120000;79;;-2;Halten;25;Mittel;11.06.2020;injured/suspended;5;0;0
+2020061132982;32982;Borrello;Stürmer;SC Freiburg;160000;160000;7;;0;Halten;6;Niedrig;11.06.2020;;8;0;0
+2020061132544;32544;Onisiwo;Stürmer;1. FSV Mainz 05;2070000;2100000;80;;2;Halten;28;Mittel;11.06.2020;;15;0;0
+2020061131479;31479;Polter;Stürmer;1.FC Union Berlin;210000;210000;26;;0;Halten;13;Niedrig;11.06.2020;injured/suspended;;0;0
+2020061133019;33019;Kutucu;Stürmer;FC Schalke 04;970000;1010000;41;;1;Halten;21;Mittel;11.06.2020;;10;0;0
+2020061133075;33075;H. Wolf;Mittelfeld;RB Leipzig;400000;400000;0;;0;Halten;5;Niedrig;11.06.2020;fit;3;0;0
+2020061132989;32989;Aarón Martín;Abwehr;1. FSV Mainz 05;580000;570000;40;;0;Halten;20;Niedrig;11.06.2020;fit;15;0;0
+2020061132855;32855;R. Hoffmann;Torhüter;FC Bayern München;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;fit;1;0;0
+2020061132628;32628;B. Schmitz;Abwehr;1. FC Köln;320000;330000;15;;1;Halten;16;Niedrig;11.06.2020;fit;12;0;0
+2020061133169;33169;Coutinho;Mittelfeld;FC Bayern München;5490000;5400000;125;;0;Halten;21;Hoch;11.06.2020;fit;1;4;0
+2020061132757;32757;Mvogo;Torhüter;RB Leipzig;160000;160000;-1;;0;Halten;1;Niedrig;11.06.2020;fit;3;0;0
+2020061132469;32469;Suttner;Abwehr;Fortuna Düsseldorf;460000;490000;35;;5;Halten;17;Mittel;11.06.2020;fit;16;0;0
+2020061132185;32185;Öztunali;Mittelfeld;1. FSV Mainz 05;2330000;2340000;70;;6;Halten;23;Niedrig;11.06.2020;fit;15;1;0
+2020061133181;33181;Tempelmann;Mittelfeld;SC Freiburg;220000;220000;2;;0;Halten;1;Mittel;11.06.2020;fit;8;0;0
+2020061131376;31376;Bargfrede;Mittelfeld;SV Werder Bremen;970000;970000;16;;2;Halten;12;Hoch;11.06.2020;fit;17;0;0
+2020061132710;32710;Torunarigha;Abwehr;Hertha BSC;5680000;5670000;63;;4;Halten;13;Niedrig;11.06.2020;;9;1;0
+2020061133047;33047;Straudi;Mittelfeld;SV Werder Bremen;170000;170000;0;;0;Halten;0;Niedrig;11.06.2020;;17;0;0
+2020061133176;33176;Sabiri;Mittelfeld;SC Paderborn;570000;580000;40;;3;Halten;21;Mittel;11.06.2020;injured/suspended;18;2;0
+2020061132842;32842;Bebou;Stürmer;1899 Hoffenheim;4170000;4200000;69;;2;Halten;28;Mittel;11.06.2020;injured/suspended;7;0;0
+2020061131380;31380;Jantschke;Abwehr;Borussia M'gladbach;520000;510000;39;;0;Halten;12;Hoch;11.06.2020;;4;0;0
+2020061130996;30996;J. Boateng;Abwehr;FC Bayern München;6500000;6520000;52;;2;Halten;20;Mittel;11.06.2020;fit;1;1;0
+2020061131839;31839;Ujah;Stürmer;1.FC Union Berlin;600000;640000;35;;5;Kaufen;19;Niedrig;11.06.2020;fit;;0;0
+2020061131743;31743;Chandler;Abwehr;Eintracht Frankfurt;3390000;3350000;82;;0;Halten;19;Niedrig;11.06.2020;injured/suspended;11;4;0
+2020061133154;33154;Klinger;Torhüter;VfL Wolfsburg;160000;160000;0;;0;Halten;0;Hoch;11.06.2020;;6;0;0
+2020061133129;33129;Iago;Abwehr;FC Augsburg;500000;490000;20;;0;Halten;10;Mittel;11.06.2020;fit;13;1;0
+2020061132581;32581;Klostermann;Abwehr;RB Leipzig;7070000;7140000;108;;3;Halten;28;Mittel;11.06.2020;fit;3;3;0
+2020061132699;32699;Tisserand;Abwehr;VfL Wolfsburg;310000;320000;30;;0;Halten;14;Mittel;11.06.2020;fit;6;1;0
+2020061131551;31551;L. Bender;Abwehr;Bayer 04 Leverkusen;2380000;2460000;70;;0;Halten;17;Hoch;11.06.2020;injured/suspended;5;2;0
+2020061132782;32782;Rekik;Abwehr;Hertha BSC;570000;560000;41;;0;Halten;14;Mittel;11.06.2020;fit;9;1;0
+2020061132867;32867;Plogmann;Torhüter;SV Werder Bremen;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;;17;0;0
+2020061130757;30757;Stolz;Torhüter;1899 Hoffenheim;160000;160000;0;;0;Halten;0;Hoch;11.06.2020;;7;0;0
+2020061132506;32506;Huth;Torhüter;SC Paderborn;160000;160000;-1;;0;Halten;6;Niedrig;11.06.2020;fit;18;0;0
+2020061132632;32632;Raphaël Guerreiro;Mittelfeld;Borussia Dortmund;16380000;16000000;149;;8;Halten;25;Niedrig;11.06.2020;fit;2;7;0
+2020061132957;32957;Mateta;Stürmer;1. FSV Mainz 05;3470000;3480000;15;;0;Halten;14;Niedrig;11.06.2020;fit;15;0;0
+2020061132155;32155;Demirbay;Mittelfeld;Bayer 04 Leverkusen;10420000;10440000;88;;2;Halten;20;Niedrig;11.06.2020;fit;5;1;0
+2020061131589;31589;Szalai;Stürmer;1. FSV Mainz 05;350000;350000;36;;0;Halten;23;Niedrig;11.06.2020;fit;15;0;0
+2020061133184;33184;T. Becker;Abwehr;FC Schalke 04;200000;200000;5;;0;Halten;2;Niedrig;11.06.2020;;10;0;0
+2020061133055;33055;Collins;Abwehr;SC Paderborn;640000;650000;57;;2;Halten;26;Mittel;11.06.2020;;18;1;0
+2020061132922;32922;Bennetts;Mittelfeld;Borussia M'gladbach;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;injured/suspended;4;0;0
+2020061131535;31535;Johnson;Mittelfeld;Borussia M'gladbach;180000;180000;6;;0;Halten;4;Hoch;11.06.2020;fit;4;0;0
+2020061131824;31824;M. Zimmermann;Abwehr;Fortuna Düsseldorf;810000;830000;54;;2;Halten;30;Niedrig;11.06.2020;fit;16;2;0
+2020061133144;33144;Cheon;Stürmer;FC Augsburg;170000;170000;0;;0;Halten;0;Niedrig;11.06.2020;;13;0;0
+2020061132806;32806;Sergio Córdova;Stürmer;FC Augsburg;680000;670000;29;;0;Halten;13;Hoch;11.06.2020;fit;13;0;0
+2020061131910;31910;Ginter;Abwehr;Borussia M'gladbach;4550000;4610000;85;;3;Halten;27;Niedrig;11.06.2020;fit;4;1;0
+2020061132230;32230;Schöpf;Mittelfeld;FC Schalke 04;450000;450000;1;;1;Halten;17;Hoch;11.06.2020;;10;0;0
+2020061130755;30755;Neuer;Torhüter;FC Bayern München;3680000;3720000;91;;2;Halten;30;Niedrig;11.06.2020;fit;1;0;0
+2020061131216;31216;Ulreich;Torhüter;FC Bayern München;180000;180000;0;;0;Halten;0;Niedrig;11.06.2020;fit;1;0;0
+2020061130600;30600;Tschauner;Torhüter;RB Leipzig;160000;160000;0;;0;Halten;0;Niedrig;11.06.2020;fit;3;0;0
+2020061131584;31584;Oczipka;Abwehr;FC Schalke 04;1950000;1990000;84;;2;Halten;30;Niedrig;11.06.2020;fit;10;0;0
+2020061131426;31426;Toprak;Abwehr;SV Werder Bremen;420000;420000;16;;0;Halten;10;Hoch;11.06.2020;fit;17;0;0
+2020061132890;32890;Asta;Abwehr;FC Augsburg;170000;170000;0;;0;Verkaufen;0;Hoch;11.06.2020;;13;0;0
+2020061132690;32690;Dragović;Abwehr;Bayer 04 Leverkusen;880000;890000;13;;0;Halten;12;Niedrig;11.06.2020;fit;5;0;0
