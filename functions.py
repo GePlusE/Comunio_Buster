@@ -98,7 +98,7 @@ def getBaseData(playerID):
 # //Step B2
 def saveDataToFactCsv(dataset):
     # //Define list
-    playerID = int(dataset[14][1])
+    playerID = int(dataset[13][1])
     name = dataset[0][1]
     position = dataset[1][1]
     club = dataset[2][1]
@@ -108,22 +108,22 @@ def saveDataToFactCsv(dataset):
         totalPoints = 0
     else:
         totalPoints = int(dataset[5][1])
-    pointVolatility = dataset[6][1]
-    if dataset[7][1] == "N/A":
+    pointVolatility = None
+    if dataset[6][1] == "N/A":
         lastPoints = 0
     else:
-        lastPoints = int(dataset[7][1])
-    suggestion = dataset[8][1]
-    ratedGames = int(dataset[12][1])
-    injuryRate = dataset[13][1]
-    injuryStatus = dataset[15][1]
-    clubRank = dataset[16][1]
+        lastPoints = int(dataset[6][1])
+    suggestion = dataset[7][1]
+    ratedGames = int(dataset[11][1])
+    injuryRate = dataset[12][1]
+    injuryStatus = dataset[14][1]
+    clubRank = dataset[15][1]
     saveDate = date.today().strftime("%d.%m.%Y")
     ID = str(date.today().strftime("%Y%m%d")) + str(
         playerID
     )  # //ID needed for InjuryData Match
-    dreamTeam = dataset[17][1]
-    favTeam = dataset[18][1]
+    dreamTeam = dataset[16][1]
+    favTeam = dataset[17][1]
 
     # //Write list to csv
     with open(factPlayerCSV, "a") as file:
@@ -266,4 +266,4 @@ def mainFunc():
     print("++++ Update Data & write to fact_Player.csv ++++")
     getMultipleFactData()
     t1 = time.time()
-    # print("++++ Load done!" + f"Load took {round(t1 - t0, 2)} seconds ++++")
+    print("++++ Load done!" + f"Load took {round(t1 - t0, 2)} seconds ++++")
