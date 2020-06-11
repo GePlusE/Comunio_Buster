@@ -22,7 +22,6 @@ from bs4 import BeautifulSoup
 4. Implement ML for forecasting player Value
 """
 
-
 # //Create path for csv file -> necessary to run via daily autorun
 filePath1 = os.path.dirname(os.path.realpath(__file__))
 factPlayerCSV = os.path.join(filePath1, "fact_Player.csv")
@@ -91,39 +90,40 @@ def getBaseData(playerID):
     except:
         data.append(["CountFavTeam", None])
 
-    saveDataToFactCsv(data)
+    # //Translate data into dictionary
+    dictionary = {i[0]: i[-1] for i in data}
+
+    saveDataToFactCsv(dictionary)
     time.sleep(10)
 
 
 # //Step B2
 def saveDataToFactCsv(dataset):
     # //Define list
-    playerID = int(dataset[13][1])
-    name = dataset[0][1]
-    position = dataset[1][1]
-    club = dataset[2][1]
-    value = int(dataset[3][1].replace(".", ""))
-    prognosis = int(dataset[4][1].replace(".", ""))
-    if dataset[5][1] == "N/A":
+    playerID = int(dataset.get("PlayerID"))
+    name = dataset.get("Name")
+    position = dataset.get("Position")
+    club = dataset.get("Verein")
+    value = int(dataset.get("Marktwert").replace(".", ""))
+    prognosis = int(dataset.get("Prognose1").replace(".", ""))
+    if dataset.get("Gesamtpunkte") == "N/A":
         totalPoints = 0
     else:
-        totalPoints = int(dataset[5][1])
+        totalPoints = int(dataset.get("Gesamtpunkte"))
     pointVolatility = None
-    if dataset[6][1] == "N/A":
+    if dataset.get("Punkte am letzten Spieltag") == "N/A":
         lastPoints = 0
     else:
-        lastPoints = int(dataset[6][1])
-    suggestion = dataset[7][1]
-    ratedGames = int(dataset[11][1])
-    injuryRate = dataset[12][1]
-    injuryStatus = dataset[14][1]
-    clubRank = dataset[15][1]
+        lastPoints = int(dataset.get("Punkte am letzten Spieltag"))
+    suggestion = dataset.get("Empfehlung")
+    ratedGames = int(dataset.get("Bewertete Spiele"))
+    injuryRate = dataset.get("Verletzungsanfälligkeit")
+    injuryStatus = dataset.get("injuryStatus")
+    clubRank = dataset.get("clubRank")
     saveDate = date.today().strftime("%d.%m.%Y")
-    ID = str(date.today().strftime("%Y%m%d")) + str(
-        playerID
-    )  # //ID needed for InjuryData Match
-    dreamTeam = dataset[16][1]
-    favTeam = dataset[17][1]
+    ID = str(date.today().strftime("%Y%m%d")) + str(playerID)
+    dreamTeam = dataset.get("CountDreTeam")
+    favTeam = dataset.get("CountFavTeam")
 
     # //Write list to csv
     with open(factPlayerCSV, "a") as file:
