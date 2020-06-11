@@ -6,6 +6,8 @@ This project tries to get more information regarding the football players and th
 3. Step: analyse the date via panda & numpy
 4. Step: build an interface with several stats 
 
+---
+
 ### Future goals:
 - build a scraper that automatically collects the data from all players in the league.
     Goal: Show transfers inkl. win/loss of value
