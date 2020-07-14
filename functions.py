@@ -253,11 +253,19 @@ def getClubRank():
     return dict
 
 
+# //Row Count
+def rowCount(filename):
+    with open(filename) as f:
+    count = sum(1 for line in f)
+    return count
+
 # //Final Step
 def mainFunc():
     t0 = time.time()
+    count0 = rowCount(factPlayerCSV)
 
     print("++++ Update Data & write to fact_Player.csv ++++")
     getMultipleFactData()
     t1 = time.time()
-    print("++++ Load done!" + f"Load took {round(t1 - t0, 2)} seconds ++++")
+    count1 = rowCount(factPlayerCSV)
+    print("++++ Load done!" + f"Load took {round(t1 - t0, 2)} seconds and {count1 - count0}++++")
