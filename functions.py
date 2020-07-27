@@ -32,6 +32,7 @@ def getPlayerIDs():
     options = soup.find("select", {"name": "list1"}).find_all("option")
     id = set(value.get("value") for value in options)
     id.remove(None)
+    print(len(id))
     return id
 
 
@@ -273,4 +274,3 @@ def mainFunc():
         "++++ Load done! "
         + f"Load took {round(t1 - t0, 2)} seconds and {count1 - count0} new entries were created ++++"
     )
-
