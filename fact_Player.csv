@@ -32944,3 +32944,326 @@ ID;PlayerID;Name;Position;Club;PlayerValue;Prognosis;TotalPoints;PointVolatility
 2020072730844;30844;Langer;Torhüter;FC Schalke 04;210000;210000;0;;0;Halten;0;Niedrig;27.07.2020;fit;12;0;0
 2020072732873;32873;Rashica;Stürmer;SV Werder Bremen;13190000;13300000;121;;10;Halten;0;Mittel;27.07.2020;fit;16;0;0
 2020072732526;32526;Stenzel;Abwehr;VfB Stuttgart;2560000;2590000;0;;6;Halten;0;Niedrig;27.07.2020;fit;;0;0
+2020072732310;32310;Haberer;Mittelfeld;SC Freiburg;2120000;2140000;55;;0;Halten;0;Hoch;27.07.2020;fit;8;1;0
+2020072733038;33038;N. Schlotterbeck;Abwehr;SC Freiburg;550000;550000;15;;0;Halten;0;Niedrig;27.07.2020;fit;8;0;0
+2020072732229;32229;Selke;Stürmer;SV Werder Bremen;2470000;2400000;44;;0;Halten;0;Niedrig;27.07.2020;fit;16;0;0
+2020072731844;31844;J. Bruma;Abwehr;VfL Wolfsburg;820000;810000;39;;0;Halten;0;Mittel;27.07.2020;fit;7;0;0
+2020072732780;32780;Tolisso;Mittelfeld;FC Bayern München;4910000;4980000;40;;0;Halten;0;Hoch;27.07.2020;injured/suspended;1;0;0
+2020072731941;31941;Grün;Torhüter;Borussia M'gladbach;180000;180000;0;;0;Halten;0;Niedrig;27.07.2020;injured/suspended;4;0;0
+2020072733053;33053;Katterbach;Abwehr;1. FC Köln;1750000;1730000;20;;1;Halten;0;Mittel;27.07.2020;fit;14;0;0
+2020072733170;33170;Mercan;Mittelfeld;FC Schalke 04;260000;260000;-6;;0;Halten;0;Niedrig;27.07.2020;;12;0;0
+2020072733143;33143;Suchý;Abwehr;FC Augsburg;430000;440000;5;;-1;Halten;0;Niedrig;27.07.2020;fit;15;0;0
+2020072733144;33144;Cheon;Stürmer;FC Augsburg;200000;200000;0;;0;Halten;0;Niedrig;27.07.2020;;15;0;0
+2020072733019;33019;Kutucu;Stürmer;FC Schalke 04;2430000;2480000;43;;1;Halten;0;Mittel;27.07.2020;;12;0;0
+2020072732187;32187;Goretzka;Mittelfeld;FC Bayern München;15450000;15210000;118;;5;Halten;0;Niedrig;27.07.2020;fit;1;5;0
+2020072732993;32993;Gürleyen;Abwehr;1. FSV Mainz 05;160000;160000;0;;0;Halten;0;Niedrig;27.07.2020;fit;13;0;0
+2020072731537;31537;Didavi;Mittelfeld;VfB Stuttgart;4460000;4440000;0;;4;Halten;0;Niedrig;27.07.2020;injured/suspended;;0;0
+2020072733260;33260;Moukoko;Stürmer;Borussia Dortmund;8060000;8690000;0;;0;Kaufen;0;Niedrig;27.07.2020;;2;0;0
+2020072732707;32707;Barkok;Mittelfeld;Eintracht Frankfurt;430000;430000;0;;0;Halten;0;Mittel;27.07.2020;fit;9;0;0
+2020072733213;33213;Voloder;Abwehr;1. FC Köln;500000;500000;0;;0;Halten;0;Niedrig;27.07.2020;fit;14;0;0
+2020072732316;32316;Rieder;Abwehr;FC Augsburg;260000;260000;0;;0;N/A;0;Niedrig;27.07.2020;;15;0;0
+2020072733027;33027;Lucas Ribeiro;Abwehr;TSG Hoffenheim;570000;570000;8;;0;Halten;0;Niedrig;27.07.2020;injured/suspended;;1;0
+2020072732071;32071;Grifo;Mittelfeld;SC Freiburg;7500000;7600000;97;;8;Halten;0;Mittel;27.07.2020;injured/suspended;8;2;0
+2020072733221;33221;J. Hofmann;Mittelfeld;FC Schalke 04;170000;170000;0;;0;Halten;0;Niedrig;27.07.2020;fit;12;0;0
+2020072732632;32632;Raphaël Guerreiro;Mittelfeld;Borussia Dortmund;13740000;13650000;162;;3;Halten;0;Niedrig;27.07.2020;fit;2;0;0
+2020072733243;33243;Mola;Abwehr;VfB Stuttgart;870000;860000;0;;0;Halten;0;Niedrig;27.07.2020;fit;;0;0
+2020072733022;33022;T. Adams;Mittelfeld;RB Leipzig;3150000;3130000;30;;1;Halten;0;Mittel;27.07.2020;fit;3;0;0
+2020072731589;31589;Szalai;Stürmer;1. FSV Mainz 05;740000;740000;38;;0;Halten;0;Niedrig;27.07.2020;fit;13;0;0
+2020072732870;32870;Koziello;Mittelfeld;1. FC Köln;320000;320000;0;;0;Halten;0;Niedrig;27.07.2020;injured/suspended;14;0;0
+2020072733047;33047;Straudi;Mittelfeld;SV Werder Bremen;240000;240000;0;;0;Halten;0;Niedrig;27.07.2020;;16;0;0
+2020072733257;33257;L. Grill;Torhüter;Bayer 04 Leverkusen;250000;250000;0;;0;Halten;0;Niedrig;27.07.2020;fit;5;0;0
+2020072731413;31413;Morávek;Mittelfeld;FC Augsburg;270000;270000;14;;0;Halten;0;Hoch;27.07.2020;;15;0;0
+2020072732739;32739;McKennie;Mittelfeld;FC Schalke 04;5630000;5660000;80;;6;Halten;0;Mittel;27.07.2020;fit;12;1;0
+2020072733134;33134;Pedersen;Abwehr;FC Augsburg;170000;170000;2;;0;Halten;0;Niedrig;27.07.2020;injured/suspended;15;0;0
+2020072732668;32668;Duda;Mittelfeld;Hertha BSC;3560000;3560000;13;;0;Halten;0;Niedrig;27.07.2020;;10;0;0
+2020072733292;33292;Osabutey;Stürmer;SV Werder Bremen;240000;240000;0;;0;Halten;0;Niedrig;27.07.2020;;16;0;0
+2020072732278;32278;Hector;Mittelfeld;1. FC Köln;6300000;6280000;103;;0;Halten;0;Mittel;27.07.2020;fit;14;3;0
+2020072733159;33159;T. Schreiber;Torhüter;RB Leipzig;160000;160000;0;;0;Halten;0;Niedrig;27.07.2020;fit;3;0;0
+2020072732263;32263;P. Max;Abwehr;FC Augsburg;9690000;9680000;152;;1;Halten;0;Mittel;27.07.2020;fit;15;0;0
+2020072733045;33045;Daferner;Stürmer;SC Freiburg;160000;160000;0;;0;Halten;0;Niedrig;27.07.2020;fit;8;0;0
+2020072733237;33237;Hornung;Torhüter;VfB Stuttgart;160000;160000;0;;0;Halten;0;Niedrig;27.07.2020;;;0;0
+2020072733075;33075;H. Wolf;Mittelfeld;Borussia M'gladbach;5280000;5310000;0;;0;Halten;0;Mittel;27.07.2020;fit;4;0;0
+2020072731742;31742;Bičakčić;Abwehr;TSG Hoffenheim;2130000;2120000;55;;2;Halten;0;Niedrig;27.07.2020;injured/suspended;;2;0
+2020072732677;32677;S. Özcan;Mittelfeld;1. FC Köln;850000;860000;0;;0;Halten;0;Niedrig;27.07.2020;;14;0;0
+2020072733145;33145;Malone;Stürmer;FC Augsburg;180000;180000;0;;0;Halten;0;Niedrig;27.07.2020;;15;0;0
+2020072733136;33136;Kwon;Stürmer;SC Freiburg;2310000;2320000;55;;2;Halten;0;Mittel;27.07.2020;injured/suspended;8;0;0
+2020072732525;32525;Klünter;Abwehr;Hertha BSC;1280000;1300000;30;;0;Halten;0;Niedrig;27.07.2020;fit;10;0;0
+2020072733239;33239;Mack;Abwehr;VfB Stuttgart;440000;440000;0;;0;Halten;0;Niedrig;27.07.2020;fit;;0;0
+2020072733102;33102;Abdullahi;Stürmer;1.FC Union Berlin;330000;330000;11;;7;Halten;0;Mittel;27.07.2020;fit;;0;0
+2020072732960;32960;Lucas Torró;Mittelfeld;Eintracht Frankfurt;670000;670000;7;;0;Halten;0;Hoch;27.07.2020;;9;0;0
+2020072732923;32923;Dilrosun;Stürmer;Hertha BSC;3470000;3490000;63;;0;Halten;0;Mittel;27.07.2020;;10;0;0
+2020072732699;32699;Tisserand;Abwehr;VfL Wolfsburg;1360000;1360000;30;;0;Halten;0;Mittel;27.07.2020;fit;7;1;0
+2020072732950;32950;A. Poulsen;Abwehr;Borussia M'gladbach;180000;180000;0;;0;Halten;0;Niedrig;27.07.2020;fit;4;0;0
+2020072732922;32922;Bennetts;Mittelfeld;Borussia M'gladbach;230000;230000;0;;0;Halten;0;Niedrig;27.07.2020;injured/suspended;4;0;0
+2020072732916;32916;Paulinho;Mittelfeld;Bayer 04 Leverkusen;2140000;2080000;46;;0;Halten;0;Hoch;27.07.2020;fit;5;1;0
+2020072733168;33168;Samassékou;Mittelfeld;TSG Hoffenheim;3180000;3180000;39;;5;Halten;0;Mittel;27.07.2020;fit;;0;0
+2020072732783;32783;Arp;Stürmer;FC Bayern München;830000;830000;0;;0;Halten;0;Mittel;27.07.2020;fit;1;0;0
+2020072732417;32417;Kath;Mittelfeld;SC Freiburg;380000;380000;0;;0;Halten;0;Hoch;27.07.2020;injured/suspended;8;0;0
+2020072733112;33112;J. Meier;Abwehr;1. FSV Mainz 05;180000;180000;0;;0;Halten;0;Niedrig;27.07.2020;injured/suspended;13;0;0
+2020072733127;33127;Vargas;Mittelfeld;FC Augsburg;3720000;3710000;61;;5;Halten;0;Niedrig;27.07.2020;fit;15;3;0
+2020072733190;33190;Haaland;Stürmer;Borussia Dortmund;24390000;24110000;104;;1;Halten;0;Mittel;27.07.2020;;2;0;0
+2020072733100;33100;S. Andersson;Stürmer;1.FC Union Berlin;6730000;6770000;131;;0;Halten;0;Mittel;27.07.2020;fit;;2;0
+2020072733220;33220;Bozdoğan;Mittelfeld;FC Schalke 04;1350000;1380000;-2;;-1;Halten;0;Niedrig;27.07.2020;fit;12;0;0
+2020072731740;31740;Plattenhardt;Abwehr;Hertha BSC;3710000;3680000;54;;0;Halten;0;Mittel;27.07.2020;injured/suspended;10;0;0
+2020072732508;32508;Hradecky;Torhüter;Bayer 04 Leverkusen;4060000;4040000;102;;5;Halten;0;Niedrig;27.07.2020;fit;5;2;0
+2020072731958;31958;Gregoritsch;Stürmer;FC Augsburg;3340000;3320000;38;;0;Halten;0;Niedrig;27.07.2020;fit;15;0;0
+2020072731392;31392;Latza;Mittelfeld;1. FSV Mainz 05;1290000;1320000;32;;2;Halten;0;Mittel;27.07.2020;injured/suspended;13;0;0
+2020072732305;32305;Wendell;Abwehr;Bayer 04 Leverkusen;3940000;3960000;70;;0;Halten;0;Niedrig;27.07.2020;fit;5;0;0
+2020072732162;32162;Akpoguma;Abwehr;TSG Hoffenheim;790000;790000;27;;0;Halten;0;Mittel;27.07.2020;injured/suspended;;0;0
+2020072732373;32373;Guilavogui;Mittelfeld;VfL Wolfsburg;3140000;3110000;62;;-8;Halten;0;Hoch;27.07.2020;injured/suspended;7;0;0
+2020072733114;33114;Ehizibue;Abwehr;1. FC Köln;2180000;2160000;56;;-1;Halten;0;Niedrig;27.07.2020;fit;14;0;0
+2020072731344;31344;Schmelzer;Abwehr;Borussia Dortmund;620000;620000;18;;0;Halten;0;Mittel;27.07.2020;fit;2;1;0
+2020072732206;32206;Waldschmidt;Stürmer;SC Freiburg;7030000;7130000;74;;15;Halten;0;Mittel;27.07.2020;fit;8;0;0
+2020072733157;33157;Skhiri;Mittelfeld;1. FC Köln;4130000;4140000;85;;-2;Halten;0;Niedrig;27.07.2020;fit;14;1;0
+2020072733290;33290;Mina;Stürmer;SV Werder Bremen;500000;510000;0;;0;Halten;0;Niedrig;27.07.2020;;16;0;0
+2020072732272;32272;L. Sané;Stürmer;FC Bayern München;27620000;26420000;0;;0;Halten;0;Niedrig;27.07.2020;fit;1;0;0
+2020072732342;32342;Hazard;Stürmer;Borussia Dortmund;14260000;14080000;151;;3;Halten;0;Niedrig;27.07.2020;fit;2;0;0
+2020072731837;31837;Klement;Mittelfeld;VfB Stuttgart;710000;710000;0;;0;Halten;0;Niedrig;27.07.2020;fit;;0;0
+2020072732171;32171;Framberger;Abwehr;FC Augsburg;990000;990000;36;;0;Halten;0;Mittel;27.07.2020;injured/suspended;15;0;0
+2020072732725;32725;Bailey;Stürmer;Bayer 04 Leverkusen;6840000;6840000;64;;0;Halten;0;Niedrig;27.07.2020;fit;5;0;0
+2020072730675;30675;Castro;Mittelfeld;VfB Stuttgart;3060000;3020000;0;;2;Halten;0;Niedrig;27.07.2020;fit;;0;0
+2020072733303;33303;Klauss;Stürmer;TSG Hoffenheim;2450000;2600000;0;;0;Halten;0;Niedrig;27.07.2020;;;0;0
+2020072733151;33151;Nkunku;Mittelfeld;RB Leipzig;12640000;12740000;145;;-1;Halten;0;Niedrig;27.07.2020;fit;3;0;1
+2020072732654;32654;Nicolas;Torhüter;1.FC Union Berlin;610000;620000;-2;;0;Halten;0;Hoch;27.07.2020;fit;;0;0
+2020072732943;32943;Köpke;Stürmer;Hertha BSC;200000;200000;-3;;0;Halten;0;Niedrig;27.07.2020;fit;10;0;0
+2020072732801;32801;Uduokhai;Abwehr;FC Augsburg;3440000;3440000;69;;4;Halten;0;Niedrig;27.07.2020;fit;15;0;0
+2020072733174;33174;Eyibil;Mittelfeld;1. FSV Mainz 05;190000;190000;0;;0;Halten;0;Niedrig;27.07.2020;fit;13;0;0
+2020072732964;32964;Fein;Mittelfeld;FC Bayern München;1690000;1710000;0;;0;Halten;0;Niedrig;27.07.2020;injured/suspended;1;0;0
+2020072732862;32862;Dräger;Abwehr;SC Freiburg;410000;430000;11;;9;Halten;0;Mittel;27.07.2020;fit;8;1;0
+2020072731779;31779;N. Schulz;Abwehr;Borussia Dortmund;2970000;2920000;22;;2;Halten;0;Mittel;27.07.2020;fit;2;1;0
+2020072731469;31469;Luthe;Torhüter;FC Augsburg;820000;820000;25;;0;Halten;0;Niedrig;27.07.2020;;15;0;0
+2020072732980;32980;Beyer;Abwehr;Borussia M'gladbach;1380000;1430000;3;;0;Halten;0;Niedrig;27.07.2020;;4;0;0
+2020072732761;32761;Villalba;Stürmer;Borussia M'gladbach;160000;160000;0;;0;Halten;0;Niedrig;27.07.2020;injured/suspended;4;0;0
+2020072731709;31709;Uth;Stürmer;FC Schalke 04;5950000;5920000;84;;1;Halten;0;Mittel;27.07.2020;fit;12;0;0
+2020072733261;33261;Nianzou;Abwehr;FC Bayern München;9480000;9470000;0;;0;Halten;0;Niedrig;27.07.2020;fit;1;0;0
+2020072732492;32492;Prömel;Mittelfeld;1.FC Union Berlin;630000;620000;16;;2;Halten;0;Mittel;27.07.2020;fit;;0;0
+2020072732871;32871;Ćavar;Mittelfeld;Eintracht Frankfurt;160000;160000;0;;0;Halten;0;Niedrig;27.07.2020;fit;9;0;0
+2020072733140;33140;Schubert;Torhüter;FC Schalke 04;1180000;1160000;20;;0;Halten;0;Mittel;27.07.2020;fit;12;0;0
+2020072732602;32602;Abrashi;Mittelfeld;SC Freiburg;560000;560000;18;;1;Halten;0;Hoch;27.07.2020;injured/suspended;8;0;0
+2020072733152;33152;Thuram;Stürmer;Borussia M'gladbach;11700000;11550000;147;;0;Halten;0;Hoch;27.07.2020;fit;4;1;0
+2020072731611;31611;Alaba;Abwehr;FC Bayern München;11730000;11680000;122;;3;Halten;0;Niedrig;27.07.2020;fit;1;0;4
+2020072732731;32731;Burnić;Mittelfeld;Borussia Dortmund;260000;260000;0;;0;Halten;0;Niedrig;27.07.2020;fit;2;0;0
+2020072732762;32762;Cuisance;Mittelfeld;FC Bayern München;3700000;3730000;21;;11;Halten;0;Mittel;27.07.2020;fit;1;1;0
+2020072731910;31910;Ginter;Abwehr;Borussia M'gladbach;7400000;7330000;101;;2;Halten;0;Niedrig;27.07.2020;fit;4;1;0
+2020072733269;33269;L. Horn;Mittelfeld;VfL Wolfsburg;320000;320000;0;;0;Halten;0;Niedrig;27.07.2020;fit;7;0;0
+2020072733218;33218;Bogarde;Abwehr;TSG Hoffenheim;740000;740000;3;;0;Halten;0;Niedrig;27.07.2020;fit;;0;0
+2020072732806;32806;Sergio Córdova;Stürmer;FC Augsburg;630000;650000;29;;0;Halten;0;Hoch;27.07.2020;fit;15;0;0
+2020072733193;33193;Woltemade;Stürmer;SV Werder Bremen;450000;450000;3;;0;Halten;0;Niedrig;27.07.2020;;16;0;0
+2020072733180;33180;André Silva;Stürmer;Eintracht Frankfurt;12230000;12180000;120;;6;Halten;0;Niedrig;27.07.2020;fit;9;2;0
+2020072733262;33262;Klatte;Torhüter;Hertha BSC;160000;160000;0;;0;Halten;0;Niedrig;27.07.2020;fit;10;0;0
+2020072732817;32817;Rexhbecaj;Mittelfeld;1. FC Köln;1500000;1500000;28;;0;Halten;0;Mittel;27.07.2020;fit;14;0;0
+2020072732991;32991;Witsel;Mittelfeld;Borussia Dortmund;12770000;12740000;117;;3;Halten;0;Mittel;27.07.2020;fit;2;0;6
+2020072732745;32745;Kaminski;Abwehr;VfB Stuttgart;680000;690000;0;;0;Halten;0;Niedrig;27.07.2020;fit;;0;0
+2020072733267;33267;Tousart;Mittelfeld;Hertha BSC;9620000;9570000;0;;0;Halten;0;Niedrig;27.07.2020;fit;10;0;0
+2020072731105;31105;Piszczek;Abwehr;Borussia Dortmund;5060000;5050000;95;;-1;Halten;0;Niedrig;27.07.2020;injured/suspended;2;1;0
+2020072732606;32606;Brekalo;Stürmer;VfL Wolfsburg;4490000;4520000;83;;2;Halten;0;Niedrig;27.07.2020;fit;7;0;0
+2020072732057;32057;Gießelmann;Abwehr;1.FC Union Berlin;2430000;2460000;54;;2;Halten;0;Niedrig;27.07.2020;fit;;2;0
+2020072732955;32955;Weghorst;Stürmer;VfL Wolfsburg;13730000;13540000;160;;2;Halten;0;Mittel;27.07.2020;fit;7;2;0
+2020072733081;33081;Akono;Stürmer;1. FSV Mainz 05;290000;290000;0;;0;Halten;0;Niedrig;27.07.2020;;13;0;0
+2020072732241;32241;Jarstein;Torhüter;Hertha BSC;1990000;2000000;64;;0;Halten;0;Niedrig;27.07.2020;fit;10;2;0
+2020072732178;32178;Mwene;Abwehr;1. FSV Mainz 05;480000;480000;10;;0;Halten;0;Niedrig;27.07.2020;injured/suspended;13;0;0
+2020072732621;32621;Felipe Pires;Mittelfeld;TSG Hoffenheim;190000;190000;0;;0;Halten;0;Niedrig;27.07.2020;fit;;0;0
+2020072732590;32590;Sabitzer;Mittelfeld;RB Leipzig;13970000;13990000;166;;0;Halten;0;Mittel;27.07.2020;fit;3;0;31
+2020072732518;32518;Coman;Stürmer;FC Bayern München;11600000;11570000;88;;11;Halten;0;Mittel;27.07.2020;fit;1;0;0
+2020072733125;33125;Sinkgraven;Abwehr;Bayer 04 Leverkusen;1770000;1780000;30;;4;Halten;0;Hoch;27.07.2020;fit;5;0;0
+2020072733083;33083;Mbabu;Abwehr;VfL Wolfsburg;5450000;5430000;81;;-1;Halten;0;Mittel;27.07.2020;fit;7;3;0
+2020072732680;32680;Geiger;Mittelfeld;TSG Hoffenheim;2690000;2670000;43;;0;Halten;0;Mittel;27.07.2020;;;1;0
+2020072731762;31762;da Costa;Mittelfeld;Eintracht Frankfurt;3540000;3550000;57;;4;Halten;0;Niedrig;27.07.2020;fit;9;0;0
+2020072731882;31882;Heintz;Abwehr;SC Freiburg;4070000;4030000;81;;5;Halten;0;Niedrig;27.07.2020;fit;8;0;0
+2020072733200;33200;Dani Olmo;Mittelfeld;RB Leipzig;11290000;11230000;45;;2;Halten;0;Niedrig;27.07.2020;;3;1;0
+2020072732726;32726;Quaison;Stürmer;1. FSV Mainz 05;6650000;6630000;122;;0;Halten;0;Niedrig;27.07.2020;fit;13;2;0
+2020072732185;32185;Öztunali;Mittelfeld;1. FSV Mainz 05;2780000;2760000;76;;1;Halten;0;Niedrig;27.07.2020;fit;13;1;0
+2020072733093;33093;Maloney;Abwehr;1.FC Union Berlin;170000;170000;0;;0;N/A;0;Niedrig;27.07.2020;fit;;0;0
+2020072733051;33051;Schindler;Stürmer;1. FC Köln;500000;510000;15;;0;Halten;0;Niedrig;27.07.2020;injured/suspended;14;0;0
+2020072731671;31671;Rode;Mittelfeld;Eintracht Frankfurt;5240000;5300000;90;;10;Halten;0;Mittel;27.07.2020;fit;9;3;0
+2020072732651;32651;Omar Mascarell;Mittelfeld;FC Schalke 04;4920000;5000000;72;;0;Halten;0;Hoch;27.07.2020;fit;12;0;0
+2020072732236;32236;Brandt;Mittelfeld;Borussia Dortmund;14470000;14320000;134;;5;Halten;0;Mittel;27.07.2020;fit;2;0;1
+2020072732458;32458;Körber;Torhüter;Hertha BSC;430000;460000;0;;0;Halten;0;Niedrig;27.07.2020;;10;0;0
+2020072732992;32992;Barreiro;Mittelfeld;1. FSV Mainz 05;1260000;1260000;32;;0;Halten;0;Niedrig;27.07.2020;fit;13;0;0
+2020072732255;32255;Carlos Gruezo;Mittelfeld;FC Augsburg;990000;990000;16;;1;Halten;0;Niedrig;27.07.2020;fit;15;0;0
+2020072732472;32472;Elvedi;Abwehr;Borussia M'gladbach;6760000;6740000;106;;2;Halten;0;Niedrig;27.07.2020;fit;4;0;4
+2020072733185;33185;Thielmann;Stürmer;1. FC Köln;800000;810000;8;;1;Halten;0;Mittel;27.07.2020;;14;0;0
+2020072732556;32556;Passlack;Abwehr;Borussia Dortmund;450000;450000;0;;0;Halten;0;Niedrig;27.07.2020;fit;2;0;0
+2020072732150;32150;Stafylidis;Abwehr;TSG Hoffenheim;440000;440000;13;;0;Halten;0;Mittel;27.07.2020;fit;;1;0
+2020072732920;32920;Kopacz;Mittelfeld;VfB Stuttgart;220000;220000;0;;0;Halten;0;Niedrig;27.07.2020;injured/suspended;;0;0
+2020072732773;32773;Zagadou;Abwehr;Borussia Dortmund;6550000;6500000;63;;4;Halten;0;Hoch;27.07.2020;injured/suspended;2;1;0
+2020072731935;31935;Can;Abwehr;Borussia Dortmund;11170000;11080000;57;;0;Halten;0;Mittel;27.07.2020;;2;1;0
+2020072733183;33183;Jakobs;Mittelfeld;1. FC Köln;2260000;2290000;41;;1;Halten;0;Mittel;27.07.2020;;14;1;0
+2020072732656;32656;F. Müller;Torhüter;1. FSV Mainz 05;1420000;1390000;26;;1;Halten;0;Niedrig;27.07.2020;fit;13;0;0
+2020072733074;33074;Lucas Hernández;Abwehr;FC Bayern München;7050000;7070000;32;;2;Halten;0;Mittel;27.07.2020;injured/suspended;1;0;0
+2020072732290;32290;Nübel;Torhüter;FC Bayern München;1440000;1330000;44;;-2;Halten;0;Niedrig;27.07.2020;injured/suspended;1;1;0
+2020072733037;33037;Raschl;Mittelfeld;Borussia Dortmund;450000;450000;0;;0;Halten;0;Niedrig;27.07.2020;fit;2;0;0
+2020072733097;33097;Dietz;Mittelfeld;1.FC Union Berlin;160000;160000;0;;0;Halten;0;Niedrig;27.07.2020;fit;;0;0
+2020072732449;32449;Grillitsch;Mittelfeld;TSG Hoffenheim;5570000;5550000;95;;5;Halten;0;Mittel;27.07.2020;injured/suspended;;0;0
+2020072732842;32842;Bebou;Stürmer;TSG Hoffenheim;5970000;5990000;91;;6;Halten;0;Mittel;27.07.2020;injured/suspended;;1;0
+2020072732945;32945;Beijmo;Abwehr;SV Werder Bremen;160000;160000;0;;0;Halten;0;Niedrig;27.07.2020;fit;16;0;0
+2020072732073;32073;R. Khedira;Mittelfeld;FC Augsburg;1980000;1960000;52;;1;Halten;0;Niedrig;27.07.2020;fit;15;0;0
+2020072732122;32122;Süle;Abwehr;FC Bayern München;10980000;11150000;34;;0;Halten;0;Hoch;27.07.2020;fit;1;0;8
+2020072732426;32426;B. Hübner;Abwehr;TSG Hoffenheim;4050000;4010000;55;;1;Halten;0;Niedrig;27.07.2020;injured/suspended;;1;0
+2020072733295;33295;Liesegang;Torhüter;1. FSV Mainz 05;160000;160000;0;;0;Halten;0;Niedrig;27.07.2020;;13;0;0
+2020072732732;32732;Danso;Abwehr;FC Augsburg;2190000;2260000;0;;0;Halten;0;Niedrig;27.07.2020;fit;15;0;0
+2020072732120;32120;N. Stark;Abwehr;Hertha BSC;2710000;2710000;42;;-1;Halten;0;Mittel;27.07.2020;fit;10;1;0
+2020072731542;31542;Nordtveit;Abwehr;TSG Hoffenheim;1000000;1000000;23;;1;Halten;0;Hoch;27.07.2020;fit;;0;0
+2020072733187;33187;Zirkzee;Stürmer;FC Bayern München;3700000;3620000;33;;0;Halten;0;Mittel;27.07.2020;;1;0;0
+2020072733021;33021;Davies;Abwehr;FC Bayern München;14200000;14080000;133;;6;Halten;0;Niedrig;27.07.2020;fit;1;2;0
+2020072732306;32306;Sommer;Torhüter;Borussia M'gladbach;5500000;5510000;112;;1;Halten;0;Niedrig;27.07.2020;fit;4;0;22
+2020072731167;31167;Traoré;Mittelfeld;Borussia M'gladbach;1140000;1160000;5;;3;Halten;0;Niedrig;27.07.2020;;4;0;0
+2020072732572;32572;Sarenren-Bazee;Stürmer;FC Augsburg;1400000;1410000;12;;2;Halten;0;Niedrig;27.07.2020;;15;0;0
+2020072732863;32863;Teuchert;Stürmer;FC Schalke 04;320000;320000;0;;0;Halten;0;Niedrig;27.07.2020;fit;12;0;0
+2020072732966;32966;Niakhaté;Abwehr;1. FSV Mainz 05;3030000;3070000;70;;2;Halten;0;Niedrig;27.07.2020;fit;13;1;0
+2020072733195;33195;Pongračić;Abwehr;VfL Wolfsburg;4140000;4140000;26;;1;Halten;0;Niedrig;27.07.2020;;7;1;0
+2020072733165;33165;St. Juste;Abwehr;1. FSV Mainz 05;3330000;3330000;73;;2;Halten;0;Mittel;27.07.2020;fit;13;1;0
+2020072731764;31764;Bellarabi;Stürmer;Bayer 04 Leverkusen;4950000;4970000;79;;0;Halten;0;Mittel;27.07.2020;injured/suspended;5;0;0
+2020072732252;32252;Thommy;Mittelfeld;VfB Stuttgart;7410000;7350000;140;;0;Halten;0;Niedrig;27.07.2020;fit;;3;0
+2020072731669;31669;L. Sobiech;Abwehr;1. FC Köln;210000;210000;2;;0;Halten;0;Mittel;27.07.2020;injured/suspended;14;0;0
+2020072733266;33266;D. Gril;Torhüter;TSG Hoffenheim;160000;160000;0;;0;Halten;0;Niedrig;27.07.2020;;;0;0
+2020072732976;32976;D. Otto;Stürmer;TSG Hoffenheim;320000;320000;0;;0;Halten;0;Niedrig;27.07.2020;injured/suspended;;0;0
+2020072732575;32575;Gulácsi;Torhüter;RB Leipzig;4510000;4520000;98;;0;Halten;0;Niedrig;27.07.2020;fit;3;0;12
+2020072732509;32509;Mittelstädt;Abwehr;Hertha BSC;3290000;3270000;81;;0;Halten;0;Hoch;27.07.2020;fit;10;1;0
+2020072731249;31249;Risse;Mittelfeld;1. FC Köln;560000;560000;12;;0;Halten;0;Hoch;27.07.2020;fit;14;0;0
+2020072732953;32953;K. Schlotterbeck;Abwehr;SC Freiburg;3210000;3260000;69;;7;Halten;0;Niedrig;27.07.2020;fit;8;1;0
+2020072733164;33164;Bornauw;Abwehr;1. FC Köln;4420000;4390000;78;;-1;Halten;0;Mittel;27.07.2020;fit;14;0;0
+2020072733117;33117;E. Fernandes;Mittelfeld;1. FSV Mainz 05;830000;850000;33;;2;Halten;0;Mittel;27.07.2020;fit;13;0;0
+2020072732889;32889;Baku;Mittelfeld;1. FSV Mainz 05;4030000;4020000;74;;3;Halten;0;Niedrig;27.07.2020;injured/suspended;13;1;0
+2020072732957;32957;Mateta;Stürmer;1. FSV Mainz 05;5000000;5000000;31;;2;Halten;0;Niedrig;27.07.2020;fit;13;0;0
+2020072732956;32956;Jensen;Mittelfeld;FC Augsburg;350000;360000;9;;0;Halten;0;Niedrig;27.07.2020;fit;15;0;0
+2020072731243;31243;Stindl;Stürmer;Borussia M'gladbach;10550000;10420000;104;;4;Halten;0;Niedrig;27.07.2020;fit;4;0;0
+2020072732395;32395;Amiri;Mittelfeld;Bayer 04 Leverkusen;8070000;8140000;105;;8;Halten;0;Hoch;27.07.2020;fit;5;0;0
+2020072732897;32897;Löwen;Mittelfeld;FC Augsburg;1630000;1620000;37;;0;Halten;0;Niedrig;27.07.2020;fit;15;0;0
+2020072732544;32544;Onisiwo;Stürmer;1. FSV Mainz 05;4220000;4240000;93;;-1;Halten;0;Niedrig;27.07.2020;;13;0;0
+2020072732970;32970;Krahl;Torhüter;1. FC Köln;320000;320000;0;;0;Halten;0;Mittel;27.07.2020;injured/suspended;14;0;0
+2020072732786;32786;Posch;Abwehr;TSG Hoffenheim;3340000;3290000;65;;3;Halten;0;Mittel;27.07.2020;fit;;0;0
+2020072733254;33254;Pherai;Mittelfeld;Borussia Dortmund;1060000;1070000;0;;0;Halten;0;Niedrig;27.07.2020;fit;2;0;0
+2020072733082;33082;Joao Victor;Stürmer;VfL Wolfsburg;2360000;2360000;52;;0;Halten;0;Niedrig;27.07.2020;fit;7;0;0
+2020072733212;33212;Thiaw;Abwehr;FC Schalke 04;1320000;1310000;0;;-2;Halten;0;Niedrig;27.07.2020;fit;12;0;0
+2020072732933;32933;Sargent;Stürmer;SV Werder Bremen;3730000;3800000;70;;9;Halten;0;Niedrig;27.07.2020;fit;16;0;0
+2020072733128;33128;Lainer;Abwehr;Borussia M'gladbach;3710000;3680000;64;;4;Halten;0;Niedrig;27.07.2020;fit;4;1;0
+2020072731216;31216;Ulreich;Torhüter;FC Bayern München;1460000;1470000;2;;0;Halten;0;Niedrig;27.07.2020;fit;1;0;0
+2020072733219;33219;Batista Meier;Stürmer;FC Bayern München;2190000;2160000;-1;;0;Halten;0;Niedrig;27.07.2020;fit;1;0;0
+2020072732910;32910;Raman;Stürmer;FC Schalke 04;3910000;3900000;59;;1;Halten;0;Mittel;27.07.2020;fit;12;0;0
+2020072733124;33124;Ingvartsen;Stürmer;1.FC Union Berlin;2830000;2860000;71;;0;Halten;0;Niedrig;27.07.2020;fit;;0;0
+2020072732869;32869;Akanji;Abwehr;Borussia Dortmund;4450000;4430000;76;;0;Halten;0;Mittel;27.07.2020;injured/suspended;2;0;0
+2020072732562;32562;Veljković;Abwehr;SV Werder Bremen;1530000;1540000;34;;2;Halten;0;Mittel;27.07.2020;fit;16;0;0
+2020072733009;33009;Abass;Stürmer;1. FSV Mainz 05;190000;190000;0;;0;Halten;0;Niedrig;27.07.2020;fit;13;0;0
+2020072733088;33088;Czichos;Abwehr;1. FC Köln;1670000;1630000;49;;-6;Halten;0;Hoch;27.07.2020;fit;14;2;0
+2020072732840;32840;Lucas Alario;Stürmer;Bayer 04 Leverkusen;5450000;5270000;88;;0;Halten;0;Mittel;27.07.2020;fit;5;1;0
+2020072732710;32710;Torunarigha;Abwehr;Hertha BSC;5140000;5130000;72;;1;Halten;0;Niedrig;27.07.2020;;10;1;0
+2020072732954;32954;Kiprit;Stürmer;Hertha BSC;240000;240000;0;;0;Halten;0;Niedrig;27.07.2020;;10;0;0
+2020072732626;32626;Holtmann;Abwehr;1. FSV Mainz 05;320000;330000;16;;2;Halten;0;Mittel;27.07.2020;injured/suspended;13;0;0
+2020072731795;31795;Gogia;Mittelfeld;1.FC Union Berlin;280000;280000;7;;0;Halten;0;Hoch;27.07.2020;fit;;0;0
+2020072733259;33259;Meunier;Abwehr;Borussia Dortmund;11300000;11260000;0;;0;Halten;0;Niedrig;27.07.2020;injured/suspended;2;0;0
+2020072732065;32065;Javi Martínez;Mittelfeld;FC Bayern München;2110000;2080000;33;;0;Halten;0;Hoch;27.07.2020;fit;1;0;0
+2020072731610;31610;Wiedwald;Torhüter;Eintracht Frankfurt;270000;270000;1;;0;Halten;0;Niedrig;27.07.2020;fit;9;0;0
+2020072732977;32977;Baumgartner;Mittelfeld;TSG Hoffenheim;6010000;5980000;84;;2;Halten;0;Niedrig;27.07.2020;fit;;3;0
+2020072732703;32703;Havertz;Mittelfeld;Bayer 04 Leverkusen;12850000;12980000;144;;1;Halten;0;Mittel;27.07.2020;fit;5;0;0
+2020072732828;32828;João Queirós;Abwehr;1. FC Köln;160000;160000;0;;0;Halten;0;Niedrig;27.07.2020;fit;14;0;0
+2020072732944;32944;Müsel;Stürmer;Borussia M'gladbach;320000;320000;0;;0;Halten;0;Hoch;27.07.2020;;4;0;0
+2020072732493;32493;Mees;Stürmer;1.FC Union Berlin;300000;310000;14;;3;Halten;0;Hoch;27.07.2020;fit;;0;0
+2020072732461;32461;Henrichs;Abwehr;RB Leipzig;8140000;8130000;0;;0;Halten;0;Niedrig;27.07.2020;fit;3;0;0
+2020072732623;32623;J. Eggestein;Stürmer;SV Werder Bremen;1130000;1150000;16;;0;Halten;0;Niedrig;27.07.2020;;16;0;0
+2020072733139;33139;Bülter;Mittelfeld;1.FC Union Berlin;3370000;3340000;78;;-4;Halten;0;Niedrig;27.07.2020;fit;;2;0
+2020072733297;33297;Mustapha;Stürmer;1. FSV Mainz 05;180000;180000;0;;0;Halten;0;Niedrig;27.07.2020;;13;0;0
+2020072732591;32591;Y. Poulsen;Stürmer;RB Leipzig;9230000;9200000;78;;0;Halten;0;Hoch;27.07.2020;fit;3;2;0
+2020072732099;32099;Abraham;Abwehr;Eintracht Frankfurt;2660000;2640000;47;;3;Halten;0;Mittel;27.07.2020;injured/suspended;9;2;0
+2020072731839;31839;Ujah;Stürmer;1.FC Union Berlin;2190000;2250000;48;;12;Halten;0;Niedrig;27.07.2020;fit;;0;0
+2020072731916;31916;Füllkrug;Stürmer;SV Werder Bremen;7380000;7410000;47;;9;Halten;0;Hoch;27.07.2020;injured/suspended;16;0;0
+2020072733300;33300;Hwang;Stürmer;RB Leipzig;14100000;14480000;0;;0;Halten;0;Niedrig;27.07.2020;;3;0;0
+2020072732642;32642;Embolo;Stürmer;Borussia M'gladbach;9350000;9390000;82;;13;Halten;0;Mittel;27.07.2020;injured/suspended;4;1;0
+2020072732789;32789;Oxford;Abwehr;FC Augsburg;500000;510000;-2;;1;Halten;0;Niedrig;27.07.2020;fit;15;0;0
+2020072731848;31848;T. Horn;Torhüter;1. FC Köln;2230000;2180000;43;;-7;Halten;0;Niedrig;27.07.2020;fit;14;2;0
+2020072733026;33026;Kabak;Abwehr;FC Schalke 04;6500000;6480000;97;;1;Halten;0;Hoch;27.07.2020;fit;12;1;0
+2020072732941;32941;Skrzybski;Stürmer;FC Schalke 04;1640000;1660000;13;;1;Halten;0;Mittel;27.07.2020;injured/suspended;12;0;0
+2020072730687;30687;Gentner;Mittelfeld;1.FC Union Berlin;4060000;4080000;98;;13;Halten;0;Niedrig;27.07.2020;fit;;2;0
+2020072733244;33244;Al Ghaddioui;Stürmer;VfB Stuttgart;2050000;2040000;0;;0;Halten;0;Niedrig;27.07.2020;fit;;0;0
+2020072733023;33023;Haidara;Mittelfeld;RB Leipzig;2450000;2460000;38;;9;Halten;0;Niedrig;27.07.2020;injured/suspended;3;0;0
+2020072731220;31220;Hasebe;Abwehr;Eintracht Frankfurt;2220000;2200000;46;;0;Halten;0;Niedrig;27.07.2020;fit;9;0;0
+2020072732861;32861;Höler;Stürmer;SC Freiburg;6280000;6360000;120;;9;Halten;0;Niedrig;27.07.2020;fit;8;1;0
+2020072733001;33001;Boëtius;Mittelfeld;1. FSV Mainz 05;3990000;4050000;87;;0;Halten;0;Niedrig;27.07.2020;fit;13;4;0
+2020072731310;31310;Pentke;Torhüter;TSG Hoffenheim;260000;260000;23;;0;Halten;0;Niedrig;27.07.2020;fit;;1;0
+2020072733245;33245;T. Coulibaly;Stürmer;VfB Stuttgart;870000;840000;0;;0;Halten;0;Niedrig;27.07.2020;fit;;0;0
+2020072732628;32628;B. Schmitz;Abwehr;1. FC Köln;350000;350000;16;;0;Halten;0;Niedrig;27.07.2020;fit;14;0;0
+2020072732891;32891;Bredlow;Torhüter;VfB Stuttgart;1320000;1330000;0;;0;Halten;0;Niedrig;27.07.2020;fit;;0;0
+2020072732742;32742;Pavard;Abwehr;FC Bayern München;12290000;12300000;150;;2;Halten;0;Niedrig;27.07.2020;injured/suspended;1;0;16
+2020072732527;32527;Serdar;Mittelfeld;FC Schalke 04;7780000;7680000;89;;0;Halten;0;Hoch;27.07.2020;injured/suspended;12;2;0
+2020072733141;33141;Ryerson;Mittelfeld;1.FC Union Berlin;270000;270000;9;;0;Halten;0;Hoch;27.07.2020;fit;;0;0
+2020072732963;32963;N'Dicka;Abwehr;Eintracht Frankfurt;2330000;2350000;39;;1;Halten;0;Niedrig;27.07.2020;fit;9;1;0
+2020072731519;31519;C. Groß;Abwehr;SV Werder Bremen;520000;520000;14;;0;Halten;0;Mittel;27.07.2020;fit;16;0;0
+2020072732638;32638;Kobel;Torhüter;TSG Hoffenheim;2450000;2480000;0;;0;Halten;0;Niedrig;27.07.2020;fit;;0;0
+2020072732884;32884;Sergio Gómez;Stürmer;Borussia Dortmund;400000;400000;0;;0;Halten;0;Niedrig;27.07.2020;;2;0;0
+2020072733137;33137;Mateu Morey;Abwehr;Borussia Dortmund;2050000;2050000;4;;1;Halten;0;Niedrig;27.07.2020;fit;2;0;0
+2020072732799;32799;Pavlenka;Torhüter;SV Werder Bremen;2850000;2790000;58;;1;Halten;0;Mittel;27.07.2020;fit;16;1;0
+2020072732641;32641;Bénes;Mittelfeld;Borussia M'gladbach;3770000;3790000;62;;0;Halten;0;Mittel;27.07.2020;;4;0;0
+2020072733049;33049;Schaub;Mittelfeld;1. FC Köln;700000;700000;27;;0;Halten;0;Niedrig;27.07.2020;injured/suspended;14;1;0
+2020072733181;33181;Tempelmann;Mittelfeld;SC Freiburg;210000;210000;2;;0;Halten;0;Hoch;27.07.2020;fit;8;0;0
+2020072733301;33301;Zalazar;Mittelfeld;Eintracht Frankfurt;160000;160000;0;;0;Halten;0;Niedrig;27.07.2020;;9;0;0
+2020072732378;32378;Zuber;Mittelfeld;TSG Hoffenheim;1730000;1730000;29;;3;Halten;0;Niedrig;27.07.2020;fit;;0;0
+2020072732486;32486;F. Sörensen;Abwehr;1. FC Köln;430000;430000;0;;0;Halten;0;Niedrig;27.07.2020;;14;0;0
+2020072733207;33207;Tapsoba;Abwehr;Bayer 04 Leverkusen;5530000;5460000;32;;3;Halten;0;Niedrig;27.07.2020;;5;0;0
+2020072732844;32844;Retsos;Abwehr;Bayer 04 Leverkusen;450000;450000;4;;0;Halten;0;Niedrig;27.07.2020;injured/suspended;5;0;0
+2020072733094;33094;C. Lenz;Abwehr;1.FC Union Berlin;2760000;2760000;81;;0;Halten;0;Hoch;27.07.2020;fit;;0;0
+2020072733186;33186;Singh;Mittelfeld;FC Bayern München;700000;700000;2;;0;Halten;0;Niedrig;27.07.2020;;1;0;0
+2020072731932;31932;Bittencourt;Stürmer;SV Werder Bremen;4340000;4360000;68;;0;Halten;0;Mittel;27.07.2020;fit;16;2;0
+2020072731612;31612;Kampl;Mittelfeld;RB Leipzig;7860000;7790000;48;;0;Halten;0;Hoch;27.07.2020;injured/suspended;3;0;2
+2020072732465;32465;Niederlechner;Stürmer;FC Augsburg;9260000;9220000;144;;0;Halten;0;Niedrig;27.07.2020;injured/suspended;15;0;0
+2020072732445;32445;Kimmich;Mittelfeld;FC Bayern München;19180000;19060000;229;;2;Halten;0;Niedrig;27.07.2020;fit;1;0;0
+2020072732967;32967;González;Stürmer;VfB Stuttgart;5430000;5420000;0;;2;Halten;0;Niedrig;27.07.2020;injured/suspended;;0;0
+2020072732512;32512;Charles Aránguiz;Mittelfeld;Bayer 04 Leverkusen;5870000;5880000;69;;3;Halten;0;Mittel;27.07.2020;injured/suspended;5;1;0
+2020072733308;33308;Mavropanos;Abwehr;VfB Stuttgart;2840000;2860000;0;;0;Halten;0;Niedrig;27.07.2020;;;0;0
+2020072732827;32827;Ailton;Abwehr;VfB Stuttgart;430000;430000;0;;0;Halten;0;Niedrig;27.07.2020;fit;;0;0
+2020072732589;32589;Forsberg;Mittelfeld;RB Leipzig;7200000;7210000;86;;3;Halten;0;Mittel;27.07.2020;injured/suspended;3;1;0
+2020072731586;31586;F. Götze;Abwehr;FC Augsburg;290000;290000;0;;0;Halten;0;Mittel;27.07.2020;fit;15;0;0
+2020072733202;33202;Piątek;Stürmer;Hertha BSC;7720000;7620000;43;;1;Halten;0;Niedrig;27.07.2020;;10;0;0
+2020072732165;32165;Salif Sané;Abwehr;FC Schalke 04;6340000;6350000;62;;0;Halten;0;Hoch;27.07.2020;fit;12;0;2
+2020072733028;33028;Matondo;Stürmer;FC Schalke 04;2150000;2190000;17;;1;Halten;0;Mittel;27.07.2020;;12;0;0
+2020072731454;31454;Reus;Stürmer;Borussia Dortmund;14320000;14140000;116;;0;Halten;0;Hoch;27.07.2020;injured/suspended;2;1;0
+2020072732948;32948;Burkardt;Stürmer;1. FSV Mainz 05;1410000;1390000;9;;3;Halten;0;Niedrig;27.07.2020;;13;0;0
+2020072730932;30932;Harnik;Stürmer;SV Werder Bremen;900000;900000;0;;0;Halten;0;Niedrig;27.07.2020;injured/suspended;16;0;0
+2020072732987;32987;Awoudja;Abwehr;VfB Stuttgart;200000;200000;0;;0;Halten;0;Hoch;27.07.2020;fit;;0;0
+2020072731596;31596;P. Herrmann;Stürmer;Borussia M'gladbach;6260000;6220000;101;;3;Halten;0;Niedrig;27.07.2020;fit;4;0;0
+2020072733106;33106;Boyata;Abwehr;Hertha BSC;7090000;7050000;118;;5;Halten;0;Mittel;27.07.2020;fit;10;4;0
+2020072731666;31666;Bell;Abwehr;1. FSV Mainz 05;190000;190000;0;;0;N/A;0;Hoch;27.07.2020;fit;13;0;0
+2020072733079;33079;Ihorst;Stürmer;SV Werder Bremen;250000;250000;1;;0;Halten;0;Niedrig;27.07.2020;;16;0;0
+2020072733012;33012;Leneis;Torhüter;FC Augsburg;160000;160000;0;;0;Halten;0;Niedrig;27.07.2020;;15;0;0
+2020072733255;33255;Josep Martínez;Torhüter;RB Leipzig;170000;170000;0;;0;Halten;0;Niedrig;27.07.2020;fit;3;0;0
+2020072733246;33246;Kalajdzic;Stürmer;VfB Stuttgart;1700000;1710000;0;;0;Halten;0;Niedrig;27.07.2020;injured/suspended;;0;0
+2020072731584;31584;Oczipka;Abwehr;FC Schalke 04;3910000;3950000;92;;3;Halten;0;Niedrig;27.07.2020;fit;12;0;0
+2020072733208;33208;Beier;Stürmer;TSG Hoffenheim;1300000;1310000;2;;0;Halten;0;Niedrig;27.07.2020;fit;;0;0
+2020072732782;32782;Rekik;Abwehr;Hertha BSC;1740000;1750000;41;;0;Halten;0;Hoch;27.07.2020;fit;10;1;0
+2020072732549;32549;Gouweleeuw;Abwehr;FC Augsburg;1910000;1930000;42;;2;Halten;0;Mittel;27.07.2020;injured/suspended;15;0;0
+2020072733040;33040;Boujellab;Mittelfeld;FC Schalke 04;1390000;1410000;12;;1;Halten;0;Mittel;27.07.2020;fit;12;0;0
+2020072732570;32570;J. Horn;Abwehr;1. FC Köln;220000;220000;0;;0;Halten;0;Niedrig;27.07.2020;injured/suspended;14;0;0
+2020072732607;32607;Pohjanpalo;Stürmer;Bayer 04 Leverkusen;1720000;1750000;0;;0;Halten;0;Niedrig;27.07.2020;injured/suspended;5;0;0
+2020072732928;32928;N. Thiede;Torhüter;SC Freiburg;260000;260000;2;;0;Halten;0;Niedrig;27.07.2020;;8;0;0
+2020072733123;33123;Joveljić;Stürmer;Eintracht Frankfurt;940000;940000;2;;0;Halten;0;Niedrig;27.07.2020;fit;9;0;0
+2020072732988;32988;Roussillon;Abwehr;VfL Wolfsburg;2930000;2900000;55;;-2;Halten;0;Mittel;27.07.2020;fit;7;0;0
+2020072732664;32664;Moisander;Abwehr;SV Werder Bremen;2730000;2780000;57;;5;Halten;0;Niedrig;27.07.2020;fit;16;0;0
+2020072732653;32653;Sow;Mittelfeld;Eintracht Frankfurt;3850000;3860000;76;;0;Halten;0;Niedrig;27.07.2020;fit;9;0;0
+2020072732942;32942;Mukiele;Abwehr;RB Leipzig;6350000;6300000;108;;3;Halten;0;Niedrig;27.07.2020;fit;3;2;0
+2020072732374;32374;Kostić;Mittelfeld;Eintracht Frankfurt;12560000;12380000;174;;2;Halten;0;Niedrig;27.07.2020;fit;9;0;18
+2020072731110;31110;Terodde;Stürmer;1. FC Köln;800000;800000;39;;0;Halten;0;Mittel;27.07.2020;fit;14;0;0
+2020072731399;31399;Pekarik;Abwehr;Hertha BSC;1380000;1360000;25;;0;Halten;0;Hoch;27.07.2020;injured/suspended;10;0;0
+2020072733154;33154;Klinger;Torhüter;VfL Wolfsburg;210000;210000;0;;0;Halten;0;Niedrig;27.07.2020;;7;0;0
+2020072732534;32534;A. Hack;Abwehr;1. FSV Mainz 05;610000;630000;23;;3;Halten;0;Mittel;27.07.2020;fit;13;0;0
+2020072732080;32080;Hofmann;Mittelfeld;Borussia M'gladbach;7680000;7800000;97;;13;Halten;0;Niedrig;27.07.2020;injured/suspended;4;0;0
+2020072731743;31743;Chandler;Mittelfeld;Eintracht Frankfurt;3540000;3450000;85;;0;Halten;0;Niedrig;27.07.2020;injured/suspended;9;4;0
+2020072733031;33031;Touré;Abwehr;Eintracht Frankfurt;2480000;2500000;61;;0;Halten;0;Niedrig;27.07.2020;injured/suspended;9;1;0
+2020072732781;32781;William;Abwehr;VfL Wolfsburg;1510000;1500000;39;;0;Kaufen;0;Hoch;27.07.2020;fit;7;1;0
+2020072732845;32845;Sancho;Stürmer;Borussia Dortmund;19700000;19420000;222;;0;Halten;0;Niedrig;27.07.2020;;2;0;0
+2020072732096;32096;Hahn;Stürmer;FC Augsburg;460000;460000;2;;1;Halten;0;Hoch;27.07.2020;injured/suspended;15;0;0
+2020072732763;32763;Augustinsson;Abwehr;SV Werder Bremen;2530000;2520000;29;;0;Halten;0;Hoch;27.07.2020;fit;16;0;0
+2020072732005;32005;Gebre Selassie;Abwehr;SV Werder Bremen;3110000;3150000;72;;4;Halten;0;Mittel;27.07.2020;fit;16;0;0
+2020072733236;33236;Musiala;Mittelfeld;FC Bayern München;1730000;1710000;0;;0;Halten;0;Niedrig;27.07.2020;fit;1;0;0
+2020072731770;31770;Malli;Mittelfeld;VfL Wolfsburg;920000;940000;17;;2;Halten;0;Mittel;27.07.2020;fit;7;0;0
+2020072732877;32877;Dahmen;Torhüter;1. FSV Mainz 05;160000;160000;0;;0;Halten;0;Niedrig;27.07.2020;fit;13;0;0
+2020072731929;31929;M. Weiser;Abwehr;Bayer 04 Leverkusen;2650000;2680000;56;;4;Halten;0;Niedrig;27.07.2020;fit;5;1;0
+2020072732984;32984;K. Adams;Abwehr;TSG Hoffenheim;790000;800000;29;;0;Halten;0;Niedrig;27.07.2020;fit;;1;0
+2020072732800;32800;Laimer;Mittelfeld;RB Leipzig;4990000;5010000;79;;0;Halten;0;Mittel;27.07.2020;injured/suspended;3;1;0
+2020072732230;32230;Schöpf;Mittelfeld;FC Schalke 04;1370000;1390000;14;;2;Halten;0;Niedrig;27.07.2020;;12;0;0
+2020072732837;32837;Ascacíbar;Mittelfeld;Hertha BSC;2430000;2450000;18;;0;Halten;0;Hoch;27.07.2020;;10;0;0
+2020072731799;31799;Brooks;Abwehr;VfL Wolfsburg;2970000;2930000;64;;-1;Halten;0;Niedrig;27.07.2020;fit;7;0;0
+2020072732354;32354;Kapino;Torhüter;SV Werder Bremen;1070000;1070000;3;;0;Halten;0;Niedrig;27.07.2020;;16;0;0
+2020072733036;33036;Unbehaun;Torhüter;Borussia Dortmund;190000;190000;0;;0;Halten;0;Niedrig;27.07.2020;fit;2;0;0
+2020072732819;32819;Harit;Mittelfeld;FC Schalke 04;7190000;7290000;85;;0;Halten;0;Hoch;27.07.2020;fit;12;0;0
+2020072731846;31846;Orban;Abwehr;RB Leipzig;5810000;5770000;45;;0;Halten;0;Hoch;27.07.2020;fit;3;0;4
+2020072732784;32784;G. Itter;Abwehr;SC Freiburg;350000;350000;6;;0;Halten;0;Niedrig;27.07.2020;fit;8;0;0
+2020072732937;32937;T. Jacobsen;Abwehr;SV Werder Bremen;160000;160000;0;;0;Halten;0;Niedrig;27.07.2020;;16;0;0

@@ -3,7 +3,7 @@ import csv
 import os
 import re
 import time
-from datetime import date
+from datetime import date, datetime
 
 import requests
 from bs4 import BeautifulSoup
@@ -265,8 +265,9 @@ def rowCount(filename):
 def mainFunc():
     t0 = time.time()
     count0 = rowCount(factPlayerCSV)
+    today = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
 
-    print("++++ Update Data & write to fact_Player.csv ++++")
+    print(today)
     getMultipleFactData()
     t1 = time.time()
     count1 = rowCount(factPlayerCSV)
