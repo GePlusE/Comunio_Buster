@@ -10,6 +10,8 @@ functions.pyc
 RUN_Main.app/
 test.txt
 LogFile.txt
+_deprecated_fact_Player.csv
+clean.py
 
 
 

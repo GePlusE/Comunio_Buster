@@ -18,7 +18,7 @@ from bs4 import BeautifulSoup
 
 # //Create path for csv file -> necessary to run via daily autorun
 filePath1 = os.path.dirname(os.path.realpath(__file__))
-factPlayerCSV = os.path.join(filePath1, "fact_Player2.csv")
+factPlayerCSV = os.path.join(filePath1, "fact_Player.csv")
 
 
 # //Step A1
@@ -36,7 +36,7 @@ def getPlayerIDs():
     # //Write to LogFile.txt
     today = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
     print(
-        today + " " + str(len(id)) + " PlayerIDs found", file=open("LogFile.txt", "a")
+        today + ": " + str(len(id)) + " PlayerIDs found", file=open("LogFile.txt", "a")
     )
 
     return id
@@ -274,13 +274,13 @@ def mainFunc():
     today = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
 
     getMultipleFactData()
+
     t1 = time.time()
     count1 = rowCount(factPlayerCSV)
+
+    # //Write to LogFile.txt
     print(
         today
-        + f" Duration: {round(t1 - t0, 2)} seconds // New Entries: {count1 - count0}",
+        + f": Duration: {round(t1 - t0, 2)} seconds // New Entries: {count1 - count0}",
         file=open("LogFile.txt", "a"),
     )
-
-
-mainFunc()
