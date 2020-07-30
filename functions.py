@@ -267,11 +267,11 @@ def mainFunc():
     count0 = rowCount(factPlayerCSV)
     today = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
 
-    print(today)
     getMultipleFactData()
     t1 = time.time()
     count1 = rowCount(factPlayerCSV)
     print(
-        "++++ Load done! "
-        + f"Load took {round(t1 - t0, 2)} seconds and {count1 - count0} new entries were created ++++"
+        today
+        + f" Duration: {round(t1 - t0, 2)} seconds // New Entries: {count1 - count0}"
     )
+
