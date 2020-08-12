@@ -284,3 +284,8 @@ def mainFunc():
         + f": Duration: {round(t1 - t0, 2)} seconds // New Entries: {count1 - count0}",
         file=open("LogFile.txt", "a"),
     )
+    print(
+        today
+        + f": Duration: {round(t1 - t0, 2)} seconds // New Entries: {count1 - count0}"
+    )
+
