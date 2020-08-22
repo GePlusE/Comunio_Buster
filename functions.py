@@ -35,9 +35,7 @@ def getPlayerIDs():
 
     # //Write to LogFile.txt
     today = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
-    print(
-        today + ": " + str(len(id)) + " PlayerIDs found", file=open("LogFile.txt", "a")
-    )
+    print(today + ": " + str(len(id)) + " PlayerIDs found")
 
     return id
 
@@ -284,6 +282,7 @@ def mainFunc():
         + f": Duration: {round(t1 - t0, 2)} seconds // New Entries: {count1 - count0}",
         file=open("LogFile.txt", "a"),
     )
+    today = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
     print(
         today
         + f": Duration: {round(t1 - t0, 2)} seconds // New Entries: {count1 - count0}"
