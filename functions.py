@@ -7,6 +7,7 @@ from datetime import date, datetime
 
 import requests
 from bs4 import BeautifulSoup
+from clean import clean_csv
 
 """
 - A Steps:      Get all PlayerIDs from com-analytics.de
@@ -30,14 +31,14 @@ def getPlayerIDs():
 
     # //get playerID"s
     options = soup.find("select", {"name": "list1"}).find_all("option")
-    id = set(value.get("value") for value in options)
-    id.remove(None)
+    id_list = set(value.get("value") for value in options)
+    id_list.remove(None)
 
     # //Write to LogFile.txt
     today = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
-    print(today + ": " + str(len(id)) + " PlayerIDs found")
+    print(today + ": " + str(len(id_list)) + " PlayerIDs found")
 
-    return id
+    return id_list
 
 
 # //Step B1
@@ -268,6 +269,7 @@ def rowCount(filename):
 # //Final Step
 def mainFunc():
     t0 = time.time()
+    clean_csv(factPlayerCSV)
     count0 = rowCount(factPlayerCSV)
     today = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
 
@@ -285,6 +287,6 @@ def mainFunc():
     today = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
     print(
         today
-        + f": Duration: {round(t1 - t0, 2)} seconds // New Entries: {count1 - count0}"
+        + f": Duration: {round(t1 - t0, 2)} seconds // New Entries: {count1 - count0}."
     )
 
