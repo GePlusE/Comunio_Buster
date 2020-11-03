@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 class Process:
     def __init__(self):
         self.player_ID_list = self.get_player_IDs()
-        self.club_table_dict = self.get_club_ranks()
+        self.club_table_dict = self.get_all_club_ranks()
 
     def get_player_IDs(self):
         # get all PlayerIDs from com-analytics
@@ -23,7 +23,7 @@ class Process:
 
         return id_list
 
-    def get_club_ranks(self):
+    def get_all_club_ranks(self):
         # get the current german Bundesliga Ranking
         url = "https://stats.comunio.de/league_standings"
         page = requests.get(url)

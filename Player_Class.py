@@ -80,11 +80,15 @@ class Player:
                 status = "fit"
             return status
 
-        def get_club_rank(self):
-            # get the national league rank from
-            pass
-
         self.dictionary["injury_status"] = get_injury_data(self)
+
+    def get_club_rank(self, club_dictionary):
+        # get the national league rank from given dictionary
+        try:
+            rank = club_dictionary[self.dictionary["club"]]
+            self.dictionary["club_rank"] = rank
+        except:
+            pass
 
     def clean_dictionary(self):
         # translates the german dictionary keys in english keys
