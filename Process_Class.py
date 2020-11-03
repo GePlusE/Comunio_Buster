@@ -1,6 +1,7 @@
 # This is a class for all generall functions of Comunio-Buster
 import requests
 from bs4 import BeautifulSoup
+import pandas as pd
 
 
 class Process:
@@ -41,3 +42,8 @@ class Process:
                 dict[data[1]] = data[0].replace(".", "")
 
         return dict
+
+    def clean_csv(self, filename):
+        df = pd.read_csv(filename)
+        df.drop_duplicates(inpace=True)
+        df.to_csv(filename, index=False)
