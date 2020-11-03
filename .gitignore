@@ -11,7 +11,8 @@ RUN_Main.app/
 test.txt
 LogFile.txt
 _deprecated_fact_Player.csv
-
+TO-DO.txt
+test.py
 
 
 ############## BEST PRACTICE .gitignore from https://github.com/github/gitignore

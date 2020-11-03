@@ -7,7 +7,8 @@ from datetime import date, datetime
 
 import requests
 from bs4 import BeautifulSoup
-from clean import clean_csv
+
+# from clean import clean_csv
 
 """
 - A Steps:      Get all PlayerIDs from com-analytics.de
@@ -269,7 +270,7 @@ def rowCount(filename):
 # //Final Step
 def mainFunc():
     t0 = time.time()
-    clean_csv(factPlayerCSV)
+    # clean_csv(factPlayerCSV)
     count0 = rowCount(factPlayerCSV)
     today = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
 
