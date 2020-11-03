@@ -10,6 +10,8 @@ class Player:
     def __init__(self, player_ID):
         self.player_ID = player_ID
         self.dictionary = {}
+        self.get_base_data()
+        self.get_FuDa_data()
 
     def get_base_data(self):
         # get all base data for a given PlayerID from
