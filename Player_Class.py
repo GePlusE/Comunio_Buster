@@ -3,6 +3,7 @@
 import requests
 from bs4 import BeautifulSoup
 from datetime import date, datetime
+import re
 
 
 class Player:
@@ -11,10 +12,9 @@ class Player:
         self.dictionary = {}
 
     def get_base_data(self):
-        """
-        get all base data for a given PlayerID from
-        www.com-analytics.de
-        """
+        # get all base data for a given PlayerID from
+        # www.com-analytics.de
+
         # Preparation
         mainUrl = "https://www.com-analytics.de/player/"
         url = mainUrl + str(self.player_ID)
@@ -40,15 +40,19 @@ class Player:
         # Translate GER dict in ENG
         self.clean_dictionary()
 
-    def get_injury_status(self):
-        """
-        get the injury status of a given player from
-        www.fussballdaten.de
-        """
-        # get correct url from classic.comunio to fussballdaten.de
-        def get_FuDa_url(self):
+    def get_FuDa_data(self):
+        # get additional data from www.fussballdaten.de
+
+        # get correct url from classic.comunio->Player Details to fussballdaten.de
+        def get_player_FuDa_url(self):
             mainUrl = "https://classic.comunio.de/bundesligaspieler/"
-            url = mainUrl + str(player_ID) + "-" + name + ".html"
+            url = (
+                mainUrl
+                + str(self.dictionary["player_ID"])
+                + "-"
+                + self.dictionary["Name"]
+                + ".html"
+            )
             page = requests.get(url)
             soup = BeautifulSoup(page.content, "html.parser")
             urlList = soup.find(class_="contenttext")
@@ -61,10 +65,28 @@ class Player:
 
             return urls[0]
 
+        def get_injury_data(self):
+            # get inury data from Fussballdaten.de
+            url = get_player_FuDa_url(self)
+            page = requests.get(url)
+            soup = BeautifulSoup(page.content, "html.parser")
+            parts = str(soup.find(class_="spieler-status"))
+            status = None
+            if "red" in parts:
+                status = "injured/suspended"
+            elif "green" in parts:
+                status = "fit"
+            return status
+
+        def get_club_rank(self):
+            # get the national league rank from
+            pass
+
+        self.dictionary["injury_status"] = get_injury_data(self)
+
     def clean_dictionary(self):
-        """
-        translates the german dictionary keys in english keys
-        """
+        # translates the german dictionary keys in english keys
+
         translation_dictionary = {
             "Verein": "club",
             "Marktwert": "value",
