@@ -47,38 +47,44 @@ class Player:
 
         # get correct url from classic.comunio->Player Details to fussballdaten.de
         def get_player_FuDa_url(self):
-            mainUrl = "https://classic.comunio.de/bundesligaspieler/"
-            url = (
-                mainUrl
-                + str(self.dictionary["player_ID"])
-                + "-"
-                + self.dictionary["Name"]
-                + ".html"
-            )
-            page = requests.get(url)
-            soup = BeautifulSoup(page.content, "html.parser")
-            urlList = soup.find(class_="contenttext")
+            try:
+                mainUrl = "https://classic.comunio.de/bundesligaspieler/"
+                url = (
+                    mainUrl
+                    + str(self.dictionary["player_ID"])
+                    + "-"
+                    + self.dictionary["Name"]
+                    + ".html"
+                )
+                page = requests.get(url)
+                soup = BeautifulSoup(page.content, "html.parser")
+                urlList = soup.find(class_="contenttext")
 
-            urls = []
-            for url in urlList.find_all(
-                "a", href=True, text=re.compile("Fussballdaten.de")
-            ):
-                urls.append(url["href"])
+                urls = []
+                for url in urlList.find_all(
+                    "a", href=True, text=re.compile("Fussballdaten.de")
+                ):
+                    urls.append(url["href"])
 
-            return urls[0]
+                return urls[0]
+            except:
+                pass
 
         def get_injury_data(self):
             # get inury data from Fussballdaten.de
-            url = get_player_FuDa_url(self)
-            page = requests.get(url)
-            soup = BeautifulSoup(page.content, "html.parser")
-            parts = str(soup.find(class_="spieler-status"))
-            status = None
-            if "red" in parts:
-                status = "injured/suspended"
-            elif "green" in parts:
-                status = "fit"
-            return status
+            try:
+                url = get_player_FuDa_url(self)
+                page = requests.get(url)
+                soup = BeautifulSoup(page.content, "html.parser")
+                parts = str(soup.find(class_="spieler-status"))
+                status = None
+                if "red" in parts:
+                    status = "injured/suspended"
+                elif "green" in parts:
+                    status = "fit"
+                return status
+            except:
+                pass
 
         self.dictionary["injury_status"] = get_injury_data(self)
 

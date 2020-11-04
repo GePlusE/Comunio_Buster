@@ -2,12 +2,16 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
+import csv
+import concurrent.futures
+import Player_Class
 
 
 class Process:
     def __init__(self):
-        self.player_ID_list = self.get_player_IDs()
+        self.player_ID_set = self.get_player_IDs()
         self.club_table_dict = self.get_all_club_ranks()
+        self.dataset = []
 
     def get_player_IDs(self):
         # get all PlayerIDs from com-analytics
@@ -47,3 +51,23 @@ class Process:
         df = pd.read_csv(filename)
         df.drop_duplicates(inpace=True)
         df.to_csv(filename, index=False)
+
+    def create_player_class(self, player_ID):
+        player = Player_Class.Player(player_ID)
+        self.dataset.append(player.dictionary)
+
+    def multi_thread_load(self, given_set):
+        # creates multiple player classes at once & loads the data for those player
+        max_thread = 25  # a higher number increases processing speed
+        player_IDs = given_set
+        threads = min(max_thread, len(player_IDs))
+
+        with concurrent.futures.ThreadPoolExecutor(max_workers=threads) as executor:
+            executor.map(self.create_player_class, given_set)
+
+
+"""
+    def write_to_csv(self, dataset, filename):
+        pass
+
+"""
