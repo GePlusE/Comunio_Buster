@@ -12,6 +12,7 @@ class Player:
         self.dictionary = {}
         self.get_base_data()
         self.get_FuDa_data()
+        self.get_StaCo_data()
 
     def get_base_data(self):
         # get all base data for a given PlayerID from
@@ -23,8 +24,8 @@ class Player:
         page = requests.get(url)
         soup = BeautifulSoup(page.content, "html.parser")
         table = soup.find("table", attrs={"class": "table"})
-        tableBody = table.find("tbody")
-        rows = tableBody.find_all("tr")
+        table_body = table.find("tbody")
+        rows = table_body.find_all("tr")
 
         # Get base data & add to dictionary
         for row in rows:
@@ -42,15 +43,36 @@ class Player:
         # Translate GER dict in ENG
         self.clean_dictionary()
 
+    def get_StaCo_data(self):
+        # get additional data from www.stats.comunio.de
+
+        # Preparation
+        main_url = "https://stats.comunio.de/profil.php?id="
+        url = main_url + str(self.player_ID)
+        page = requests.get(url)
+        soup = BeautifulSoup(page.content, "html.parser")
+        table = soup.find(class_="awards")
+        rows = table.find_all("img", title=True)
+
+        # Lopp through rows
+        for row in rows:
+            cols = row.get("title")
+            if "Favorisierte" in cols:
+                self.dictionary["fav_team_nomination"] = int(cols[-2:])
+            elif "Dreamteam" in cols:
+                self.dictionary["dreamteam_nomination"] = int(cols[-2:])
+
+        # self.dictionary["fav_team_nomination"] = data
+
     def get_FuDa_data(self):
         # get additional data from www.fussballdaten.de
 
         # get correct url from classic.comunio->Player Details to fussballdaten.de
         def get_player_FuDa_url(self):
             try:
-                mainUrl = "https://classic.comunio.de/bundesligaspieler/"
+                main_url = "https://classic.comunio.de/bundesligaspieler/"
                 url = (
-                    mainUrl
+                    main_url
                     + str(self.dictionary["player_ID"])
                     + "-"
                     + self.dictionary["Name"]
@@ -58,10 +80,10 @@ class Player:
                 )
                 page = requests.get(url)
                 soup = BeautifulSoup(page.content, "html.parser")
-                urlList = soup.find(class_="contenttext")
+                url_list = soup.find(class_="contenttext")
 
                 urls = []
-                for url in urlList.find_all(
+                for url in url_list.find_all(
                     "a", href=True, text=re.compile("Fussballdaten.de")
                 ):
                     urls.append(url["href"])
