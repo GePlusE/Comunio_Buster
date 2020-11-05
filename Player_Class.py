@@ -52,17 +52,20 @@ class Player:
         page = requests.get(url)
         soup = BeautifulSoup(page.content, "html.parser")
         table = soup.find(class_="awards")
-        rows = table.find_all("img", title=True)
-
-        # Lopp through rows
-        for row in rows:
-            cols = row.get("title")
-            if "Favorisierte" in cols:
-                self.dictionary["fav_team_nomination"] = int(cols[-2:])
-            elif "Dreamteam" in cols:
-                self.dictionary["dreamteam_nomination"] = int(cols[-2:])
-
-        # self.dictionary["fav_team_nomination"] = data
+        if table == None:  # Check if player as any awards
+            self.dictionary["fav_team_nomination"] = None
+            self.dictionary["dreamteam_nomination"] = None
+        else:
+            rows = table.find_all("img", title=True)
+            # Lopp through awards
+            for row in rows:
+                cols = row.get("title")
+                if "Favorisierte" in cols:
+                    self.dictionary["fav_team_nomination"] = int(cols[-2:])
+                elif "Dreamteam" in cols:
+                    self.dictionary["dreamteam_nomination"] = int(cols[-2:])
+                else:
+                    pass
 
     def get_FuDa_data(self):
         # get additional data from www.fussballdaten.de
