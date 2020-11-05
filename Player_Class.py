@@ -13,7 +13,6 @@ class Player:
         self.get_base_data()
         self.get_FuDa_data()
         self.get_StaCo_data()
-        print(str(self.player_ID) + " initialized")
 
     def get_base_data(self):
         # get all base data for a given PlayerID from
@@ -123,8 +122,15 @@ class Player:
             pass
 
     def clean_dictionary(self):
-        # translates the german dictionary keys in english keys
 
+        remove_list = ["N/A", "na", "NA", "n.a", "nv", "n.v.", "nan", "none"]
+        witout_dot = [
+            "value",
+            "prognosis",
+            "value_change_L7D",
+            "team_value_change_L7D",
+            "value_change_L3M",
+        ]
         translation_dictionary = {
             "Verein": "club",
             "Marktwert": "value",
@@ -140,14 +146,25 @@ class Player:
             "Team-Änderung (3 Monate)": "team_value_change_L3M",
             "Bewertete Spiele": "rated_games",
             "Verletzungsanfälligkeit": "injury_rate",
-        }
+        }  # translates the german dictionary keys in english keys
+
         for key, value in translation_dictionary.items():
             try:
                 self.dictionary[value] = self.dictionary.pop(key)
             except:
                 pass
+        # delete newline character
         for key, value in self.dictionary.items():
             try:
                 self.dictionary[key] = value.replace("\n", "")
             except:
                 pass
+        # remove dots from values
+        for key, value in self.dictionary.items():
+            if key in witout_dot:
+                self.dictionary[key] = value.replace(".", "")
+        # replace specific strings with None
+        for key, value in self.dictionary.items():
+            if value in remove_list:
+                self.dictionary[key] = ""
+
