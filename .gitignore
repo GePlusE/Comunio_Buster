@@ -4,6 +4,8 @@
 
 # Custom ignored files
 fact_Player2.csv
+fact_Player_.csv
+fact_Player Kopie.csv
 .DS_Store
 RUN_Main
 functions.pyc

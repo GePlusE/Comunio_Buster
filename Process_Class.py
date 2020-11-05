@@ -65,9 +65,13 @@ class Process:
         with concurrent.futures.ThreadPoolExecutor(max_workers=threads) as executor:
             executor.map(self.create_player_class, given_set)
 
+    def write_to_csv(self, list_of_dict):
+        # writes dictionary to csv file and delete duplicates
 
-"""
-    def write_to_csv(self, dataset, filename):
-        pass
+        # Convert dictionary into pandas dataframe
+        df = pd.DataFrame(list_of_dict)
 
-"""
+        # write data frame to csv
+        with open("fact_Player_.csv", mode="a") as f:
+            df.to_csv(f, index=False, header=True)
+

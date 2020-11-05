@@ -13,6 +13,7 @@ class Player:
         self.get_base_data()
         self.get_FuDa_data()
         self.get_StaCo_data()
+        print(str(self.player_ID) + " initialized")
 
     def get_base_data(self):
         # get all base data for a given PlayerID from
@@ -40,7 +41,7 @@ class Player:
             self.dictionary["player_ID"]
         )
 
-        # Translate GER dict in ENG
+        # Translate GER dict in ENG & removes newline commands
         self.clean_dictionary()
 
     def get_StaCo_data(self):
@@ -143,5 +144,10 @@ class Player:
         for key, value in translation_dictionary.items():
             try:
                 self.dictionary[value] = self.dictionary.pop(key)
+            except:
+                pass
+        for key, value in self.dictionary.items():
+            try:
+                self.dictionary[key] = value.replace("\n", "")
             except:
                 pass
