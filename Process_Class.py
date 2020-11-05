@@ -47,11 +47,6 @@ class Process:
 
         return dict
 
-    def clean_csv(self, filename):
-        df = pd.read_csv(filename)
-        df.drop_duplicates(inpace=True)
-        df.to_csv(filename, index=False)
-
     def create_player_class(self, player_ID):
         player = Player_Class.Player(player_ID)
         self.dataset.append(player.dictionary)
@@ -76,8 +71,7 @@ class Process:
 
         # Combine df_base & df_new
         df_full = df_base.append(df_new, ignore_index=True)
+        df_full.drop_duplicates(inplace=True)
 
         # write data frame to csv
         df_full.to_csv(filename, index=False, header=True, sep=";", encoding="utf-8")
-
-        # self.clean_csv()
