@@ -44,11 +44,25 @@ class Process:
 
             if len(data) > 0:
                 dict[data[1]] = data[0].replace(".", "")
+        # translate club names
+        club_transl = {
+            "IST": "ZIEL",
+            "1899 Hoffenheim": "TSG Hoffenheim",
+            "1. FC Union Berlin": "1.FC Union Berlin",
+            "Borussia M'gladbach": "Borussia Mönchengladbach",
+            "Arminia Bielefeld": "DSC Arminia Bielefeld",
+            "SC Freiburg": "Sport-Club Freiburg",
+        }
 
+        for key, value in club_transl.items():
+            try:
+                dict[value] = dict.pop(key)
+            except:
+                pass
         return dict
 
     def create_player_class(self, player_ID):
-        player = Player_Class.Player(player_ID)
+        player = Player_Class.Player(player_ID, self.club_table_dict)
         self.dataset.append(player.dictionary)
 
     def multi_thread_load(self, given_set):

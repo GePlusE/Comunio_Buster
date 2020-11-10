@@ -7,12 +7,14 @@ import re
 
 
 class Player:
-    def __init__(self, player_ID):
+    def __init__(self, player_ID, club_ranks):
         self.player_ID = player_ID
+        self.club_ranks = club_ranks
         self.dictionary = {}
         self.get_base_data()
         self.get_FuDa_data()
         self.get_StaCo_data()
+        self.get_club_rank()
 
     def get_base_data(self):
         # get all base data for a given PlayerID from
@@ -113,10 +115,10 @@ class Player:
 
         self.dictionary["injury_status"] = get_injury_data(self)
 
-    def get_club_rank(self, club_dictionary):
+    def get_club_rank(self):
         # get the national league rank from given dictionary
         try:
-            rank = club_dictionary[self.dictionary["club"]]
+            rank = self.club_ranks[self.dictionary["club"]]
             self.dictionary["club_rank"] = rank
         except:
             pass
