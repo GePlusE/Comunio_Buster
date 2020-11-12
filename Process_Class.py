@@ -89,3 +89,12 @@ class Process:
 
         # write data frame to csv
         df_full.to_csv(filename, index=False, header=True, sep=";", encoding="utf-8")
+
+    def combine_files(self, old_file, new_file, name_of_created_file):
+
+        df1 = pd.read_csv(old_file, delimiter=";", low_memory=False)
+        df2 = pd.read_csv(new_file, delimiter=";", low_memory=False)
+
+        df3 = pd.concat([df2, df1])
+
+        df3.to_csv(name_of_created_file, index=False)
