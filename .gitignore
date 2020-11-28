@@ -16,6 +16,8 @@ _deprecated_fact_Player.csv
 TO-DO.txt
 test.py
 test2.py
+client_secrets.json
+credentials.json
 
 ############## BEST PRACTICE .gitignore from https://github.com/github/gitignore
 # Byte-compiled / optimized / DLL files
