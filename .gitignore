@@ -18,7 +18,7 @@ test.py
 test2.py
 client_secrets.json
 credentials.json
-mycreds.txt
+mycreds.json
 
 ############## BEST PRACTICE .gitignore from https://github.com/github/gitignore
 # Byte-compiled / optimized / DLL files
