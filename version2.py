@@ -23,4 +23,5 @@ def main():
 
     PYD.update_file(data_file)
     t1 = time.time()
+    print(f": Duration: {round(t1 - t0, 2)} seconds.")
 
