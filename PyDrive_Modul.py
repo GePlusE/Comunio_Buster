@@ -66,10 +66,8 @@ def update_file(filename, folder_ID="1-IBreIAcF-oAwnLcoNKxtAbEMAp0Cr07"):
     # if file does not exist upload_file is used
     if file_ID is None:
         upload_file_to_folder(filename)
-        print("Upload")
     # update file based on file_ID
     else:
-        print("Update")
         # authenticate
         drive = google_drive_auth()
         # upload file with given name
