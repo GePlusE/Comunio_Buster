@@ -9,6 +9,7 @@ This project tries to get more information regarding the football players and th
 6. Step: Implement ML for forecasting player Value
 7. Step: analyse the date via panda & numpy
 8. Step: build an interface with several stats 
+9.
 
 ---
 
