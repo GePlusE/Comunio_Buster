@@ -1,30 +1,51 @@
+import logging
 from pydrive2.auth import GoogleAuth
 from pydrive2.drive import GoogleDrive
 
 # TODO: Add Logging to all functions with Tracebacks
 # TODO: Check if try-statements are necessary
 
-folder_in_use = "1-IBreIAcF-oAwnLcoNKxtAbEMAp0Cr07"
+############################ Logging Settings ############################
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+
+formatter = logging.Formatter(
+    "%(asctime)s / %(levelname)s in %(filename)s: %(message)s"
+)
+# get formats from https://docs.python.org/3/library/logging.html#logrecord-attributes
+
+file_handler = logging.FileHandler("LogFile.log")
+file_handler.setFormatter(formatter)
+
+logger.addHandler(file_handler)
+
+##########################################################################
+
+
+folder_in_use = "1RI058Dqli3EbOuyrW0PWHVCl8H5hdPWX"
 # You can find the FolderID in the URL of the folder
 # FolderID PROD = "1-IBreIAcF-oAwnLcoNKxtAbEMAp0Cr07"
 # FolderID DEV = "1RI058Dqli3EbOuyrW0PWHVCl8H5hdPWX"
+creds_file = "mycreds.json"
 
 
 def google_drive_auth():
     gauth = GoogleAuth()
     # Try to load saved client credentials
-    gauth.LoadCredentialsFile("mycreds.json")
+    gauth.LoadCredentialsFile(creds_file)
     if gauth.credentials is None:
         # Authenticate if they're not there
         gauth.LocalWebserverAuth()
+        logger.info(f"Missing {creds_file} -> new authentication")
     elif gauth.access_token_expired:
         # Refresh token if expired
         gauth.Refresh()
+        logger.info(f"refreshed expired token")
     else:
         # Initialize the saved creds
         gauth.Authorize()
     # Save the current credentials to a file
-    gauth.SaveCredentialsFile("mycreds.json")
+    gauth.SaveCredentialsFile(creds_file)
 
     drive = GoogleDrive(gauth)
     return drive
@@ -33,10 +54,14 @@ def google_drive_auth():
 def upload_file_to_folder(filename, folder_ID=folder_in_use):
     # authenticate
     drive = google_drive_auth()
+
     # upload file with given name
     upload_file = drive.CreateFile({"parents": [{"id": folder_ID}]})
     upload_file.SetContentFile(filename)
     upload_file.Upload()
+
+    # Logging
+    logger.info(f"Upload: {filename}")
 
 
 def list_files():
@@ -61,14 +86,20 @@ def get_ID_of_title(title, parent_directory_ID=folder_in_use):
 
 
 def download_file(filename):
+    # downloading given file
     file_ID = get_ID_of_title(filename)
     drive = google_drive_auth()
     file1 = drive.CreateFile({"id": file_ID})  # , "q": folder_ID})
     file1.GetContentFile(file1["title"])
 
+    # logging
+    logger.info(f"Download: {filename}")
+
 
 def update_file(filename, folder_ID=folder_in_use):
+    # update existing file
     file_ID = get_ID_of_title(filename)
+
     # if file does not exist upload_file is used
     if file_ID is None:
         upload_file_to_folder(filename)
@@ -76,10 +107,14 @@ def update_file(filename, folder_ID=folder_in_use):
     else:
         # authenticate
         drive = google_drive_auth()
+
         # upload file with given name
         upload_file = drive.CreateFile({"parents": [{"id": folder_ID}], "id": file_ID})
         upload_file.SetContentFile(filename)
         upload_file.Upload()
+
+        # logging
+        logger.info(f"Update: {filename}")
 
 
 if __name__ == "__main__":
