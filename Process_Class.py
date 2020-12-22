@@ -78,7 +78,8 @@ class Process:
             executor.map(self.create_player_class, given_set)
 
     def sequential_load(self, given_set):
-        for i in given_set:
+        # for i in given_set:
+        for i in list(given_set)[:5]:
             self.create_player_class(i)
 
     def write_to_csv(self, list_of_dict, filename):
