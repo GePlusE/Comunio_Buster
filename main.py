@@ -1,3 +1,3 @@
-from version2 import main
+from Script import main
 
 main()
