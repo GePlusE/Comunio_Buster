@@ -1,7 +1,7 @@
 import Player_Class
 import Process_Class
 import time
-import PyDrive_Modul as PYD
+import PyDrive_Module as PYD
 
 
 ############## Settings ##############
