@@ -3,9 +3,7 @@
 /workspace.xml
 
 # Custom ignored files
-fact_Player2.csv
-fact_Player_.csv
-fact_Player Kopie.csv
+*.csv
 .DS_Store
 RUN_Main
 functions.pyc
@@ -14,8 +12,8 @@ test.txt
 LogFile.txt
 _deprecated_fact_Player.csv
 TO-DO.txt
-test.py
-test2.py
+test*.py
+test*.json
 client_secrets.json
 credentials.json
 mycreds.json
