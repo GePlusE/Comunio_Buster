@@ -8,9 +8,8 @@
 RUN_Main
 functions.pyc
 RUN_Main.app/
-test.txt
+test*.txt
 LogFile.txt
-_deprecated_fact_Player.csv
 TO-DO.txt
 test*.py
 test*.json
