@@ -7,10 +7,7 @@ import logging
 
 from bs4 import BeautifulSoup
 
-# TODO: Add Logging to all functions with Traceback
-# TODO: Check if try-statements are necessary
 # TODO: Check url status
-
 
 ############################ Logging Settings ############################
 logger = logging.getLogger(__name__)
@@ -34,7 +31,7 @@ class Process:
             self.dataset = []
         except:
             logger.exception(f"Initialization failed")
-        raise
+            raise
 
     def get_player_IDs(self):
         try:
@@ -53,7 +50,7 @@ class Process:
             return id_list
         except:
             logger.exception(f"get_player_IDs failed")
-        raise
+            raise
 
     def get_all_club_ranks(self):
         try:
@@ -89,7 +86,7 @@ class Process:
             return dict
         except:
             logger.exception(f"get_all_club_ranks failed")
-        raise
+            raise
 
     def create_player_class(self, player_ID):
         player = Player_Class.Player(player_ID, self.club_table_dict)
@@ -134,7 +131,7 @@ class Process:
             )
         except:
             logger.exception(f"write_to_csv failed")
-        raise
+            raise
 
     def combine_files(self, old_file, new_file, name_of_created_file):
 
