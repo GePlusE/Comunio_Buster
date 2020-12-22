@@ -15,7 +15,7 @@ def main():
     Process = Process_Class.Process()
     club_ranks = Process.club_table_dict
     ID_set = Process.player_ID_set
-    Process.multi_thread_load(ID_set)
+    Process.sequential_load(ID_set)
 
     PYD.download_file(data_file)
 
