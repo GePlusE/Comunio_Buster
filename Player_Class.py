@@ -5,6 +5,12 @@ from bs4 import BeautifulSoup
 from datetime import date, datetime
 import re
 
+# TODO: Add Logging to all functions with Traceback
+# TODO: Check if try-statements are necessary
+# TODO: Check url status
+# TODO: Check if new dictionary attribute is available
+# TODO: Check if dictionary is empty -> LogFile
+
 
 class Player:
     def __init__(self, player_ID, club_ranks):

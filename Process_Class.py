@@ -6,6 +6,10 @@ import csv
 import concurrent.futures
 import Player_Class
 
+# TODO: Add Logging to all functions with Traceback
+# TODO: Check if try-statements are necessary
+# TODO: Check url status
+
 
 class Process:
     def __init__(self):
@@ -46,7 +50,6 @@ class Process:
                 dict[data[1]] = data[0].replace(".", "")
         # translate club names
         club_transl = {
-            "IST": "ZIEL",
             "1899 Hoffenheim": "TSG Hoffenheim",
             "1. FC Union Berlin": "1.FC Union Berlin",
             "Borussia M'gladbach": "Borussia Mönchengladbach",
@@ -102,3 +105,7 @@ class Process:
         df3 = pd.concat([df2, df1])
 
         df3.to_csv(name_of_created_file, index=False)
+
+
+if __name__ == "__main__":
+    pass

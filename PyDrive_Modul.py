@@ -1,6 +1,9 @@
 from pydrive2.auth import GoogleAuth
 from pydrive2.drive import GoogleDrive
 
+# TODO: Add Logging to all functions with Tracebacks
+# TODO: Check if try-statements are necessary
+
 
 def google_drive_auth():
     gauth = GoogleAuth()
@@ -10,7 +13,7 @@ def google_drive_auth():
         # Authenticate if they're not there
         gauth.LocalWebserverAuth()
     elif gauth.access_token_expired:
-        # Refresh them if expired
+        # Refresh token if expired
         gauth.Refresh()
     else:
         # Initialize the saved creds
@@ -58,7 +61,7 @@ def get_ID_of_title(
     return None
 
 
-def download_file(filename):  # , folder_ID="1-IBreIAcF-oAwnLcoNKxtAbEMAp0Cr07"):
+def download_file(filename):
     file_ID = get_ID_of_title(filename)
     drive = google_drive_auth()
     file1 = drive.CreateFile({"id": file_ID})  # , "q": folder_ID})
@@ -80,5 +83,6 @@ def update_file(filename, folder_ID="1-IBreIAcF-oAwnLcoNKxtAbEMAp0Cr07"):
         upload_file.Upload()
 
 
-# print(get_ID_of_title("fact_Player2.csv"))
-# download_file("fact_Player2.csv")
+if __name__ == "__main__":
+    pass
+
