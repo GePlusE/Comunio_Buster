@@ -4,6 +4,11 @@ from pydrive2.drive import GoogleDrive
 # TODO: Add Logging to all functions with Tracebacks
 # TODO: Check if try-statements are necessary
 
+folder_in_use = "1RI058Dqli3EbOuyrW0PWHVCl8H5hdPWX"
+# You can find the FolderID in the URL of the folder
+# FolderID PROD = "1-IBreIAcF-oAwnLcoNKxtAbEMAp0Cr07"
+# FolderID DEV = "1RI058Dqli3EbOuyrW0PWHVCl8H5hdPWX"
+
 
 def google_drive_auth():
     gauth = GoogleAuth()
@@ -25,11 +30,7 @@ def google_drive_auth():
     return drive
 
 
-def upload_file_to_folder(filename, folder_ID="1RI058Dqli3EbOuyrW0PWHVCl8H5hdPWX"):
-    # You can find the FolderID in the URL of the folder
-    # FolderID PROD = "1-IBreIAcF-oAwnLcoNKxtAbEMAp0Cr07"
-    # FolderID DEV = "1RI058Dqli3EbOuyrW0PWHVCl8H5hdPWX"
-
+def upload_file_to_folder(filename, folder_ID=folder_in_use):
     # authenticate
     drive = google_drive_auth()
     # upload file with given name
@@ -47,9 +48,7 @@ def list_files():
         print("title: %s, id: %s" % (file1["title"], file1["id"]))
 
 
-def get_ID_of_title(
-    title, parent_directory_ID="1-IBreIAcF-oAwnLcoNKxtAbEMAp0Cr07"
-):  # "1-IBreIAcF-oAwnLcoNKxtAbEMAp0Cr07" is the Comunio_Buster folderID
+def get_ID_of_title(title, parent_directory_ID=folder_in_use):
     # authenticate
     drive = google_drive_auth()
     foldered_list = drive.ListFile(
@@ -68,7 +67,7 @@ def download_file(filename):
     file1.GetContentFile(file1["title"])
 
 
-def update_file(filename, folder_ID="1-IBreIAcF-oAwnLcoNKxtAbEMAp0Cr07"):
+def update_file(filename, folder_ID=folder_in_use):
     file_ID = get_ID_of_title(filename)
     # if file does not exist upload_file is used
     if file_ID is None:
