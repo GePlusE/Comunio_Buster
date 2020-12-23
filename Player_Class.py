@@ -3,6 +3,7 @@
 import requests
 import re
 import logging
+import Quality_Checks as qc
 
 from bs4 import BeautifulSoup
 from datetime import date, datetime
@@ -46,6 +47,9 @@ class Player:
             # Preparation
             mainUrl = "https://www.com-analytics.de/player/"
             url = mainUrl + str(self.player_ID)
+            # Check URL status
+            qc.check_url_status(url, "base")
+            # Scrapping
             page = requests.get(url)
             soup = BeautifulSoup(page.content, "html.parser")
             table = soup.find("table", attrs={"class": "table"})
@@ -79,6 +83,9 @@ class Player:
             # Preparation
             main_url = "https://stats.comunio.de/profil.php?id="
             url = main_url + str(self.player_ID)
+            # Check URL status
+            qc.check_url_status(url, "StaCo")
+            # Scrapping
             page = requests.get(url)
             soup = BeautifulSoup(page.content, "html.parser")
             table = soup.find(class_="awards")
@@ -108,14 +115,11 @@ class Player:
         # get correct url from classic.comunio->Player Details to fussballdaten.de
         def get_player_FuDa_url(self):
             try:
-                main_url = "https://classic.comunio.de/bundesligaspieler/"
-                url = (
-                    main_url
-                    + str(self.dictionary["player_ID"])
-                    + "-"
-                    + self.dictionary["Name"]
-                    + ".html"
-                )
+                main_url = "https://classic.comunio.de/tradableInfo.phtml?tid="
+                url = main_url + str(self.dictionary["player_ID"])
+                # Check URL status
+                qc.check_url_status(url, "FuDa")
+                # Scrapping
                 page = requests.get(url)
                 soup = BeautifulSoup(page.content, "html.parser")
                 url_list = soup.find(class_="contenttext")
@@ -129,14 +133,17 @@ class Player:
                 return urls[0]
             except:
                 logger.warning(
-                    f'get_player_FuDa_url for {self.player_ID}-{self.dictionary["Name"]} failed, maybe url missing'
+                    f'get_player_FuDa_url for {self.player_ID}-{self.dictionary["Name"]} failed, maybe FuDa-URL missing on {url}'
                 )
-                pass
+                return None
 
         def get_injury_data(self):
             # get inury data from Fussballdaten.de
             try:
                 url = get_player_FuDa_url(self)
+                # Check URL status
+                qc.check_url_status(url, "injury")
+                # Scrapping
                 page = requests.get(url)
                 soup = BeautifulSoup(page.content, "html.parser")
                 parts = str(soup.find(class_="spieler-status"))
@@ -152,7 +159,8 @@ class Player:
                 )
                 pass
 
-        self.dictionary["injury_status"] = get_injury_data(self)
+        if get_player_FuDa_url(self) != None:
+            self.dictionary["injury_status"] = get_injury_data(self)
 
     def get_club_rank(self):
         # get the national league rank from given dictionary
