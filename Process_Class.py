@@ -4,6 +4,7 @@ import csv
 import concurrent.futures
 import Player_Class
 import logging
+import Quality_Checks as qc
 
 from bs4 import BeautifulSoup
 
@@ -38,8 +39,11 @@ class Process:
             # get all PlayerIDs from com-analytics
 
             # //Preparation
-            listUrl = "https://www.com-analytics.de/players/compare"
-            req = requests.get(listUrl)
+            url = "https://www.com-analytics.de/players/compare"
+            # Check URL status
+            qc.check_url_status(url, "playerIDs")
+            # Scrapping
+            req = requests.get(url)
             soup = BeautifulSoup(req.content, "html.parser")
 
             # //get playerID"s
@@ -56,6 +60,9 @@ class Process:
         try:
             # get the current german Bundesliga Ranking
             url = "https://stats.comunio.de/league_standings"
+            # Check URL status
+            qc.check_url_status(url, "club_ranks")
+            # Scrapping
             page = requests.get(url)
             soup = BeautifulSoup(page.content, "html.parser")
             table = soup.find("table", attrs={"class": "rangliste autoColor"})

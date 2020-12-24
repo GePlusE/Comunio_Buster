@@ -8,9 +8,6 @@ import Quality_Checks as qc
 from bs4 import BeautifulSoup
 from datetime import date, datetime
 
-# TODO: Check url status
-# TODO: Check if new dictionary attribute is available
-
 
 ############################ Logging Settings ############################
 logger = logging.getLogger(__name__)
@@ -35,7 +32,7 @@ class Player:
         self.get_FuDa_data()
         self.get_StaCo_data()
         self.get_club_rank()
-        # Logging
+        # Logging: Check if dictionary is empty
         if not self.dictionary:
             # TODO: Check if important value is missing -> LogFile WARNING
             logger.error(f"empty dictionary for PlayerID: {self.player_ID}")
