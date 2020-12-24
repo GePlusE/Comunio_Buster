@@ -46,7 +46,7 @@ def google_drive_auth():
         return drive
     except:
         logger.exception(f"google_drive_auth failed")
-        raise
+        pass  # raise
 
 
 def upload_file_to_folder(filename, folder_ID=folder_in_use):
@@ -60,8 +60,8 @@ def upload_file_to_folder(filename, folder_ID=folder_in_use):
         # Logging
         logger.info(f"Upload: {filename}")
     except:
-        logger.exception(f"upload_file_to_folder failed")
-        raise
+        logger.exception(f"upload of {filename} failed")
+        pass  # raise
 
 
 def list_files():
@@ -85,8 +85,8 @@ def get_ID_of_title(title, parent_directory_ID=folder_in_use):
                 return file["id"]
         return None
     except:
-        logger.exception(f"get_ID_of_title failed")
-        raise
+        logger.exception(f"get_ID_of_title failed for {title}")
+        pass  # raise
 
 
 def download_file(filename):
@@ -99,8 +99,8 @@ def download_file(filename):
         # logging
         logger.info(f"Download: {filename}")
     except:
-        logger.exception(f"download_file failed")
-        raise
+        logger.exception(f"download of {filename} failed")
+        pass  # raise
 
 
 def update_file(filename, folder_ID=folder_in_use):
@@ -124,8 +124,8 @@ def update_file(filename, folder_ID=folder_in_use):
             # logging
             logger.info(f"Update: {filename}")
     except:
-        logger.exception(f"update_file failed")
-        raise
+        logger.exception(f"update of {filename} failed")
+        pass  # raise
 
 
 if __name__ == "__main__":

@@ -100,7 +100,7 @@ class Player:
                         pass
         except:
             logger.warning(
-                f'get_StaCo_data for {self.player_ID}-{self.dictionary["Name"]} failed, maybe url missing'
+                f"get_StaCo_data for {self.player_ID} failed, maybe url missing"
             )
             pass
 
@@ -128,7 +128,7 @@ class Player:
                 return urls[0]
             except:
                 logger.warning(
-                    f'get_player_FuDa_url for {self.player_ID}-{self.dictionary["Name"]} failed, maybe FuDa-URL missing on {url}'
+                    f"get_player_FuDa_url for {self.player_ID} failed, maybe FuDa-URL missing on {url}"
                 )
                 return None
 
@@ -150,7 +150,7 @@ class Player:
                 return status
             except:
                 logger.warning(
-                    f'get_injury_data for {self.player_ID}-{self.dictionary["Name"]} failed, maybe url missing'
+                    f"get_injury_data for {self.player_ID} failed, maybe url missing"
                 )
                 pass
 
@@ -163,9 +163,7 @@ class Player:
             rank = self.club_ranks[self.dictionary["club"]]
             self.dictionary["club_rank"] = rank
         except:
-            logger.exception(
-                f'get_club_rank for {self.player_ID}-{self.dictionary["Name"]} failed'
-            )
+            logger.exception(f"get_club_rank for {self.player_ID} failed")
             pass
 
     def clean_dictionary(self):
@@ -200,18 +198,14 @@ class Player:
                 try:
                     self.dictionary[value] = self.dictionary.pop(key)
                 except:
-                    logger.exception(
-                        f'clean_dictionary for {self.player_ID}-{self.dictionary["Name"]} failed'
-                    )
+                    logger.exception(f"clean_dictionary for {self.player_ID} failed")
                     pass
             # delete newline character
             for key, value in self.dictionary.items():
                 try:
                     self.dictionary[key] = value.replace("\n", "")
                 except:
-                    logger.exception(
-                        f'clean_dictionary for {self.player_ID}-{self.dictionary["Name"]} failed'
-                    )
+                    logger.exception(f"clean_dictionary for {self.player_ID} failed")
                     pass
             # remove dots from values
             for key, value in self.dictionary.items():
@@ -222,8 +216,6 @@ class Player:
                 if value in remove_list:
                     self.dictionary[key] = ""
         except:
-            logger.exception(
-                f'clean_dictionary for {self.player_ID}-{self.dictionary["Name"]} failed'
-            )
+            logger.exception(f"clean_dictionary for {self.player_ID} failed")
             pass
 
