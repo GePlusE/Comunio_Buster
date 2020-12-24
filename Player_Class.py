@@ -99,9 +99,9 @@ class Player:
                     else:
                         pass
         except:
-            logger.warning(
-                f"get_StaCo_data for {self.player_ID} failed, maybe url missing"
-            )
+            # logger.warning(
+            #     f"get_StaCo_data for {self.player_ID} failed, maybe url missing"
+            # )
             pass
 
     def get_FuDa_data(self):
@@ -127,10 +127,11 @@ class Player:
 
                 return urls[0]
             except:
-                logger.warning(
-                    f"get_player_FuDa_url for {self.player_ID} failed, maybe FuDa-URL missing on {url}"
-                )
-                return None
+                # logger.warning(
+                #     f"get_player_FuDa_url for {self.player_ID} failed, maybe FuDa-URL missing on {url}"
+                # )
+                # return None
+                pass
 
         def get_injury_data(self):
             # get inury data from Fussballdaten.de
@@ -149,9 +150,9 @@ class Player:
                     status = "fit"
                 return status
             except:
-                logger.warning(
-                    f"get_injury_data for {self.player_ID} failed, maybe url missing"
-                )
+                # logger.warning(
+                #     f"get_injury_data for {self.player_ID} failed, scrapping failed"
+                # )
                 pass
 
         if get_player_FuDa_url(self) != None:
