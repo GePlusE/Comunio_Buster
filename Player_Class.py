@@ -1,5 +1,3 @@
-# This is a class for a single Player
-
 import requests
 import re
 import logging

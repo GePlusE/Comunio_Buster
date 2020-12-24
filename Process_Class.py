@@ -8,7 +8,6 @@ import Quality_Checks as qc
 
 from bs4 import BeautifulSoup
 
-# TODO: Check url status
 
 ############################ Logging Settings ############################
 logger = logging.getLogger(__name__)
@@ -110,7 +109,7 @@ class Process:
 
     def sequential_load(self, given_set):
         # for i in given_set:
-        for i in list(given_set)[:5]:
+        for i in list(given_set):
             self.create_player_class(i)
 
     def write_to_csv(self, list_of_dict, filename):
