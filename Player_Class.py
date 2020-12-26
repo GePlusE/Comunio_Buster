@@ -27,13 +27,17 @@ logger.addHandler(file_handler)
 
 class Player:
     def __init__(self, player_ID, club_ranks):
-        self.player_ID = player_ID
-        self.club_ranks = club_ranks
-        self.dictionary = {}
-        self.get_base_data()
-        self.get_FuDa_data()
-        self.get_StaCo_data()
-        self.get_club_rank()
+        try:
+            self.player_ID = player_ID
+            self.club_ranks = club_ranks
+            self.dictionary = {}
+            self.get_base_data()
+            self.get_FuDa_data()
+            self.get_StaCo_data()
+            self.get_club_rank()
+        except:
+            logger.warning(f"Initialization of ID-{self.player_ID} failed.")
+            pass
 
     def get_base_data(self):
         # get all base data for a given PlayerID from
