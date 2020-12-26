@@ -44,9 +44,15 @@ def main():
     Process.write_to_csv(Process.dataset, data_file)
 
     # Uploading
-    PYD.update_file(data_file)
-    PYD.update_file(creds_file)
-    logger.info(f" Uploaded: {data_file}, {creds_file}")
+    try:
+        PYD.update_file(data_file)
+        PYD.update_file(creds_file)
+        logger.info(f"Uploaded: {data_file}, {creds_file}")
+    except:
+        logger.warning(
+            f"Could not upload at least one of these files: {data_file}, {creds_file}"
+        )
+        pass
 
     t1 = time.time()
     logger.info(f"END Duration: {round(t1 - t0, 2):,.2f} seconds")
