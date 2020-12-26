@@ -4,10 +4,11 @@ from pydrive2.drive import GoogleDrive
 # TODO: Add Logging to all functions with Tracebacks
 # TODO: Check if try-statements are necessary
 
-folder_in_use = "1-IBreIAcF-oAwnLcoNKxtAbEMAp0Cr07"
+folder_in_use = "1RI058Dqli3EbOuyrW0PWHVCl8H5hdPWX"
 # You can find the FolderID in the URL of the folder
 # FolderID PROD = "1-IBreIAcF-oAwnLcoNKxtAbEMAp0Cr07"
 # FolderID DEV = "1RI058Dqli3EbOuyrW0PWHVCl8H5hdPWX"
+creds_file = "mycreds.json"
 
 
 def google_drive_auth():

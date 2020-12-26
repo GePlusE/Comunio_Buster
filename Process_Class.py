@@ -78,8 +78,12 @@ class Process:
             executor.map(self.create_player_class, given_set)
 
     def sequential_load(self, given_set):
+        set_length = len(given_set)
+        counter = 0
         for i in given_set:
             self.create_player_class(i)
+            counter += 1
+            print(f"ID-{i}  {counter}/{set_length}")
 
     def write_to_csv(self, list_of_dict, filename):
         # writes dictionary to csv file and delete duplicates
