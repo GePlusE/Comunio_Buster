@@ -22,8 +22,6 @@ logger.addHandler(file_handler)
 ##########################################################################
 
 
-# TODO: Add Logging to all functions with Traceback
-# TODO: Check if try-statements are necessary
 # TODO: Check url status
 
 

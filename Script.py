@@ -22,6 +22,7 @@ logger.addHandler(file_handler)
 ############## Settings ##############
 data_file = "fact_Player2.csv"
 creds_file = "mycreds.json"
+log_file = "Logfile.log"
 ######################################
 
 
@@ -33,6 +34,7 @@ def main():
     # Downloading
     PYD.download_file(data_file)
     PYD.download_file(creds_file)
+    PYD.download_file(log_file)
 
     # Process
     Process = Process_Class.Process()
@@ -44,6 +46,8 @@ def main():
     # Uploading
     PYD.update_file(data_file)
     PYD.update_file(creds_file)
+    logger.info(f" Uploaded: {data_file}, {creds_file}")
 
     t1 = time.time()
     logger.info(f"END Duration: {round(t1 - t0, 2):,.2f} seconds")
+    PYD.update_file(log_file)
