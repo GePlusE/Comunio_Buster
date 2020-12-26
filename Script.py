@@ -22,7 +22,7 @@ logger.addHandler(file_handler)
 ############## Settings ##############
 data_file = "fact_Player2.csv"
 creds_file = "mycreds.json"
-log_file = "Logfile.log"
+log_file = "LogFile.log"
 ######################################
 
 
