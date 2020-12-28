@@ -1,6 +1,7 @@
 import requests
 import re
 import logging
+import json
 
 from bs4 import BeautifulSoup
 from datetime import date, datetime
@@ -19,6 +20,7 @@ file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 ##########################################################################
 
+player_dim_file = "test.json"
 
 # TODO: Check url status
 # TODO: Check if new dictionary attribute is available
@@ -31,10 +33,14 @@ class Player:
             self.player_ID = player_ID
             self.club_ranks = club_ranks
             self.dictionary = {}
+            self.dim_dict = {}
             self.get_base_data()
             self.get_FuDa_data()
             self.get_StaCo_data()
             self.get_club_rank()
+            self.dataDIM = {self.player_ID: self.dim_dict}
+            print(self.dataDIM)
+            # self.load_dim_dict_to_json()
         except:
             logger.warning(f"Initialization of ID-{self.player_ID} failed.")
             pass
@@ -69,6 +75,9 @@ class Player:
 
             # Translate GER dict in ENG & removes newline commands
             self.clean_dictionary()
+
+            # Add url to dim_dict
+            self.dim_dict["Com-Analytics_url"] = url
         except:
             logger.warning(f"Getting base data for ID-{self.player_ID} failed. {url}")
             pass
@@ -97,6 +106,8 @@ class Player:
                         self.dictionary["dreamteam_nomination"] = int(cols[-2:])
                     else:
                         pass
+            # Add url to dim_dict
+            self.dim_dict["StaCo_url"] = url
         except:
             logger.warning(f"Getting StaCo data for ID-{self.player_ID} failed. {url}")
             pass
@@ -119,7 +130,10 @@ class Player:
                 ):
                     urls.append(url["href"])
 
+                # Add url to dim_dict
+                self.dim_dict["FuDa_url"] = urls[0]
                 return urls[0]
+
             except:
                 logger.warning(
                     f"Getting FuDa URL for ID-{self.player_ID} failed. Check FuDa link on {url}"
@@ -206,3 +220,15 @@ class Player:
         except:
             logger.exception(f"Cleaning dictionary of ID-{self.player_ID} failed.")
             pass
+
+    def load_dim_dict_to_json(self, dim_dict):
+        with open(player_dim_file, "w") as f:
+            data = json.load(f)
+
+        if self.player_ID in data["Player_IDs"]:
+            for key, value in self.dim_dict:
+                data["Player_IDs"][self.player_ID][key] = value
+        else:
+            with open(player_dim_file, "a") as f:
+                data = {self.player_ID: self.dim_dict}
+                json.dump(data, f)
