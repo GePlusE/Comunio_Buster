@@ -238,13 +238,13 @@ class Player:
                         for key, value in dictionary.items():
                             data["IDs"][ID][key] = value
                         f.seek(0)
-                        json.dump(data, f, sort_keys=True)
+                        json.dump(data, f, sort_keys=True, indent=4)
                         f.truncate()
                     # ID does not exist add complete dict
                     else:
                         data["IDs"][ID] = dictionary
                         f.seek(0)
-                        json.dump(data, f, sort_keys=True)
+                        json.dump(data, f, sort_keys=True, indent=4)
                         f.truncate()
             except:
                 logger.exception(
