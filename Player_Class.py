@@ -33,14 +33,10 @@ class Player:
             self.player_ID = player_ID
             self.club_ranks = club_ranks
             self.dictionary = {}
-            self.dim_dict = {}
             self.get_base_data()
             self.get_FuDa_data()
             self.get_StaCo_data()
             self.get_club_rank()
-            self.dataDIM = {self.player_ID: self.dim_dict}
-            print(self.dataDIM)
-            # self.load_dim_dict_to_json()
         except:
             logger.warning(f"Initialization of ID-{self.player_ID} failed.")
             pass
@@ -48,6 +44,7 @@ class Player:
     def get_base_data(self):
         # get all base data for a given PlayerID from
         # www.com-analytics.de
+        name = "Com-Analytics-URL"
         # Preparation
         main_url = "https://www.com-analytics.de/player/"
         url = main_url + str(self.player_ID)
@@ -76,15 +73,15 @@ class Player:
             # Translate GER dict in ENG & removes newline commands
             self.clean_dictionary()
 
-            # Add url to dim_dict
-            self.dim_dict["Com-Analytics_url"] = url
+            # Add url to player_dim_file
+            self.write_url_to_dim_json(name, url)
         except:
             logger.warning(f"Getting base data for ID-{self.player_ID} failed. {url}")
             pass
 
     def get_StaCo_data(self):
         # get additional data from www.stats.comunio.de
-
+        name = "StaCo-URL"
         # Preparation
         main_url = "https://stats.comunio.de/profil.php?id="
         url = main_url + str(self.player_ID)
@@ -106,15 +103,15 @@ class Player:
                         self.dictionary["dreamteam_nomination"] = int(cols[-2:])
                     else:
                         pass
-            # Add url to dim_dict
-            self.dim_dict["StaCo_url"] = url
+            # Add url to player_dim_file
+            self.write_url_to_dim_json(name, url)
         except:
             logger.warning(f"Getting StaCo data for ID-{self.player_ID} failed. {url}")
             pass
 
     def get_FuDa_data(self):
         # get additional data from www.fussballdaten.de
-
+        name = "FuDa-URL"
         # get correct url from classic.comunio->Player Details to fussballdaten.de
         def get_player_FuDa_url(self):
             main_url = "https://classic.comunio.de/tradableInfo.phtml?tid="
@@ -130,8 +127,8 @@ class Player:
                 ):
                     urls.append(url["href"])
 
-                # Add url to dim_dict
-                self.dim_dict["FuDa_url"] = urls[0]
+                # Add url to player_dim_file
+                self.write_url_to_dim_json(name, url)
                 return urls[0]
 
             except:
