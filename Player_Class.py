@@ -221,14 +221,33 @@ class Player:
             logger.exception(f"Cleaning dictionary of ID-{self.player_ID} failed.")
             pass
 
-    def load_dim_dict_to_json(self, dim_dict):
-        with open(player_dim_file, "w") as f:
-            data = json.load(f)
-
-        if self.player_ID in data["Player_IDs"]:
-            for key, value in self.dim_dict:
-                data["Player_IDs"][self.player_ID][key] = value
+    def write_url_to_dim_json(self, site, url):
+        ID = self.player_ID
+        dictionary = {site: url}
+        forbidden_input = [None, "", " ", "NaN"]
+        # check if site & url contain actual values
+        if site in forbidden_input or url in forbidden_input:
+            logger.warning(f"No")
+            pass
         else:
-            with open(player_dim_file, "a") as f:
-                data = {self.player_ID: self.dim_dict}
-                json.dump(data, f)
+            try:
+                with open(player_dim_file, "r+") as f:
+                    data = json.load(f)
+                    # If ID exist in json only change values or add new key+value
+                    if ID in data["IDs"]:
+                        for key, value in dictionary.items():
+                            data["IDs"][ID][key] = value
+                        f.seek(0)
+                        json.dump(data, f)
+                        f.truncate()
+                    # ID does not exist add complete dict
+                    else:
+                        data["IDs"][ID] = dictionary
+                        f.seek(0)
+                        json.dump(data, f)
+                        f.truncate()
+            except:
+                logger.exception(
+                    f"ID-{self.player_ID}: Writing website: {site} with specific {url} to file: {player_dim_file} failed."
+                )
+                pass
