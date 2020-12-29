@@ -231,23 +231,23 @@ class Player:
             pass
         else:
             try:
-                with open(player_dim_file, "r+") as f:
+                with open(player_dim_file, "r+", encoding="utf-8") as f:
                     data = json.load(f)
                     # If ID exist in json only change values or add new key+value
                     if ID in data["IDs"]:
                         for key, value in dictionary.items():
                             data["IDs"][ID][key] = value
                         f.seek(0)
-                        json.dump(data, f)
+                        json.dump(data, f, sort_keys=True)
                         f.truncate()
                     # ID does not exist add complete dict
                     else:
                         data["IDs"][ID] = dictionary
                         f.seek(0)
-                        json.dump(data, f)
+                        json.dump(data, f, sort_keys=True)
                         f.truncate()
             except:
                 logger.exception(
-                    f"ID-{self.player_ID}: Writing website: {site} with specific {url} to file: {player_dim_file} failed."
+                    f"ID-{self.player_ID}: Writing website: {dict_key} with specific {dict_value} to file: {player_dim_file} failed."
                 )
                 pass
