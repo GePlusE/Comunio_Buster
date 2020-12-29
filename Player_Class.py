@@ -37,6 +37,8 @@ class Player:
             self.get_FuDa_data()
             self.get_StaCo_data()
             self.get_club_rank()
+            self.write_dim_json("Comunio-ID", self.player_ID)
+            self.write_dim_json("Comunio-Name", self.dictionary["Name"])
         except:
             logger.warning(f"Initialization of ID-{self.player_ID} failed.")
             pass
@@ -74,7 +76,7 @@ class Player:
             self.clean_dictionary()
 
             # Add url to player_dim_file
-            self.write_url_to_dim_json(name, url)
+            self.write_dim_json(name, url)
         except:
             logger.warning(f"Getting base data for ID-{self.player_ID} failed. {url}")
             pass
@@ -104,7 +106,7 @@ class Player:
                     else:
                         pass
             # Add url to player_dim_file
-            self.write_url_to_dim_json(name, url)
+            self.write_dim_json(name, url)
         except:
             logger.warning(f"Getting StaCo data for ID-{self.player_ID} failed. {url}")
             pass
@@ -126,10 +128,11 @@ class Player:
                     "a", href=True, text=re.compile("Fussballdaten.de")
                 ):
                     urls.append(url["href"])
+                result_url = urls[0]
 
                 # Add url to player_dim_file
-                self.write_url_to_dim_json(name, url)
-                return urls[0]
+                self.write_dim_json(name, result_url)
+                return result_url
 
             except:
                 logger.warning(
@@ -218,12 +221,12 @@ class Player:
             logger.exception(f"Cleaning dictionary of ID-{self.player_ID} failed.")
             pass
 
-    def write_url_to_dim_json(self, site, url):
+    def write_dim_json(self, dict_key, dict_value):
         ID = self.player_ID
-        dictionary = {site: url}
+        dictionary = {dict_key: dict_value}
         forbidden_input = [None, "", " ", "NaN"]
         # check if site & url contain actual values
-        if site in forbidden_input or url in forbidden_input:
+        if dict_key in forbidden_input or dict_value in forbidden_input:
             logger.warning(f"No")
             pass
         else:
