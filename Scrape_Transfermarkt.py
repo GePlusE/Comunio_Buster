@@ -26,8 +26,8 @@ def get_player_IDs(url):
         result["IDs"][ID] = {}
         result["IDs"][ID]["Transfermarkt-ID"] = ID
         result["IDs"][ID]["Full-Name"] = full_name
-        result["IDs"][ID]["First-Name"] = full_name.split()[-1]
-        result["IDs"][ID]["Last-Name"] = full_name.split()[0]
+        result["IDs"][ID]["First-Name"] = full_name.split()[0]
+        result["IDs"][ID]["Last-Name"] = full_name.split()[-1]
         result["IDs"][ID]["Transfermarkt-URL"] = url
     return result
 
