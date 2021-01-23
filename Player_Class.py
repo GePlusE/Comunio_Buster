@@ -135,9 +135,9 @@ class Player:
                 return result_url
 
             except:
-                logger.warning(
-                    f"Getting FuDa URL for ID-{self.player_ID} failed. Check FuDa link on {url}"
-                )
+                # logger.warning(
+                #     f"Getting FuDa URL for ID-{self.player_ID} failed. Check FuDa link on {url}"
+                # )
                 pass
 
         def get_injury_data(self):

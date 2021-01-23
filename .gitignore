@@ -16,7 +16,7 @@ test*.json
 client_secrets.json
 credentials.json
 mycreds.json
-player_dim.json
+player_dim*.json
 
 ############## BEST PRACTICE .gitignore from https://github.com/github/gitignore
 # Byte-compiled / optimized / DLL files
@@ -157,4 +157,4 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
-player_dim copy.json
+
