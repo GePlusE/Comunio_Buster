@@ -2,6 +2,7 @@ import Player_Class
 import Process_Class
 import time
 import PyDrive_Module as PYD
+import Scrape_Transfermarkt as STM
 import logging
 
 
@@ -44,6 +45,7 @@ def main():
     ID_set = Process.player_ID_set
     Process.sequential_load(list(ID_set)[:10])
     Process.write_to_csv(Process.dataset, data_file)
+    STM.match_Transfermarkt_data()
 
     # Uploading
     try:

@@ -19,7 +19,6 @@ file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 ##########################################################################
 
-
 json_file = "player_dim.json"
 
 
@@ -196,6 +195,7 @@ def match_Transfermarkt_data():
 
 def check_json_missing_TM_data():
     # check if a ID has missing Transfermarkt Data
+    # not used inside any other function
     with open(json_file, "r+", encoding="UTF-8") as f:
         data = json.load(f)
         non_matches = {}
@@ -204,5 +204,4 @@ def check_json_missing_TM_data():
             if "Transfermarkt-ID" not in value:
                 non_matches[key] = value
     print(non_matches)
-    return non_matches
 
