@@ -20,7 +20,7 @@ file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 ##########################################################################
 
-player_dim_file = "test.json"
+player_dim_file = "player_dim.json"
 
 # TODO: Check url status
 # TODO: Check if new dictionary attribute is available

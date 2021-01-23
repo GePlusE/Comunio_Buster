@@ -23,6 +23,7 @@ logger.addHandler(file_handler)
 data_file = "fact_Player2.csv"
 creds_file = "mycreds.json"
 log_file = "LogFile.log"
+dim_json = "player_dim.json"
 ######################################
 
 
@@ -34,7 +35,8 @@ def main():
     # Downloading
     PYD.download_file(data_file)
     PYD.download_file(creds_file)
-    # PYD.download_file(log_file)
+    PYD.download_file(log_file)
+    # PYD.download_file(dim_json)
 
     # Process
     Process = Process_Class.Process()
@@ -47,10 +49,11 @@ def main():
     try:
         PYD.update_file(data_file)
         PYD.update_file(creds_file)
-        logger.info(f"Uploaded: {data_file}, {creds_file}")
+        PYD.update_file(dim_json)
+        logger.info(f"Uploaded: {data_file}, {creds_file}, {dim_json}")
     except:
         logger.warning(
-            f"Could not upload at least one of these files: {data_file}, {creds_file}"
+            f"Could not upload at least one of these files: {data_file}, {creds_file}, {dim_json}"
         )
         pass
 
