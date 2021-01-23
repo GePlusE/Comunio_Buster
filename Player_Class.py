@@ -37,8 +37,10 @@ class Player:
             self.get_FuDa_data()
             self.get_StaCo_data()
             self.get_club_rank()
-            self.write_dim_json("Comunio-ID", self.player_ID)
-            self.write_dim_json("Comunio-Name", self.dictionary["Name"])
+            # create dim_dictionary for json load
+            self.dim_dictionary = {}
+            self.dim_dictionary["Comunio-ID"] = self.player_ID
+            self.dim_dictionary["Comunio-Name"] = self.dictionary["Name"]
         except:
             logger.warning(f"Initialization of ID-{self.player_ID} failed.")
             pass
@@ -75,8 +77,8 @@ class Player:
             # Translate GER dict in ENG & removes newline commands
             self.clean_dictionary()
 
-            # Add url to player_dim_file
-            self.write_dim_json(name, url)
+            # Add url to self.dim_dictionary
+            self.dim_dictionary[name] = url
         except:
             logger.warning(f"Getting base data for ID-{self.player_ID} failed. {url}")
             pass
@@ -105,8 +107,8 @@ class Player:
                         self.dictionary["dreamteam_nomination"] = int(cols[-2:])
                     else:
                         pass
-            # Add url to player_dim_file
-            self.write_dim_json(name, url)
+            # Add url to self.dim_dictionary
+            self.dim_dictionary[name] = url
         except:
             logger.warning(f"Getting StaCo data for ID-{self.player_ID} failed. {url}")
             pass
@@ -130,8 +132,8 @@ class Player:
                     urls.append(url["href"])
                 result_url = urls[0]
 
-                # Add url to player_dim_file
-                self.write_dim_json(name, result_url)
+                # Add url to self.dim_dictionary
+                self.dim_dictionary[name] = url
                 return result_url
 
             except:
@@ -221,22 +223,29 @@ class Player:
             logger.exception(f"Cleaning dictionary of ID-{self.player_ID} failed.")
             pass
 
-    def write_dim_json(self, dict_key, dict_value):
+    def write_dim_json(self):
+        # write dim_dictionary to json
+        # mainly used to record website name (key) & exact URL (value)
         ID = self.player_ID
-        dictionary = {dict_key: dict_value}
+        dictionary = self.dim_dictionary
         forbidden_input = [None, "", " ", "NaN"]
-        # check if site & url contain actual values
-        if dict_key in forbidden_input or dict_value in forbidden_input:
-            logger.warning(f"No")
-            pass
+        # check if dictionary contains valid input
+        for key, value in dictionary.items():
+            if key in forbidden_input or value in forbidden_input:
+                logger.warning(f'Key: {key} or Value: {value} is invalid')
+                pass
         else:
             try:
                 with open(player_dim_file, "r+", encoding="utf-8") as f:
                     data = json.load(f)
-                    # If ID exist in json only change values or add new key+value
+                    # If ID exist in json only change values or add new key & value
                     if ID in data["IDs"]:
                         for key, value in dictionary.items():
-                            data["IDs"][ID][key] = value
+                            try:
+                                data["IDs"][ID][key] = value
+                            except:
+                                logger.exception(f"ID-{self.player_ID}: Writing key: {key} or value: {value} to file: {player_dim_file} failed.")
+                                pass
                         f.seek(0)
                         json.dump(data, f, sort_keys=True, indent=4)
                         f.truncate()
@@ -247,7 +256,6 @@ class Player:
                         json.dump(data, f, sort_keys=True, indent=4)
                         f.truncate()
             except:
-                logger.exception(
-                    f"ID-{self.player_ID}: Writing website: {dict_key} with specific {dict_value} to file: {player_dim_file} failed."
-                )
+                logger.warning(
+                    f"ID-{self.player_ID}: write_dim_json failed!")
                 pass
