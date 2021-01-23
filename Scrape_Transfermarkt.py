@@ -6,6 +6,8 @@ json_file = "player_dim.json"
 
 
 def get_player_IDs(url):
+    # get all PlayerIDs from a given Transfermarkt.de Club-URL
+
     headers = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0"
     }
@@ -33,6 +35,8 @@ def get_player_IDs(url):
 
 
 def get_bundesliga_club_urls():
+    # get all URL from all Germans first Bundesliga clubs
+
     bl_url = "https://www.transfermarkt.de/1-bundesliga/startseite/wettbewerb/L1"
     headers = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0"
@@ -52,6 +56,8 @@ def get_bundesliga_club_urls():
 
 
 def get_transfermarkt_data():
+    # get all PlayerIDs from all Germans first Bundesliga Clubs from Transfermarkt.de
+
     club_urls = get_bundesliga_club_urls()
     dictionary = {}
     dictionary["IDs"] = {}
@@ -66,6 +72,8 @@ def get_transfermarkt_data():
 
 
 def load_data_to_json():
+    # write the result from get_transfermarkt_data() to a json
+
     tm_data = get_transfermarkt_data()
 
     with open(json_file, "r+", encoding="UTF-8") as f:
