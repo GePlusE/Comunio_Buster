@@ -39,7 +39,7 @@ class Player:
             self.get_club_rank()
             # create dim_dictionary for json load
             self.dim_dictionary = {}
-            self.dim_dictionary["Comunio-ID"] = self.player_ID
+            self.dim_dictionary["Comunio-ID"] = self.player_ID
             self.dim_dictionary["Comunio-Name"] = self.dictionary["Name"]
         except:
             logger.warning(f"Initialization of ID-{self.player_ID} failed.")
@@ -232,7 +232,7 @@ class Player:
         # check if dictionary contains valid input
         for key, value in dictionary.items():
             if key in forbidden_input or value in forbidden_input:
-                logger.warning(f'Key: {key} or Value: {value} is invalid')
+                logger.warning(f"Key: {key} or Value: {value} is invalid")
                 pass
         else:
             try:
@@ -244,7 +244,9 @@ class Player:
                             try:
                                 data["IDs"][ID][key] = value
                             except:
-                                logger.exception(f"ID-{self.player_ID}: Writing key: {key} or value: {value} to file: {player_dim_file} failed.")
+                                logger.exception(
+                                    f"ID-{self.player_ID}: Writing key: {key} or value: {value} to file: {player_dim_file} failed."
+                                )
                                 pass
                         f.seek(0)
                         json.dump(data, f, sort_keys=True, indent=4)
@@ -256,6 +258,6 @@ class Player:
                         json.dump(data, f, sort_keys=True, indent=4)
                         f.truncate()
             except:
-                logger.warning(
-                    f"ID-{self.player_ID}: write_dim_json failed!")
+                logger.warning(f"ID-{self.player_ID}: write_dim_json failed!")
                 pass
+
