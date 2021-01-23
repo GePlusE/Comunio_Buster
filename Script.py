@@ -42,7 +42,7 @@ def main():
     Process = Process_Class.Process()
     club_ranks = Process.club_table_dict
     ID_set = Process.player_ID_set
-    Process.sequential_load(ID_set)  # list(ID_set)[:10])
+    Process.sequential_load(list(ID_set)[:10])
     Process.write_to_csv(Process.dataset, data_file)
 
     # Uploading

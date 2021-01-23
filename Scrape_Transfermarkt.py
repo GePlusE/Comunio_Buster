@@ -1,6 +1,8 @@
 import urllib.request
-from bs4 import BeautifulSoup
 import json
+
+from bs4 import BeautifulSoup
+from unidecode import unidecode
 
 json_file = "player_dim.json"
 
@@ -102,6 +104,88 @@ def load_data_to_json():
     for key, value in data["IDs"].items():
         if value["Transfermarkt-ID"] == None:
             non_matches.add(value["Comunio-Name"])
+
+    with open(json_file, "r+", encoding="UTF-8") as f:
+        json.dump(data, f, sort_keys=True, indent=4)
+
+
+def check_json_missing_TM_data():
+    # check if a ID has missing Transfermarkt Data
+    with open(json_file, "r+", encoding="UTF-8") as f:
+        data = json.load(f)
+        non_matches = {}
+
+        for key, value in data["IDs"].items():
+            if "Transfermarkt-ID" not in value:
+                non_matches[key] = value
+    print(non_matches)
+    return non_matches
+
+
+def add_Transfermarkt_data(dictionary):
+    # add Transfermakt Data json
+    tm_data = get_transfermarkt_data()
+
+    with open(json_file, "r+", encoding="UTF-8") as f:
+        data = json.load(f)
+
+    for key, value in tm_data["IDs"].items():
+        # Default characters
+        last_name = value["Last-Name"]  # Müller
+        first_name = value["First-Name"]  # Björn
+        full_name = value["Full-Name"]  # Björn Müller
+        alternative_name = first_name[0] + ". " + last_name  # B. Müller
+        # Adjusted special characters.
+        # e.g. ć to c
+        last_name_adj = unidecode(last_name)  # Muller
+        first_name_adj = unidecode(first_name)  # Bjorn
+        full_name_adj = unidecode(full_name)  # Bjorn Muller
+        alternative_name_adj = unidecode(alternative_name)  # B. Muller
+
+        TM_ID = value["Transfermarkt-ID"]
+        TM_url = value["Transfermarkt-URL"]
+        non_matches_dict = {}
+
+        for key, value in dictionary.items():
+            name = value["Comunio-Name"]
+            split_name = name.split()[-1]
+            match = [
+                last_name,
+                full_name,
+                alternative_name,
+                last_name_adj,
+                full_name_adj,
+                alternative_name_adj,
+            ]
+
+            if name in match or split_name in match:
+                # Match default names
+                data["IDs"][key]["Transfermarkt-ID"] = TM_ID
+                data["IDs"][key]["Transfermarkt-URL"] = TM_url
+                data["IDs"][key]["Last-Name"] = last_name
+                data["IDs"][key]["First-Name"] = first_name
+                data["IDs"][key]["Full-Name"] = full_name
+            if unidecode(name) in match or unidecode(split_name) in match:
+                # Match adjusted names
+                data["IDs"][key]["Transfermarkt-ID"] = TM_ID
+                data["IDs"][key]["Transfermarkt-URL"] = TM_url
+                data["IDs"][key]["Last-Name"] = last_name
+                data["IDs"][key]["First-Name"] = first_name
+                data["IDs"][key]["Full-Name"] = full_name
+
+    for key, value in data["IDs"].items():
+        try:
+            if value["Transfermarkt-ID"] == None:
+                non_matches_dict[key] = value
+        except:
+            pass
+        try:
+            if "Transfermarkt-ID" not in value:
+                non_matches_dict[key] = value
+        except:
+            pass
+
+    print(non_matches_dict)
 
     with open(json_file, "r+", encoding="UTF-8") as f:
         json.dump(data, f, sort_keys=True, indent=4)
