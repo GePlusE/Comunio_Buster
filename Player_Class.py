@@ -30,6 +30,7 @@ player_dim_file = "player_dim.json"
 class Player:
     def __init__(self, player_ID, club_ranks):
         try:
+            self.dim_dictionary = {}
             self.player_ID = player_ID
             self.club_ranks = club_ranks
             self.dictionary = {}
@@ -38,9 +39,9 @@ class Player:
             self.get_StaCo_data()
             self.get_club_rank()
             # create dim_dictionary for json load
-            self.dim_dictionary = {}
             self.dim_dictionary["Comunio-ID"] = self.player_ID
             self.dim_dictionary["Comunio-Name"] = self.dictionary["Name"]
+            self.write_dim_json()
         except:
             logger.warning(f"Initialization of ID-{self.player_ID} failed.")
             pass
@@ -133,13 +134,15 @@ class Player:
                 result_url = urls[0]
 
                 # Add url to self.dim_dictionary
-                self.dim_dictionary[name] = url
+                self.dim_dictionary[name] = urls[0]
                 return result_url
 
             except:
+                # # TODO: Temporary deactivated due to known issue which will be fixed soon
                 # logger.warning(
                 #     f"Getting FuDa URL for ID-{self.player_ID} failed. Check FuDa link on {url}"
                 # )
+                self.dim_dictionary[name] = None
                 pass
 
         def get_injury_data(self):
@@ -232,9 +235,13 @@ class Player:
         # check if dictionary contains valid input
         for key, value in dictionary.items():
             if key in forbidden_input or value in forbidden_input:
-                logger.warning(f"Key: {key} or Value: {value} is invalid")
+                if key == "FuDa-URL":
+                    pass
+                else:
+                    logger.exception(
+                        f"ID-{self.player_ID}: Key: {key} or Value: {value} is invalid"
+                    )
                 pass
-        else:
             try:
                 with open(player_dim_file, "r+", encoding="utf-8") as f:
                     data = json.load(f)

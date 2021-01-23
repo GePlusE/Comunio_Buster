@@ -46,8 +46,12 @@ def get_player_IDs(club_url):
                 result["IDs"][ID] = {}
                 result["IDs"][ID]["Transfermarkt-ID"] = ID
                 result["IDs"][ID]["Full-Name"] = full_name
-                result["IDs"][ID]["First-Name"] = full_name.split()[0]
-                result["IDs"][ID]["Last-Name"] = full_name.split()[-1]
+                result["IDs"][ID]["First-Name"] = full_name.replace("-", " ").split()[
+                    0
+                ]  # split by spaces " " or dashes "-"
+                result["IDs"][ID]["Last-Name"] = full_name.replace("-", " ").split()[
+                    -1
+                ]  # split by spaces " " or dashes "-"
                 result["IDs"][ID]["Transfermarkt-URL"] = url
             except:
                 logger.warning(
@@ -143,7 +147,7 @@ def match_Transfermarkt_data():
 
             for key, value in data["IDs"].items():
                 name = value["Comunio-Name"]
-                split_name = name.split()[-1]
+                split_name = name.replace("-", " ").split()[-1]
                 match = [
                     last_name,
                     full_name,
@@ -160,7 +164,8 @@ def match_Transfermarkt_data():
                     data["IDs"][key]["Last-Name"] = last_name
                     data["IDs"][key]["First-Name"] = first_name
                     data["IDs"][key]["Full-Name"] = full_name
-                elif unidecode(name) in match or unidecode(split_name) in match:
+                    continue
+                if unidecode(name) in match or unidecode(split_name) in match:
                     # Match adjusted names
                     data["IDs"][key]["Transfermarkt-ID"] = TM_ID
                     data["IDs"][key]["Transfermarkt-URL"] = TM_url
