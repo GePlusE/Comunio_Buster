@@ -35,15 +35,15 @@ def main():
     # Downloading
     PYD.download_file(data_file)
     PYD.download_file(creds_file)
-    PYD.download_file(log_file)
-    PYD.download_file(dim_json)
+    # PYD.download_file(log_file)
+    # PYD.download_file(dim_json)
 
     logger.info(f"START SCRAPPING & DATA UPDATE")
     # Process
     Process = Process_Class.Process()
     club_ranks = Process.club_table_dict
     ID_set = Process.player_ID_set
-    Process.sequential_load(list(ID_set)[:10])
+    Process.sequential_load(list(ID_set)[:1])
     STM.match_Transfermarkt_data()
     Process.write_to_csv(Process.dataset, data_file)
 

@@ -189,7 +189,11 @@ def match_Transfermarkt_data():
         # if non_match_dict is not empty write to LogFile.log
         if bool(non_matches_dict):
             nl = "\n"
-            logger.exception(f"Some IDs could not be matched.{nl}{non_matches_dict}")
+            count = len(non_matches_dict)
+            get_details = f"import Scrape_Transfermarkt as STM{nl}STM.check_json_missing_TM_data()"
+            logger.exception(
+                f"In total {count:,.0f} IDs could not be matched. Use following snippet for details:{nl}{get_details}"
+            )
     except:
         logger.warning(f"match_Transfermarkt_data failed.")
         pass
