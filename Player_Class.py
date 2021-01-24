@@ -32,6 +32,7 @@ class Player:
         try:
             self.dim_dictionary = {}
             self.player_ID = player_ID
+            existing_data = self.load_from_json()
             self.club_ranks = club_ranks
             self.dictionary = {}
             self.get_base_data()
@@ -268,3 +269,14 @@ class Player:
                 logger.warning(f"ID-{self.player_ID}: write_dim_json failed!")
                 pass
 
+    def load_from_json(self):
+        # load specific json data for player_ID
+        result = {}
+        try:
+            with open(player_dim_file, "r+", encoding="utf-8") as f:
+                data = json.load(f)
+            result = data["IDs"][self.player_ID]
+        except:
+            logger.info(f"ID-{self.player_ID}: load_from_json failed.")
+            pass
+        return result
