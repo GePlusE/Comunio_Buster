@@ -38,7 +38,7 @@ def main():
     PYD.download_file(log_file)
     PYD.download_file(dim_json)
 
-    logger.info(f"START SCRAPPING & DATA UPDATE")
+    logger.info(f"########### START SCRAPPING & DATA UPDATE ###########")
     # Process
     Process = Process_Class.Process()
     club_ranks = Process.club_table_dict
