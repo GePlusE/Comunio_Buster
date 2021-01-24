@@ -32,7 +32,7 @@ class Player:
         try:
             self.dim_dictionary = {}
             self.player_ID = player_ID
-            existing_data = self.load_from_json()
+            self.existing_data = self.load_from_json()
             self.club_ranks = club_ranks
             self.dictionary = {}
             self.get_base_data()
@@ -51,9 +51,12 @@ class Player:
         # get all base data for a given PlayerID from
         # www.com-analytics.de
         name = "Com-Analytics-URL"
-        # Preparation
-        main_url = "https://www.com-analytics.de/player/"
-        url = main_url + str(self.player_ID)
+        # Preparation use URL in dim_player.json if existing else get new URL
+        if self.existing_data[name]:
+            url = self.existing_data[name]
+        else:
+            main_url = "https://www.com-analytics.de/player/"
+            url = main_url + str(self.player_ID)
         try:
             page = requests.get(url)
             soup = BeautifulSoup(page.content, "html.parser")
@@ -89,8 +92,12 @@ class Player:
         # get additional data from www.stats.comunio.de
         name = "StaCo-URL"
         # Preparation
-        main_url = "https://stats.comunio.de/profil.php?id="
-        url = main_url + str(self.player_ID)
+        # Preparation use URL in dim_player.json if existing else get new URL
+        if self.existing_data[name]:
+            url = self.existing_data[name]
+        else:
+            main_url = "https://stats.comunio.de/profil.php?id="
+            url = main_url + str(self.player_ID)
         try:
             page = requests.get(url)
             soup = BeautifulSoup(page.content, "html.parser")
@@ -120,8 +127,12 @@ class Player:
         name = "FuDa-URL"
         # get correct url from classic.comunio->Player Details to fussballdaten.de
         def get_player_FuDa_url(self):
-            main_url = "https://classic.comunio.de/tradableInfo.phtml?tid="
-            url = main_url + str(self.dictionary["player_ID"])
+            # Preparation use URL in dim_player.json if existing else get new URL
+            if self.existing_data[name]:
+                url = self.existing_data[name]
+            else:
+                main_url = "https://classic.comunio.de/tradableInfo.phtml?tid="
+                url = main_url + str(self.dictionary["player_ID"])
             try:
                 page = requests.get(url)
                 soup = BeautifulSoup(page.content, "html.parser")
@@ -135,7 +146,7 @@ class Player:
                 result_url = urls[0]
 
                 # Add url to self.dim_dictionary
-                self.dim_dictionary[name] = urls[0]
+                self.dim_dictionary[name] = result_url
                 return result_url
 
             except:
