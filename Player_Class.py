@@ -289,5 +289,10 @@ class Player:
             result = data["IDs"][self.player_ID]
         except:
             logger.info(f"ID-{self.player_ID}: load_from_json failed.")
+            result["Com-Analytics-URL"] = None
+            result["FuDa-URL"] = None
+            result["StaCo-URL"] = None
+            result["Transfermarkt-URL"] = None
+            result["Transfermarkt-ID"] = None
             pass
         return result
