@@ -195,7 +195,9 @@ def match_Transfermarkt_data():
         pass
 
     with open(json_file, "r+", encoding="UTF-8") as f:
+        f.seek(0)
         json.dump(data, f, sort_keys=True, indent=4)
+        f.truncate()
 
 
 def check_json_missing_TM_data():
@@ -203,10 +205,10 @@ def check_json_missing_TM_data():
     # not used inside any other function
     with open(json_file, "r+", encoding="UTF-8") as f:
         data = json.load(f)
-        non_matches = {}
+    non_matches = {}
 
-        for key, value in data["IDs"].items():
-            if "Transfermarkt-ID" not in value:
-                non_matches[key] = value
+    for key, value in data["IDs"].items():
+        if "Transfermarkt-ID" not in value:
+            non_matches[key] = value
     print(non_matches)
 
