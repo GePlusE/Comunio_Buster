@@ -17,11 +17,12 @@ file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 ##########################################################################
 
-
-folder_in_use = "1-IBreIAcF-oAwnLcoNKxtAbEMAp0Cr07"
 # You can find the FolderID in the URL of the folder
-# FolderID PROD = "1-IBreIAcF-oAwnLcoNKxtAbEMAp0Cr07"
-# FolderID DEV = "1RI058Dqli3EbOuyrW0PWHVCl8H5hdPWX"
+PROD = "1-IBreIAcF-oAwnLcoNKxtAbEMAp0Cr07"
+DEV = "1RI058Dqli3EbOuyrW0PWHVCl8H5hdPWX"
+
+folder_in_use = PROD
+
 creds_file = "mycreds.json"
 
 
