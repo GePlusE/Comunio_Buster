@@ -21,7 +21,7 @@ logger.addHandler(file_handler)
 PROD = "1-IBreIAcF-oAwnLcoNKxtAbEMAp0Cr07"
 DEV = "1RI058Dqli3EbOuyrW0PWHVCl8H5hdPWX"
 
-folder_in_use = DEV
+folder_in_use = PROD
 
 creds_file = "mycreds.json"
 
