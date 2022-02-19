@@ -3,7 +3,7 @@
 /workspace.xml
 
 # Custom ignored files
-*.csv
+#*.csv
 .DS_Store
 RUN_Main
 functions.pyc
