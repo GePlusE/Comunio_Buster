@@ -78,6 +78,8 @@ class Process:
                 "Borussia M'gladbach": "Borussia Mönchengladbach",
                 "Arminia Bielefeld": "DSC Arminia Bielefeld",
                 "SC Freiburg": "Sport-Club Freiburg",
+                "SV Werder Bremen": "SV Werder Bremen",  # not checked just dummy
+                "FC Schalke 04": "1. FC Schalke 04",  # not checked just dummy
             }
 
             for key, value in club_transl.items():
